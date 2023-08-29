@@ -3,13 +3,12 @@
 @tailwind utilities;
 
 ::selection {
-    background-color: #324c8d;
-    color: #cbcbcb;
+    background-color: #FAC204;
+    color: #747474;
 }
 
 ::-webkit-scrollbar {
     width: 6px;
-    
 }
 
 ::-webkit-scrollbar-track {
@@ -17,5 +16,10 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #cbcbcb;
+    background: #FAC204;
 }
+
+/* .text-bordered {
+    color: transparent;
+    -webkit-text-stroke: 1.5px #040404;
+} */

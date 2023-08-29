@@ -6,6 +6,7 @@ import Attachments from "../pages/Attachments";
 import Tools from "../pages/Tools";
 import Downloads from "../pages/Downloads";
 import NavBar from "../layout/NavBar/NavBar";
+import Footer from "../layout/Footer";
 
 function Routers() {
     return (
@@ -20,6 +21,7 @@ function Routers() {
                 <Route path="/tools" element={<Tools />} />
                 <Route path="/downloads" element={<Downloads />} />
             </Routes>
+            <Footer/>
         </>
     );
 }
