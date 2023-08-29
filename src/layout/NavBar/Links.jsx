@@ -7,8 +7,8 @@ function Links() {
                 to={"/home"}
                 className={({ isActive }) =>
                     isActive
-                        ? "border-b-[3px] border-b-bluey text-bluey font-bold w-fit"
-                        : "hover:text-bluey w-fit hover:text-[21px] transition-all ease-in duration-150"
+                        ? "border-b-[3px] border-b-goldBrown text-bluey font-bold w-fit"
+                        : "hover:text-goldBrown w-fit hover:text-[21px] transition-all ease-in duration-150"
                 }
             >
                 Home
@@ -17,8 +17,8 @@ function Links() {
                 to={"/about"}
                 className={({ isActive }) =>
                     isActive
-                        ? "border-b-[3px] border-b-bluey text-bluey font-bold w-fit"
-                        : "hover:text-bluey w-fit hover:text-[21px] transition-all ease-in duration-150"
+                        ? "border-b-[3px] border-b-goldBrown text-bluey font-bold w-fit"
+                        : "hover:text-goldBrown w-fit hover:text-[21px] transition-all ease-in duration-150"
                 }
             >
                 About us
@@ -27,13 +27,16 @@ function Links() {
                 to={"/breaker"}
                 className={({ isActive }) =>
                     isActive
-                        ? "border-b-[3px] border-b-bluey text-bluey font-bold w-fit"
-                        : "hover:text-bluey w-fit hover:text-[21px] transition-all ease-in duration-150"
+                        ? "border-b-[3px] border-b-goldBrown text-bluey font-bold w-fit"
+                        : "hover:text-goldBrown w-fit hover:text-[21px] transition-all ease-in duration-150"
                 }
             >
                 Hydraulic breaker
             </NavLink>
-            <Link to={"/home"} className="hidden h-16 w-16 md:grid items-center ">
+            <Link
+                to={"/home"}
+                className="hidden h-16 w-16 md:grid items-center "
+            >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 163.37 74.08"
@@ -49,8 +52,8 @@ function Links() {
                 to={"/attachments"}
                 className={({ isActive }) =>
                     isActive
-                        ? "border-b-[3px] border-b-bluey text-bluey font-bold w-fit"
-                        : "hover:text-bluey w-fit hover:text-[21px] transition-all ease-in duration-150"
+                        ? "border-b-[3px] border-b-goldBrown text-bluey font-bold w-fit"
+                        : "hover:text-goldBrown w-fit hover:text-[21px] transition-all ease-in duration-150"
                 }
             >
                 Attachments
@@ -59,8 +62,8 @@ function Links() {
                 to={"/tools"}
                 className={({ isActive }) =>
                     isActive
-                        ? "border-b-[3px] border-b-bluey text-bluey font-bold w-fit"
-                        : "hover:text-bluey w-fit hover:text-[21px] transition-all ease-in duration-150"
+                        ? "border-b-[3px] border-b-goldBrown text-bluey font-bold w-fit"
+                        : "hover:text-goldBrown w-fit hover:text-[21px] transition-all ease-in duration-150"
                 }
             >
                 Tools
@@ -69,8 +72,8 @@ function Links() {
                 to={"/Downloads"}
                 className={({ isActive }) =>
                     isActive
-                        ? "border-b-[3px] border-b-bluey text-bluey font-bold w-fit"
-                        : "hover:text-bluey w-fit hover:text-[21px] transition-all ease-in duration-150"
+                        ? "border-b-[3px] border-b-goldBrown text-bluey font-bold w-fit"
+                        : "hover:text-goldBrown w-fit hover:text-[21px] transition-all ease-in duration-150"
                 }
             >
                 Downloads

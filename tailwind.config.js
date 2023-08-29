@@ -12,6 +12,7 @@ export default {
                 darkGray: "#CBCBCB",
                 mediumGray: "#DFE0E1",
                 lightGray: "#EFEFEF",
+                goldBrown:"#ccb36b",
             },
         },
     },

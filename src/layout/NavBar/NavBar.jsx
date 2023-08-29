@@ -11,7 +11,7 @@ function NavBar() {
     return (
         <header>
             <nav
-                className={`fixed px-4 inset-0 h-16 flex items-center justify-end ${
+                className={`fixed px-4 inset-0 h-16 bg-white flex items-center justify-end ${
                     !showSideBar && "shadow-sm"
                 }  md:h-24 md:shadow-md md:justify-center`}
             >
@@ -45,7 +45,7 @@ function NavBar() {
                 </div>
             </nav>
             {showSideBar && (
-                <div className="w-4/6 h-[calc(100vh-64px)] fixed top-0 right-0 z-50 mt-16 bg-white shadow-md flex flex-col pt-4 pl-3 gap-3 text-xl text-gray-400 font-semibold md:hidden">
+                <div className="w-4/6 sm:w-3/6 h-[calc(100vh-64px)] fixed top-0 right-0 z-50 mt-16 bg-white shadow-md flex flex-col pt-4 pl-3 gap-3 text-xl text-gray-400 font-semibold md:hidden">
                     <Links />
                 </div>
             )}
