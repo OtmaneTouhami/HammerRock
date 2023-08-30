@@ -13,7 +13,7 @@ export default {
                 mediumGray: "#DFE0E1",
                 lightGray: "#EFEFEF",
                 goldBrown: "#ccb36b",
-                Amber: "#e7b625",
+                Amber: "#FAC204",
                 Black: "#040404",
                 Boulder: "#747474",
                 DoveGray: "#646464",
@@ -24,3 +24,5 @@ export default {
     },
     plugins: [],
 };
+
+//e7b625

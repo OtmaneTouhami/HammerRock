@@ -12,7 +12,7 @@ function NavBar() {
     return (
         <header>
             <nav
-                className={`fixed px-4 inset-0 h-20 bg-white flex items-center justify-end ${
+                className={`fixed px-4 inset-0 z-50 h-20 bg-white flex items-center justify-end ${
                     !showSideBar && "shadow-sm"
                 }  md:h-24 md:shadow-md md:justify-center`}
             >

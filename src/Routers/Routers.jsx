@@ -7,6 +7,7 @@ import Tools from "../pages/Tools";
 import Downloads from "../pages/Downloads";
 import NavBar from "../layout/NavBar/NavBar";
 import Footer from "../layout/Footer";
+import Partners from "../pages/Partners";
 
 function Routers() {
     return (
@@ -20,6 +21,7 @@ function Routers() {
                 <Route path="/attachments" element={<Attachments />} />
                 <Route path="/tools" element={<Tools />} />
                 <Route path="/downloads" element={<Downloads />} />
+                <Route path="/partners" element={<Partners />} />
             </Routes>
             <Footer/>
         </>
