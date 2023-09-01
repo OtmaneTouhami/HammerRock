@@ -4,6 +4,17 @@ import { Link, NavLink } from "react-router-dom";
 function Links(props) {
     return (
         <>
+            <div className="md:basis-5/12 flex flex-col gap-6 md:flex-row md:justify-evenly">
+            <NavLink
+                to={"/home"}
+                className={({ isActive }) =>
+                    isActive
+                        ? "md:hidden border-b-[3px] border-b-DarkBrown text-Amber font-bold w-fit"
+                        : "hover:text-LightBrown w-fit hover:text-[21px] transition-all ease-in duration-150"
+                }
+            >
+                Acceuil
+            </NavLink>
             <NavLink
                 to={"/about"}
                 className={({ isActive }) =>
@@ -35,14 +46,16 @@ function Links(props) {
             >
                 Pièces jointes
             </NavLink>
+            </div>
             <Link
                 to={"/home"}
-                className="hidden h-32 w-32 md:grid items-center "
+                className="hidden basis-2/12 md:grid items-center justify-center "
             >
-                <img src={props.logo} alt={"HRK-HAMMER-ROCK-LOGO"} />
+                <img src={props.logo} alt={"HRK-HAMMER-ROCK-LOGO"} className="w-32" />
             </Link>
 
-            <NavLink
+           <div className="md:basis-5/12 flex flex-col gap-6 md:flex-row md:justify-evenly">
+           <NavLink
                 to={"/tools"}
                 className={({ isActive }) =>
                     isActive
@@ -72,6 +85,7 @@ function Links(props) {
             >
                 Partenaires
             </NavLink>
+           </div>
         </>
     );
 }

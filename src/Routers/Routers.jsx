@@ -11,7 +11,7 @@ import Partners from "../pages/Partners";
 
 function Routers() {
     return (
-        <>
+        <div>
             <NavBar />
             <Routes>
                 <Route path="/" element={<Navigate to="/home" />} />
@@ -23,8 +23,8 @@ function Routers() {
                 <Route path="/downloads" element={<Downloads />} />
                 <Route path="/partners" element={<Partners />} />
             </Routes>
-            <Footer/>
-        </>
+            <Footer />
+        </div>
     );
 }
 

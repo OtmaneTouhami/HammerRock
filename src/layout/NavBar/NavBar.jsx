@@ -17,7 +17,7 @@ function NavBar() {
                 }  md:h-24 md:shadow-md md:justify-center`}
             >
                 {/* For larger screens */}
-                <div className="hidden h-full md:flex items-center justify-center md:gap-6 lg:gap-12 xl:gap-20 2xl:gap-24 2xl:text-2xl text-xl text-Boulder font-semibold">
+                <div className="hidden w-full md:flex items-center justify-evenly  2xl:text-2xl text-xl text-Boulder font-semibold">
                     <Links logo={logo} />
                 </div>
                 {/* For smaller screens */}
@@ -28,11 +28,11 @@ function NavBar() {
                     <img src={logo} alt={"HRK-HAMMER-ROCK-LOGO"} className=" h-20 w-20" />
                 </Link>
 
-                <div onClick={controlSideBar}>
+                <div onClick={controlSideBar} className="text-Black">
                     {showSideBar ? (
-                        <VscChromeClose className="basis-1/12 h-8 w-8 text-bluey md:hidden" />
+                        <VscChromeClose className="basis-1/12 h-8 w-8 md:hidden" />
                     ) : (
-                        <TbMenu2 className="basis-1/12 h-8 w-8 text-bluey md:hidden" />
+                        <TbMenu2 className="basis-1/12 h-8 w-8 md:hidden" />
                     )}
                 </div>
             </nav>

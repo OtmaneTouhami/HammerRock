@@ -25,7 +25,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="flex flex-col  items-center justify-center">
-                    <div className="flex flex-col gap-1 justify-center text-lg text-Black font-semibold">
+                    <div className="flex flex-col gap-1 justify-center text-sm md:text-lg text-Black font-semibold">
                         <div>
                             Tel:{" "}
                             <a
