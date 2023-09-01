@@ -55,7 +55,7 @@ function SelectionCards({ selected }) {
                 <div className="text-justify line-clamp-3 md:line-clamp-2 font-semibold text-lg md:text-xl text-white">
                     {Content[selected - 1].text}
                 </div>
-                <div className="flex justify-center items-center gap-2 text-lg md:text-xl font-bold bg-Black text-Amber w-4/6 py-2 rounded-lg cursor-pointer self-center mt-2">
+                <div className="flex justify-center items-center gap-2 text-md md:text-xl font-bold bg-Black text-Amber w-4/6 py-2 rounded-lg cursor-pointer self-center mt-2">
                     {Content[selected - 1].btnText}
                     <PiArrowCircleRightBold className="h-6 w-6" />
                 </div>
