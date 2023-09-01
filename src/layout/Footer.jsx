@@ -3,23 +3,23 @@ import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 import logo from "../assets/logos/HRK-HAMMER-ROCK-LOGO.png";
 function Footer() {
     return (
-        <div className="py-6 px-8 h-96">
-            <div className="grid grid-cols-4 divide-x divide-LightBrown">
+        <div className="py-0 md:py-6 md:px-8">
+            <div className="grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-none md:divide-x divide-LightBrown">
                 <div className="flex items-center justify-center">
                     <img
                         src={logo}
                         alt="HRK-HAMMER-ROCK-LOGO"
-                        className="w-44 h-44"
+                        className="md:w-44 md:h-44 h-32 w-32"
                     />
                 </div>
                 <div className="flex flex-col gap-4 items-center justify-center">
-                    <div className="flex flex-col gap-1 justify-center text-lg text-Black font-semibold">
+                    <div className="flex flex-col gap-1 justify-center text-sm md:text-lg text-Black font-semibold">
                         <Link to={"#"}>Terms of Use</Link>
                         <Link to={"#"}>Privacy Policy</Link>
                     </div>
                 </div>
-                <div className="flex items-center justify-center text-Black">
-                    <div className="w-5/6">
+                <div className="flex items-center justify-center text-sm md:text-lg text-Black">
+                    <div className="w-5/6 text-justify md:text-start">
                         HRK Industries co.,ltd. (Head Office & Factory) 30, MTV
                         27-ro, Siheung-si, Gyeonggi-do, Korea
                     </div>
@@ -71,7 +71,7 @@ function Footer() {
                         <BsTwitter className="h-6 w-6" />
                     </a>
                 </div>
-                <div className="text-lg text-Black mt-4">
+                <div className="text-sm text-center w-3/4 pb-4 md:pb-0 md:w-auto md:text-lg text-Black mt-2 md:mt-4">
                     Copyright &copy; 2023 HRK Industries Co.,ltd. All Rights
                     Reserved.
                 </div>

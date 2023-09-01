@@ -8,7 +8,7 @@ import img1 from "../assets/images/img1.jpg";
 import img3 from "../assets/images/img3.jpg";
 import img2 from "../assets/images/img2.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation,EffectCards } from "swiper/modules";
+import { Autoplay, Pagination, Navigation, EffectCards } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -30,18 +30,19 @@ function Home() {
                 loop={true}
                 navigation={true}
                 loopedSlides={true}
-                modules={[Autoplay, Pagination, Navigation,EffectCards]}
+                modules={[Autoplay, Pagination, Navigation, EffectCards]}
                 style={{
                     "--swiper-pagination-color": "#FAC204",
                     "--swiper-navigation-color": "#FAC204",
+                    "--swiper-navigation-size": "32px",
                     "--swiper-pagination-bullet-inactive-color": "#747474",
                     "--swiper-pagination-bullet-inactive-opacity": ".3",
                     "--swiper-pagination-bullet-size": "12px",
                     "--swiper-pagination-bullet-horizontal-gap": "12px",
                 }}
-                className="h-[calc(100vh-80px)] static z-0 md:h-[calc(100vh-95px)]"
+                className=""
             >
-                <SwiperSlide className="bg-Black grid grid-rows-2 md:grid-cols-2 md:grid-rows-none px-4  items-center border-y-8 border-y-Amber">
+                <SwiperSlide className="bg-Black grid grid-rows-2 md:grid-cols-2 md:grid-rows-none px-4  items-center border-y-8 border-y-Amber h-[calc(100vh-80px)] static z-0 md:h-[calc(100vh-95px)]">
                     <div className="flex flex-col items-start gap-4 px-4 pt-12 md:pl-12 md:px-0 md:pt-0">
                         <div className="text-Amber text-2xl md:text-4xl font-extrabold ">
                             Notre Engagement : Innovation & Performance
@@ -69,7 +70,7 @@ function Home() {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className="bg-Black grid grid-rows-2 md:grid-cols-2 md:grid-rows-none px-4  items-center border-y-8 border-y-Amber">
+                <SwiperSlide className="bg-Black grid grid-rows-2 md:grid-cols-2 md:grid-rows-none px-4  items-center border-y-8 border-y-Amber h-[calc(100vh-80px)] static z-0 md:h-[calc(100vh-95px)]">
                     <div className="order-last md:order-first flex justify-center h-auto w-auto p-4">
                         <div className="bg-Boulder w-5/6 rounded-3xl">
                             <img
@@ -136,16 +137,16 @@ function Home() {
                 </div>
             </div>
             {/* Second section */}
-            <div className="grid grid-rows-6 grid-cols-12  p-4 py-12 bg-Amber  border-y-8 border-y-Black">
+            <div className="space-y-6 md:space-y-0 md:grid grid-rows-6 grid-cols-12 p-2 py-6 md:p-4 md:py-12 bg-Amber  border-y-8 border-y-Black">
                 {/* Introduction */}
-                <div className="row-span-1 col-span-12 px-12 flex flex-col justify-center items-center gap-2">
-                    <div className="text-2xl text-LightBrown font-bold uppercase">
+                <div className="row-span-1 col-span-12 px-4 md:px-12 flex flex-col justify-center md:items-center gap-2">
+                    <div className="text-xl md:text-2xl text-LightBrown font-bold uppercase">
                         business
                     </div>
-                    <div className="text-4xl text-Black font-bold uppercase">
+                    <div className="text-3xl md:text-4xl text-Black font-bold uppercase">
                         hammer rock korea
                     </div>
-                    <div className="text-xl text-center text-white font-medium">
+                    <div className="text-lg md:text-xl md:text-center text-white font-medium">
                         HRK, un fabricant de brise-roches hydrauliques,
                         s&apos;engage à continuer de faire de notre mieux afin
                         d&apos;atteindre nos objectif à l&apos;avenir.
@@ -153,56 +154,56 @@ function Home() {
                 </div>
                 {/* Selection */}
                 <div className="row-span-5 col-span-5 flex justify-center items-center">
-                    <ul className="flex flex-col gap-5 w-3/4">
+                    <ul className="flex flex-col  gap-5 w-3/4">
                         <li
                             className={`${
                                 selected === 1
-                                    ? "flex gap-4 items-center text-3xl text-Amber border-0"
+                                    ? "flex gap-4 items-center text-xl md:text-3xl text-Amber border-0"
                                     : "border-b-2 border-b-Black"
-                            } capitalize text-2xl  font-bold text-Black w-fit cursor-pointer`}
+                            } capitalize md:text-2xl  font-bold text-Black w-fit cursor-pointer`}
                             onClick={() => setSelected(1)}
                         >
                             {selected === 1 && (
-                                <PiArrowSquareRightBold className="text-Black h-6 w-6" />
+                                <PiArrowSquareRightBold className="text-Black md:h-6 md:w-6 h-4 w-4 " />
                             )}
                             <span>Découvrir Notre Identité</span>
                         </li>
                         <li
                             className={`${
                                 selected === 2
-                                    ? "flex gap-4 items-center text-3xl text-Amber border-0"
+                                    ? "flex gap-4 items-center text-xl md:text-3xl text-Amber border-0"
                                     : "border-b-2 border-b-Black"
-                            } capitalize text-2xl  font-bold text-Black w-fit cursor-pointer`}
+                            } capitalize md:text-2xl  font-bold text-Black w-fit cursor-pointer`}
                             onClick={() => setSelected(2)}
                         >
                             {selected === 2 && (
-                                <PiArrowSquareRightBold className="text-Black h-6 w-6" />
+                                <PiArrowSquareRightBold className="text-Black md:h-6 md:w-6 h-4 w-4 " />
                             )}
                             <span>brise-roches hydrauliques</span>
                         </li>
                         <li
                             className={`${
                                 selected === 3
-                                    ? "flex gap-4 items-center text-3xl text-Amber border-0"
+                                    ? "flex gap-4 items-center text-xl md:text-3xl text-Amber border-0"
                                     : "border-b-2 border-b-Black"
-                            } capitalize text-2xl  font-bold text-Black w-fit cursor-pointer`}
+                            } capitalize md:text-2xl  font-bold text-Black w-fit cursor-pointer`}
                             onClick={() => setSelected(3)}
                         >
                             {selected === 3 && (
-                                <PiArrowSquareRightBold className="text-Black h-6 w-6" />
+                                <PiArrowSquareRightBold className="text-Black md:h-6 md:w-6 h-4 w-4 " />
                             )}
                             <span>pièces jointes</span>
                         </li>
                         <li
                             className={`${
                                 selected === 4
-                                    ? "flex gap-4 items-center text-3xl text-Amber border-0"
+                                    ? "flex gap-4 items-center text-xl md:text-3xl text-Amber border-0"
                                     : "border-b-2 border-b-Black"
-                            } capitalize text-2xl  font-bold text-Black w-fit cursor-pointer`}
+                            } capitalize md:text-2xl  font-bold text-Black w-fit cursor-pointer`}
                             onClick={() => setSelected(4)}
                         >
                             {selected === 4 && (
-                                <PiArrowSquareRightBold className="text-Black h-6 w-6" />
+                                <PiArrowSquareRightBold className="text-Black md:h-6 md:w-6 h-4 w-4 " />
                             )}
                             <span>outils</span>
                         </li>

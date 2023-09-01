@@ -10,7 +10,7 @@ function Links(props) {
                 className={({ isActive }) =>
                     isActive
                         ? "md:hidden border-b-[3px] border-b-DarkBrown text-Amber font-bold w-fit"
-                        : "hover:text-LightBrown w-fit hover:text-[21px] transition-all ease-in duration-150"
+                        : "hover:text-LightBrown w-fit hover:text-[21px] transition-all ease-in duration-150 md:hidden"
                 }
             >
                 Acceuil
