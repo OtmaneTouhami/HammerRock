@@ -17,7 +17,7 @@ function NavBar() {
                 }  md:h-24 md:shadow-md md:justify-center`}
             >
                 {/* For larger screens */}
-                <div className="hidden w-full md:flex items-center justify-evenly  2xl:text-2xl text-xl text-Boulder font-semibold">
+                <div className="hidden w-full md:flex items-center justify-evenly  2xl:text-2xl sm:text-md md:text-xl text-xl text-Boulder font-semibold">
                     <Links logo={logo} />
                 </div>
                 {/* For smaller screens */}

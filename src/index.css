@@ -23,7 +23,6 @@
     background: #FAC204;
 }
 
-/* .text-bordered {
-    color: transparent;
+.text-bordered {
     -webkit-text-stroke: 1.5px #040404;
-} */
+}

@@ -17,6 +17,7 @@ function Routers() {
                 <Route path="/" element={<Navigate to="/home" />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/about/:section" element={<About />} />
                 <Route path="/breaker" element={<Breaker />} />
                 <Route path="/attachments" element={<Attachments />} />
                 <Route path="/tools" element={<Tools />} />
