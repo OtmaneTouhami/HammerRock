@@ -1,8 +1,32 @@
-import { NavLink, useParams } from "react-router-dom";
+import { useEffect } from "react";
+import { NavLink, useNavigate, useParams } from "react-router-dom";
+import Profile from "./sub-pages/Profile";
+import Histoire from "./sub-pages/Histoire";
+import Contact from "./sub-pages/Contact";
 
 function About() {
-    const {section} = useParams();
-    console.log(section);
+    const { section } = useParams(),
+        navigate = useNavigate();
+
+    const controlSections = () => {
+        switch (section) {
+            case "profile":
+                return <Profile />;
+            case "histoire":
+                return <Histoire />;
+            case "contact":
+                return <Contact />;
+            default:
+                return null;
+        }
+    };
+
+    useEffect(() => {
+        if (section === undefined) {
+            navigate("/about/profile");
+        }
+    }, [section, navigate]);
+
     return (
         <div className="mt-24 p-10">
             <h1 className="text-center text-4xl font-extrabold">
@@ -43,6 +67,7 @@ function About() {
                     Contact
                 </NavLink>
             </div>
+            <div>{controlSections()}</div>
         </div>
     );
 }

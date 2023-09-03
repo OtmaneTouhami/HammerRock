@@ -25,7 +25,7 @@ function Links(props) {
                                     : "hover:text-LightBrown w-fit hover:text-[21px] 2xl:hover:text-[26px] transition-all ease-in duration-75 mb-12"
                             }
                         >
-                            À propos de HRK
+                            À propos
                         </NavLink>
                         <div className="hidden group-hover:flex flex-col mt-3 md:absolute md:mt-0 w-full p-2 bg-Amber text-Black text-center text-sm 2xl:text-xl 2xl:py-2.5 divide-y-2 divide-Black">
                             <NavLink

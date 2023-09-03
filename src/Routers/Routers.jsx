@@ -1,6 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
-import About from "../pages/About";
+import About from "../pages/About/About";
 import Breaker from "../pages/Breaker";
 import Attachments from "../pages/Attachments";
 import Tools from "../pages/Tools";
@@ -13,10 +13,10 @@ function Routers() {
     return (
         <div>
             <NavBar />
-            <Routes>
+            <Routes >
                 <Route path="/" element={<Navigate to="/home" />} />
                 <Route path="/home" element={<Home />} />
-                <Route path="/about" element={<About />} />
+                <Route path="/about/" element={<About />} />
                 <Route path="/about/:section" element={<About />} />
                 <Route path="/breaker" element={<Breaker />} />
                 <Route path="/attachments" element={<Attachments />} />
