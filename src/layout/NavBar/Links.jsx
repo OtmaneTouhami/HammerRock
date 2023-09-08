@@ -49,6 +49,26 @@ function Links(props) {
                                 Histoire
                             </NavLink>
                             <NavLink
+                                to={"/about/activités"}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                Activités
+                            </NavLink>
+                            <NavLink
+                                to={"/about/secteurs"}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                Secteurs
+                            </NavLink>
+                            <NavLink
                                 to={"/about/contact"}
                                 className={({ isActive }) =>
                                     isActive

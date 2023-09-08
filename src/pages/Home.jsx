@@ -4,7 +4,6 @@ import { PiArrowSquareRightBold } from "react-icons/pi";
 import { GrStatusUnknown } from "react-icons/gr";
 import SelectionCards from "../components/SelectionCards";
 import img1 from "../assets/images/img1.jpg";
-// import img4 from "../assets/images/img4.jpg";
 import img3 from "../assets/images/img3.jpg";
 import img2 from "../assets/images/img2.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -23,7 +22,6 @@ function Home() {
                     delay: 4000,
                     disableOnInteraction: false,
                 }}
-                // autoHeight={true}
                 pagination={{
                     clickable: true,
                 }}
@@ -40,7 +38,6 @@ function Home() {
                     "--swiper-pagination-bullet-size": "12px",
                     "--swiper-pagination-bullet-horizontal-gap": "12px",
                 }}
-                className=""
             >
                 <SwiperSlide className="bg-Black grid grid-rows-2 md:grid-cols-2 md:grid-rows-none px-4  items-center border-y-8 border-y-Amber h-[calc(100vh-80px)] static z-0 md:h-[calc(100vh-95px)]">
                     <div className="flex flex-col items-start gap-4 px-4 pt-12 md:pl-12 md:px-0 md:pt-0">
@@ -131,7 +128,7 @@ function Home() {
                     <div className="text-3xl sm:text-4xl lg:text-5xl text-Amber">
                         Les Outils de Demain,
                     </div>
-                    <div className="text-4xl sm:text-5xl lg:text-6xl text-Black">
+                    <div className="text-4xl sm:text-5xl 2xl:text-6xl text-Black">
                         Construits Aujourd&apos;hui
                     </div>
                 </div>
