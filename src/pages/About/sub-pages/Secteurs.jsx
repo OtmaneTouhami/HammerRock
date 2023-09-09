@@ -62,7 +62,7 @@ function Secteurs() {
                 </SwiperSlide>
                 <SwiperSlide className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-Black border-y-8 border-Amber p-12 flex flex-col items-center gap-4">
                     <h1 className="text-Amber basis-1/12 text-2xl font-semibold">
-                        NDUSTRIE MINIÈRE
+                        INDUSTRIE MINIÈRE
                     </h1>
                     <div className="basis-11/12 flex flex-col md:flex-row items-center justify-center gap-12">
                         <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>

@@ -1,4 +1,6 @@
 import { BiSolidDownload } from "react-icons/bi";
+import catalogue from "../assets/Files/HAMMER ROCK BROCHURE ALPHA.pdf";
+
 function Downloads() {
     return (
         <div className="mt-24">
@@ -14,10 +16,10 @@ function Downloads() {
                 <div className="w-full h-full flex flex-wrap justify-evenly items-center basis-9/12">
                     <div className="rounded-xl h-5/6 w-9/12 md:w-2/12 shadow-lg shadow-Amber hover:shadow-xl hover:shadow-Amber p-6 space-y-2">
                         <div className="rounded-md bg-gray-400 h-5/6"></div>
-                        <button className="w-full h-1/6 rounded-md flex items-center justify-center gap-4 bg-Black text-md font-semibold text-Amber">
+                        <a  href={catalogue} download={"HAMMER ROCK BROCHURE ALPHA.pdf"} className="w-full h-1/6 rounded-md flex items-center justify-center gap-4 bg-Black text-md font-semibold text-Amber">
                             <span>Télecharger</span>
                             <BiSolidDownload />
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>

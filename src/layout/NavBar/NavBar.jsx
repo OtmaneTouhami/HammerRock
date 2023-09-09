@@ -22,7 +22,7 @@ function NavBar() {
                 </div>
                 {/* For smaller screens */}
                 <Link
-                    to={"/home"}
+                    to={"/acceuil"}
                     className="basis-11/12 grid items-center justify-center md:hidden"
                 >
                     <img src={logo} alt={"HRK-HAMMER-ROCK-LOGO"} className=" h-20 w-20" />

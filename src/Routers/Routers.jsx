@@ -13,16 +13,16 @@ function Routers() {
     return (
         <div>
             <NavBar />
-            <Routes >
-                <Route path="/" element={<Navigate to="/home" />} />
-                <Route path="/home" element={<Home />} />
+            <Routes>
+                <Route path="/" element={<Navigate to="/acceuil" />} />
+                <Route path="/acceuil" element={<Home />} />
                 <Route path="/about/" element={<About />} />
                 <Route path="/about/:section" element={<About />} />
-                <Route path="/breaker" element={<Breaker />} />
-                <Route path="/attachments" element={<Attachments />} />
-                <Route path="/tools" element={<Tools />} />
-                <Route path="/downloads" element={<Downloads />} />
-                <Route path="/partners" element={<Partners />} />
+                <Route path="/brise_roche" element={<Breaker />} />
+                <Route path="/pièces_jointes" element={<Attachments />} />
+                <Route path="/outils" element={<Tools />} />
+                <Route path="/catalogue" element={<Downloads />} />
+                <Route path="/partenaires" element={<Partners />} />
             </Routes>
             <Footer />
         </div>

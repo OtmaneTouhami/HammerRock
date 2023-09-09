@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { Link } from "react-router-dom";
 import { PiArrowCircleRightBold } from "react-icons/pi";
 import img1 from "../assets/images/img1.jpg";
 import img2 from "../assets/images/img2.jpg";
@@ -10,21 +11,25 @@ const Content = [
         title: "À propos de nous",
         text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error iste repellendus nihil ullam tenetur laborum magnam perferendis ab perspiciatis dolore cum dolor similique fugiat natus, est quidem dolorem facere molestiae",
         btnText: "Découvrir Notre Identité",
+        path: "/about"
     },
     {
         title: "Brise-roches hydrauliques",
         text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error iste repellendus nihil ullam tenetur laborum magnam perferendis ab perspiciatis dolore cum dolor similique fugiat natus, est quidem dolorem facere molestiae",
         btnText: "Voir plus",
+        path: "/brise_roche"
     },
     {
         title: "Pièces jointes",
         text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error iste repellendus nihil ullam tenetur laborum magnam perferendis ab perspiciatis dolore cum dolor similique fugiat natus, est quidem dolorem facere molestiae",
         btnText: "Nos pièces jointes",
+        path: "/pièces_jointes"
     },
     {
         title: "Outils",
         text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error iste repellendus nihil ullam tenetur laborum magnam perferendis ab perspiciatis dolore cum dolor similique fugiat natus, est quidem dolorem facere molestiae",
-        btnText: "Nos outils",
+        btnText: "Nos outils",        
+        path: "/outils"
     },
 ];
 
@@ -55,10 +60,10 @@ function SelectionCards({ selected }) {
                 <div className="text-justify line-clamp-3 md:line-clamp-2 font-semibold text-lg md:text-xl text-white">
                     {Content[selected - 1].text}
                 </div>
-                <div className="flex justify-center items-center gap-2 text-md md:text-xl font-bold bg-Black text-Amber w-4/6 py-2 rounded-lg cursor-pointer self-center mt-2">
+                <Link to={Content[selected - 1].path} className="flex justify-center items-center gap-2 text-md md:text-xl font-bold bg-Black text-Amber w-4/6 py-2 rounded-lg cursor-pointer self-center mt-2">
                     {Content[selected - 1].btnText}
                     <PiArrowCircleRightBold className="h-6 w-6" />
-                </div>
+                </Link>
             </div>
         </div>
     );
