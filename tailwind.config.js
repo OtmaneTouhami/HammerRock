@@ -20,6 +20,9 @@ export default {
                 LightBrown: "#8C5C03",
                 DarkBrown: "#402A01",
             },
+            backgroundImage:{
+                slash:"url('/src/assets/slash.png')"
+            }
         },
     },
     plugins: [],

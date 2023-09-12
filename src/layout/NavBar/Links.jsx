@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Link, NavLink } from "react-router-dom";
+import { BREAKERS } from "../../db/Breakers";
 
 function Links(props) {
     return (
@@ -22,12 +23,12 @@ function Links(props) {
                             className={({ isActive }) =>
                                 isActive
                                     ? "border-b-[3px] border-b-DarkBrown text-Amber font-bold w-fit"
-                                    : "hover:text-LightBrown w-fit hover:text-[21px] 2xl:hover:text-[26px] transition-all ease-in duration-75 mb-12"
+                                    : "hover:text-LightBrown w-fit hover:text-[21px] 2xl:hover:text-[26px]  transition-all ease-in duration-75 md:text-center md:basis-1/3"
                             }
                         >
                             À propos
                         </NavLink>
-                        <div className="hidden group-hover:flex flex-col mt-3 md:absolute md:mt-0 w-full p-2 bg-Amber text-Black text-center text-sm 2xl:text-xl 2xl:py-2.5 divide-y-2 divide-Black">
+                        <div className="hidden group-hover:flex flex-col mt-3 md:absolute md:mt-0 w-full p-2 bg-Amber text-Black text-center text-sm 2xl:text-xl 2xl:py-2.5 divide-y-2 divide-Black border-t-8 border-t-white">
                             <NavLink
                                 to={"/about/profile"}
                                 className={({ isActive }) =>
@@ -86,22 +87,26 @@ function Links(props) {
                             className={({ isActive }) =>
                                 isActive
                                     ? "border-b-[3px] border-b-DarkBrown text-Amber font-bold w-fit"
-                                    : "hover:text-LightBrown w-fit hover:text-[21px] 2xl:hover:text-[26px]  transition-all ease-in duration-75 mb-12"
+                                    : "hover:text-LightBrown w-fit hover:text-[21px] 2xl:hover:text-[26px]  transition-all ease-in duration-75 md:text-center md:basis-1/3"
                             }
                         >
                             Brise Roche
                         </NavLink>
-                        <ul className="hidden group-hover:flex flex-col mt-3 md:absolute md:mt-0 w-full p-2 bg-Amber text-Black text-center text-sm 2xl:text-xl divide-y-2 divide-Black">
-                            <li className="py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber">
-                                <Link to={"#"}>Serie X</Link>
-                            </li>
-                            <li className="py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber">
-                                <Link to={"#"}>Serie Y</Link>
-                            </li>
-                            <li className="py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber">
-                                <Link to={"#"}>Serie Z</Link>
-                            </li>
-                        </ul>
+                        <div className="hidden group-hover:flex flex-col mt-3 md:absolute md:mt-0 w-full p-2 bg-Amber text-Black text-center text-sm 2xl:text-xl 2xl:py-2.5 divide-y-2 divide-Black border-t-8 border-t-white">
+                            {BREAKERS.map((breaker, index) => (
+                                <NavLink
+                                    to={`/brise_roche/${index + 1}`}
+                                    className={({ isActive }) =>
+                                        isActive
+                                            ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                            : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                    }
+                                    key={index}
+                                >
+                                    {breaker.name}
+                                </NavLink>
+                            ))}
+                        </div>
                     </div>
                     <div className="group relative md:text-center md:basis-1/3">
                         <NavLink
@@ -109,12 +114,12 @@ function Links(props) {
                             className={({ isActive }) =>
                                 isActive
                                     ? "border-b-[3px] border-b-DarkBrown text-Amber font-bold w-fit"
-                                    : "hover:text-LightBrown w-fit hover:text-[21px] 2xl:hover:text-[26px]  transition-all ease-in duration-75 mb-12"
+                                    : "hover:text-LightBrown w-fit hover:text-[21px] 2xl:hover:text-[26px]  transition-all ease-in duration-75 md:text-center md:basis-1/3"
                             }
                         >
                             Pièces jointes
                         </NavLink>
-                        <ul className="hidden group-hover:flex flex-col divide-y-2 divide-black mt-3 md:absolute md:mt-0 w-full p-2 bg-Amber text-Black text-center text-sm 2xl:text-xl">
+                        <ul className="hidden group-hover:flex flex-col divide-y-2 divide-black mt-3 md:absolute md:mt-0 w-full p-2 bg-Amber text-Black text-center text-sm 2xl:text-xl border-t-8 border-t-white">
                             <li className="py-1.5 hover:bg-black hover:text-Amber">
                                 <Link to={"#"}>Attache rapide</Link>
                             </li>

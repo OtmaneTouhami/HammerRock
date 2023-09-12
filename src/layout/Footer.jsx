@@ -13,19 +13,19 @@ function Footer() {
                     />
                 </div>
                 <div className="flex flex-col gap-4 items-center justify-center">
-                    <div className="flex flex-col gap-1 justify-center text-sm md:text-lg text-Black font-semibold">
+                    <div className="flex flex-col gap-1 justify-center text-xs md:text-lg text-Black font-semibold">
                         <Link to={"#"}>Terms of Use</Link>
                         <Link to={"#"}>Privacy Policy</Link>
                     </div>
                 </div>
-                <div className="flex items-center justify-center text-sm md:text-lg text-Black">
+                <div className="flex items-center justify-center text-xs md:text-lg text-Black">
                     <div className="w-5/6 text-justify md:text-start">
                         HRK Industries co.,ltd. (Head Office & Factory) 30, MTV
                         27-ro, Siheung-si, Gyeonggi-do, Korea
                     </div>
                 </div>
                 <div className="flex flex-col  items-center justify-center">
-                    <div className="flex flex-col gap-1 justify-center text-sm md:text-lg text-Black font-semibold">
+                    <div className="flex flex-col gap-1 justify-center text-xs md:text-lg text-Black font-semibold">
                         <div>
                             Tel:{" "}
                             <a
