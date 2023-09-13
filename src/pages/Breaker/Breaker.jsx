@@ -1,5 +1,4 @@
-import Cards from "../../components/Cards";
-import { BREAKERS } from "../../db/Breakers";
+import BreakersCards from "../../components/BreakersCards";
 
 function Breaker() {
     return (
@@ -9,7 +8,7 @@ function Breaker() {
                     Brise Roche
                 </h1>
                 <div className="h-full flex-grow flex items-center">
-                    <Cards elements={BREAKERS} type={"brise_roche"} />
+                    <BreakersCards />
                 </div>
             </div>
         </div>

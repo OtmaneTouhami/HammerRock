@@ -1,30 +1,40 @@
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import { BREAKERS } from "../../db/Breakers";
-
-export default function BreakerModel() {
-    const { id } = useParams(),
-        [breaker, setBreaker] = useState(BREAKERS[id - 1]);
-
-    console.log(typeof breaker.models[0].spesification.impact.units);
-
-    useEffect(() => setBreaker(BREAKERS[id - 1]), [id]);
+function SerieY() {
     return (
         <div className="mt-20 md:mt-24">
             <div className="border-y-8 border-y-Amber min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] p-4 flex flex-col justify-center gap-6">
                 <h1 className="text-Amber text-center text-3xl font-bold py-4">
-                    {breaker.name}
+                    Serie Y
                 </h1>
                 <div className="flex items-center justify-center">
                     <ul className="w-5/6 p-6 space-y-2 bg-Amber/30 rounded-sm">
-                        {breaker.characteristics.map((char, index) => (
-                            <li
-                                key={index}
-                                className="list-inside list-disc text-lg text-justify"
-                            >
-                                {char}
-                            </li>
-                        ))}
+                        <li className="list-inside list-disc text-lg text-justify">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Quisquam veritatis, fuga dicta, quidem veniam
+                            minima quo molestiae, voluptatem deserunt eligendi
+                            eius porro? Quo iusto nesciunt molestias, sunt rem
+                            iure assumenda!
+                        </li>
+                        <li className="list-inside list-disc text-lg text-justify">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Quisquam veritatis, fuga dicta, quidem veniam
+                            minima quo molestiae, voluptatem deserunt eligendi
+                            eius porro? Quo iusto nesciunt molestias, sunt rem
+                            iure assumenda!
+                        </li>
+                        <li className="list-inside list-disc text-lg text-justify">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Quisquam veritatis, fuga dicta, quidem veniam
+                            minima quo molestiae, voluptatem deserunt eligendi
+                            eius porro? Quo iusto nesciunt molestias, sunt rem
+                            iure assumenda!
+                        </li>
+                        <li className="list-inside list-disc text-lg text-justify">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Quisquam veritatis, fuga dicta, quidem veniam
+                            minima quo molestiae, voluptatem deserunt eligendi
+                            eius porro? Quo iusto nesciunt molestias, sunt rem
+                            iure assumenda!
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -40,104 +50,22 @@ export default function BreakerModel() {
                 <h2 className="text-2xl text-Amber font-semibold tracking-wide">
                     Models
                 </h2>
-                {/* <table className="min-w-full max-w-full border-t-2 border-t-Amber mt-4 overflow-x-scroll">
-                    <thead>
-                        <tr>
-                            <th rowSpan={2} className="p-2">
-                                <div className="flex flex-col ">
-                                    <span className="self-end">Models</span>
-                                    <span className="self-start">
-                                        Description
-                                    </span>
-                                </div>
-                            </th>
-                            <th rowSpan={2} className="p-2">
-                                Unit
-                            </th>
-                            <th colSpan={breaker.models.length} className="p-2">
-                                Full Hydrolic Model
-                            </th>
-                        </tr>
-                        <tr>
-                            {breaker.models.map((model, index) => (
-                                <th key={index} className="p-2">
-                                    {model.name}
-                                </th>
-                            ))}
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {Object.keys(breaker.models[0].spesification).map(
-                            (key) =>
-                                breaker.models.map(
-                                    ({ spesification }, index) => (
-                                        <tr key={index}>
-                                            <td>{key}</td>
-                                            {typeof spesification[key].units !==
-                                            "string" ? (
-                                                spesification[key].units.map(
-                                                    (unit, index) => (
-                                                        <React.Fragment
-                                                            key={index}
-                                                        >
-                                                            <td>{unit}</td>
-                                                        </React.Fragment>
-                                                    )
-                                                )
-                                            ) : (
-                                                <td>
-                                                    {spesification[key].units}
-                                                </td>
-                                            )}
-                                        </tr>
-                                    )
-                                )
-
-                                // <tr key={index}>
-                                //     <td>{key}</td>
-                                //     {breaker.models.map(
-                                //         ({ spesification }, index) => (
-                                //             <React.Fragment key={index}>
-                                //                 {typeof spesification[key]
-                                //                     .units !== "string" ? (
-                                //                     spesification[
-                                //                         key
-                                //                     ].units.map(
-                                //                         (unit, index) => (
-                                //                             <React.Fragment
-                                //                                 key={index}
-                                //                             >
-                                //                                 <td>{unit}</td>
-                                //                             </React.Fragment>
-                                //                         )
-                                //                     )
-                                //                 ) : (
-                                //                     <td>
-                                //                         {
-                                //                             spesification[key]
-                                //                                 .units
-                                //                         }
-                                //                     </td>
-                                //                 )}
-                                //             </React.Fragment>
-                                //         )
-                                //     )}
-                                // </tr>
-                        )}
-                    </tbody>
-                </table> */}
-                <div className="overflow-hidden overflow-x-auto mt-6 ">
-                    <table className="border-t-2 border-t-Amber w-full min-w-[840px] border-2">
+                <div className="overflow-hidden overflow-x-auto mt-6 2xl:flex items-center justify-center">
+                    <table className="border-t-4 border-t-Amber">
                         <thead>
-                            <tr>
+                            <tr className="">
                                 <th
-                                    className="font-bold py-3 px-[10px] relative text-left align-bottom bg-slash" 
+                                    className="font-bold py-3 px-[10px] relative text-left align-bottom bg-slash bg-no-repeat p-12"
                                     colSpan="2"
                                     rowSpan="2"
                                     width="190px"
                                 >
-                                    <span className="absolute top-[10px] right-[10px]">Model</span>
-                                    <span className="inline-block pt-[10px]">Description</span>
+                                    <span className="absolute top-[10px] right-[10px]">
+                                        Model
+                                    </span>
+                                    <span className="inline-block pt-[10px]">
+                                        Description
+                                    </span>
                                 </th>
                                 <th scope="col" width="70px" rowSpan="2">
                                     GBN SERIES
@@ -502,3 +430,5 @@ export default function BreakerModel() {
         </div>
     );
 }
+
+export default SerieY;

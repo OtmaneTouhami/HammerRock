@@ -10,7 +10,7 @@ import Footer from "../layout/Footer";
 import Partners from "../pages/Partners";
 import { useEffect, useRef, useState } from "react";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
-import BreakerModel from "../pages/Breaker/BreakerModel";
+import BreakerModels from "../pages/Breaker/BreakerModels";
 
 function Routers() {
     const { pathname } = useLocation(),
@@ -53,7 +53,7 @@ function Routers() {
                 <Route path="/about/" element={<About />} />
                 <Route path="/about/:section" element={<About />} />
                 <Route path="/brise_roche" element={<Breaker />} />
-                <Route path="/brise_roche/:id" element={<BreakerModel />} />
+                <Route path="/brise_roche/:serie" element={<BreakerModels />} />
                 <Route path="/pièces_jointes" element={<Attachments />} />
                 <Route path="/outils" element={<Tools />} />
                 <Route path="/catalogue" element={<Downloads />} />

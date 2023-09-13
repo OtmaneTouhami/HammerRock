@@ -7,7 +7,7 @@
 } */
 
 ::selection {
-    background-color: #FAC204;
+    background-color: #fac204;
     color: #747474;
 }
 
@@ -21,9 +21,18 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #FAC204;
+    background: #fac204;
 }
 
 .text-bordered {
     -webkit-text-stroke: 1.5px #040404;
+}
+
+td,
+tr,
+th {
+    border: 2px solid #e5e7e9;
+    text-align: center;
+    padding: 12px 10px;
+    font-size: small;
 }

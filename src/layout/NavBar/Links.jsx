@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import { Link, NavLink } from "react-router-dom";
-import { BREAKERS } from "../../db/Breakers";
 
 function Links(props) {
     return (
@@ -93,19 +92,36 @@ function Links(props) {
                             Brise Roche
                         </NavLink>
                         <div className="hidden group-hover:flex flex-col mt-3 md:absolute md:mt-0 w-full p-2 bg-Amber text-Black text-center text-sm 2xl:text-xl 2xl:py-2.5 divide-y-2 divide-Black border-t-8 border-t-white">
-                            {BREAKERS.map((breaker, index) => (
                                 <NavLink
-                                    to={`/brise_roche/${index + 1}`}
+                                    to={`/brise_roche/serie_x`}
                                     className={({ isActive }) =>
                                         isActive
                                             ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
                                             : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
                                     }
-                                    key={index}
                                 >
-                                    {breaker.name}
+                                    Serie X
                                 </NavLink>
-                            ))}
+                                <NavLink
+                                    to={`/brise_roche/serie_y`}
+                                    className={({ isActive }) =>
+                                        isActive
+                                            ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                            : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                    }
+                                >
+                                    Serie Y
+                                </NavLink>
+                                <NavLink
+                                    to={`/brise_roche/serie_z`}
+                                    className={({ isActive }) =>
+                                        isActive
+                                            ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                            : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                    }
+                                >
+                                    Serie Z
+                                </NavLink>
                         </div>
                     </div>
                     <div className="group relative md:text-center md:basis-1/3">
