@@ -11,6 +11,7 @@ import Partners from "../pages/Partners";
 import { useEffect, useRef, useState } from "react";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import BreakerModels from "../pages/Breaker/BreakerModels";
+import NotFound from "../pages/NotFound";
 
 function Routers() {
     const { pathname } = useLocation(),
@@ -58,6 +59,7 @@ function Routers() {
                 <Route path="/outils" element={<Tools />} />
                 <Route path="/catalogue" element={<Downloads />} />
                 <Route path="/partenaires" element={<Partners />} />
+                <Route path="/*" element={<NotFound />} />
             </Routes>
             <Footer />
         </div>

@@ -38,11 +38,11 @@ function SerieX() {
                     </ul>
                 </div>
             </div>
-            <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex justify-center">
-                <div className="basis-1/2 p-12 flex justify-center items-center">
+            <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex flex-col md:flex-row justify-center">
+                <div className="basis-full md:basis-1/2 px-4 md:p-12 flex justify-center items-center">
                     <div className="h-5/6 w-full rounded-md bg-Boulder"></div>
                 </div>
-                <div className="basis-1/2 p-12 flex justify-center items-center">
+                <div className="basis-full md:basis-1/2 px-4 md:p-12 flex justify-center items-center">
                     <div className="h-5/6 w-full rounded-md bg-Boulder"></div>
                 </div>
             </div>

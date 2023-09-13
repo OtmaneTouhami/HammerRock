@@ -1,6 +1,6 @@
 function Partners() {
     return (
-        <div className="mt-24">
+        <div className="mt-20 md:mt-24">
             <div className="min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] border-y-8 border-Amber flex flex-col items-center p-4">
                 <h1 className="text-Amber text-3xl font-bold py-4">
                     Nos Partenaires
