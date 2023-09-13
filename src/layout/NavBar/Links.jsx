@@ -161,9 +161,6 @@ function Links(props) {
                                 <Link to={"#"}>Broyeuse</Link>
                             </li>
                             <li className="py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber">
-                                <Link to={"#"}>Broyeuse</Link>
-                            </li>
-                            <li className="py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber">
                                 <Link to={"#"}>Pulvériseur</Link>
                             </li>
                         </ul>

@@ -2,7 +2,7 @@ import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/About/About";
 import Breaker from "../pages/Breaker/Breaker";
-import Attachments from "../pages/Attachments";
+import Attachments from "../pages/Attachments/Attachments";
 import Tools from "../pages/Tools";
 import Downloads from "../pages/Downloads";
 import NavBar from "../layout/NavBar/NavBar";
