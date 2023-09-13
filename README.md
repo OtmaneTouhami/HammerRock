@@ -1,1 +1,1 @@
-# GBCLONE
+# Hammer Rock Korea Website
