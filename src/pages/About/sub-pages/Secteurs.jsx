@@ -43,117 +43,119 @@ function Secteurs() {
                     "--swiper-pagination-bullet-horizontal-gap": "8px",
                 }}
             >
-                <SwiperSlide className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-Black border-y-8 border-Amber p-12 flex flex-col items-center gap-4">
-                    <h1 className="text-Amber basis-1/12 text-2xl font-semibold">
-                        CONSTRUCTION
-                    </h1>
-                    <div className="basis-11/12 flex flex-col md:flex-row items-center justify-center gap-12">
-                        <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
-                        <p className="text-white basis-6/12 text-lg font-semibold text-justify">
-                            Que vous soyez engagé dans la démolition de
-                            bâtiments existants ou la préparation de fondations
-                            solides pour de nouveaux projets, les brise-roches
-                            de Hammer Rock Korea offrent une puissance de
-                            rupture inégalée, garantissant un travail rapide et
-                            précis.
-                        </p>
-                        <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
+                <SwiperSlide className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] border-y-8 border-Amber flex items-center justify-center gap-4">
+                    <div className="w-full h-full bg-construction-sm md:bg-construction bg-no-repeat bg-cover">
+                        <div className="h-full w-full bg-gradient-to-b md:bg-gradient-to-r from-black to-transparent md:pl-24 gap-12 flex flex-col justify-center items-center md:items-start">
+                            <h1 className="text-Amber text-xl md:text-3xl font-semibold">
+                                CONSTRUCTION
+                            </h1>
+                            <p className="text-white w-4/6 md:w-3/6  text-lg font-semibold text-justify">
+                                Que vous soyez engagé dans la démolition de
+                                bâtiments existants ou la préparation de
+                                fondations solides pour de nouveaux projets, les
+                                brise-roches de Hammer Rock Korea offrent une
+                                puissance de rupture inégalée, garantissant un
+                                travail rapide et précis.
+                            </p>
+                        </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-Black border-y-8 border-Amber p-12 flex flex-col items-center gap-4">
-                    <h1 className="text-Amber basis-1/12 text-2xl font-semibold">
-                        INDUSTRIE MINIÈRE
-                    </h1>
-                    <div className="basis-11/12 flex flex-col md:flex-row items-center justify-center gap-12">
-                        <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
-                        <p className="text-white basis-6/12 text-lg font-semibold text-justify">
-                            L&apos;industrie minière exige des outils robustes
-                            et fiables pour extraire efficacement les minéraux
-                            précieux. Nos brise-roches hydrauliques sont conçus
-                            pour résister aux conditions les plus difficiles,
-                            donnant ainsi des résultats impressionnants.
-                        </p>
-                        <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
+                <SwiperSlide className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] border-y-8 border-Amber flex items-center justify-center gap-4">
+                    <div className="w-full h-full bg-miniere-sm md:bg-miniere bg-no-repeat bg-cover">
+                        <div className="h-full w-full bg-gradient-to-b md:bg-gradient-to-r from-black to-transparent md:pl-24 gap-12 flex flex-col justify-center items-center md:items-start">
+                            <h1 className="text-Amber text-xl md:text-3xl font-semibold">
+                                INDUSTRIE MINIÈRE
+                            </h1>
+                            <p className="text-white w-4/6 md:w-3/6  text-lg font-semibold text-justify">
+                                L&apos;industrie minière exige des outils
+                                robustes et fiables pour extraire efficacement
+                                les minéraux précieux. Nos brise-roches
+                                hydrauliques sont conçus pour résister aux
+                                conditions les plus difficiles, donnant ainsi
+                                des résultats impressionnants.
+                            </p>
+                        </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-Black border-y-8 border-Amber p-12 flex flex-col items-center gap-4">
-                    <h1 className="text-Amber basis-1/12 text-2xl font-semibold">
-                        TRAVAUX PUBLICS
-                    </h1>
-                    <div className="basis-11/12 flex flex-col md:flex-row items-center justify-center gap-12">
-                        <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
-                        <p className="text-white basis-6/12 text-lg font-semibold text-justify">
-                            Les travaux publics englobent un large éventail de
-                            projets, tels que la construction de routes, de
-                            ponts et d&apos;infrastructures. Nos produits
-                            peuvent être utilisés pour diverses tâches, pour
-                            contribuer à la réalisation de projets de manière
-                            efficace.
-                        </p>
-                        <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
+                <SwiperSlide className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] border-y-8 border-Amber flex items-center justify-center gap-4">
+                    <div className="w-full h-full bg-public-sm md:bg-public bg-no-repeat bg-cover">
+                        <div className="h-full w-full bg-gradient-to-b md:bg-gradient-to-r from-black to-transparent md:pl-24 gap-12 flex flex-col justify-center items-center md:items-start">
+                            <h1 className="text-Amber text-xl md:text-3xl font-semibold">
+                                TRAVAUX PUBLICS
+                            </h1>
+                            <p className="text-white w-4/6 md:w-3/6  text-lg font-semibold text-justify">
+                                Les travaux publics englobent un large éventail
+                                de projets, tels que la construction de routes,
+                                de ponts et d&apos;infrastructures. Nos produits
+                                peuvent être utilisés pour diverses tâches, pour
+                                contribuer à la réalisation de projets de
+                                manière efficace.
+                            </p>
+                        </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-Black border-y-8 border-Amber p-12 flex flex-col items-center gap-4">
-                    <h1 className="text-Amber basis-1/12 text-2xl font-semibold">
-                        INDUSTRIE PÉTROLIÈRE
-                    </h1>
-                    <div className="basis-11/12 flex flex-col md:flex-row items-center justify-center gap-12">
-                        <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
-                        <p className="text-white basis-6/12 text-lg font-semibold text-justify">
-                            Les brise-roches de Hammer Rock Korea sont adaptés à
-                            la création de voies ferrées, à la démolition de
-                            structures ferroviaires désuètes et à la réparation
-                            des voies existantes.
-                        </p>
-                        <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
+                <SwiperSlide className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] border-y-8 border-Amber flex items-center justify-center gap-4">
+                    <div className="w-full h-full bg-petrole-sm md:bg-petrole bg-no-repeat bg-cover">
+                        <div className="h-full w-full bg-gradient-to-b md:bg-gradient-to-r from-black to-transparent md:pl-24 gap-12 flex flex-col justify-center items-center md:items-start">
+                            <h1 className="text-Amber text-xl md:text-3xl font-semibold">
+                                INDUSTRIE PÉTROLIÈRE
+                            </h1>
+                            <p className="text-white w-4/6 md:w-3/6  text-lg font-semibold text-justify">
+                                Les brise-roches de Hammer Rock Korea sont
+                                adaptés à la création de voies ferrées, à la
+                                démolition de structures ferroviaires désuètes
+                                et à la réparation des voies existantes.
+                            </p>
+                        </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-Black border-y-8 border-Amber p-12 flex flex-col items-center gap-4">
-                    <h1 className="text-Amber basis-1/12 text-2xl font-semibold">
-                        INDUSTRIE FERROVIAIRE
-                    </h1>
-                    <div className="basis-11/12 flex flex-col md:flex-row items-center justify-center gap-12">
-                        <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
-                        <p className="text-white basis-6/12 text-lg font-semibold text-justify">
-                            Nos brise-roches hydrauliques jouent un rôle crucial
-                            dans l&apos;industrie ferroviaire en facilitant la
-                            construction et l&apos;entretien des voies ferrées.
-                            Ils sont utilisés pour briser et enlever les roches,
-                            les blocs de béton et les matériaux durs qui peuvent
-                            obstruer le tracé ferroviaire.
-                        </p>
-                        <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
+                <SwiperSlide className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] border-y-8 border-Amber flex items-center justify-center gap-4">
+                    <div className="w-full h-full bg-train-sm md:bg-trains bg-no-repeat bg-cover">
+                        <div className="h-full w-full bg-gradient-to-b md:bg-gradient-to-r from-black to-transparent md:pl-24 gap-12 flex flex-col justify-center items-center md:items-start">
+                            <h1 className="text-Amber text-xl md:text-3xl font-semibold">
+                                INDUSTRIE FERROVIAIRE
+                            </h1>
+                            <p className="text-white w-4/6 md:w-3/6  text-lg font-semibold text-justify">
+                                Nos brise-roches hydrauliques jouent un rôle
+                                crucial dans l&apos;industrie ferroviaire en
+                                facilitant la construction et l&apos;entretien
+                                des voies ferrées. Ils sont utilisés pour briser
+                                et enlever les roches, les blocs de béton et les
+                                matériaux durs qui peuvent obstruer le tracé
+                                ferroviaire.
+                            </p>
+                        </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-Black border-y-8 border-Amber p-12 flex flex-col items-center gap-4">
-                    <h1 className="text-Amber basis-1/12 text-2xl font-semibold">
-                        AGRICULTURE
-                    </h1>
-                    <div className="basis-11/12 flex flex-col md:flex-row items-center justify-center gap-12">
-                        <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
-                        <p className="text-white basis-6/12 text-lg font-semibold text-justify">
-                            Nous contribuons à optimiser les conditions
-                            agricoles en rendant les terres plus fertiles et en
-                            améliorant l&apos;efficacité des systèmes
-                            d&apos;irrigation.
-                        </p>
-                        <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
+                <SwiperSlide className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] border-y-8 border-Amber flex items-center justify-center gap-4">
+                    <div className="w-full h-full bg-agre-sm md:bg-agre bg-no-repeat bg-cover">
+                        <div className="h-full w-full bg-gradient-to-b md:bg-gradient-to-r from-black to-transparent md:pl-24 gap-12 flex flex-col justify-center items-center md:items-start">
+                            <h1 className="text-Amber text-xl md:text-3xl font-semibold">
+                                AGRICULTURE
+                            </h1>
+                            <p className="text-white w-4/6 md:w-3/6  text-lg font-semibold text-justify">
+                                Nous contribuons à optimiser les conditions
+                                agricoles en rendant les terres plus fertiles et
+                                en améliorant l&apos;efficacité des systèmes
+                                d&apos;irrigation.
+                            </p>
+                        </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-Black border-y-8 border-Amber p-12 flex flex-col items-center gap-4">
-                    <h1 className="text-Amber basis-1/12 text-2xl font-semibold">
-                        SECTEUR FORESTIER
-                    </h1>
-                    <div className="basis-11/12 flex flex-col md:flex-row items-center justify-center gap-12">
-                        <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
-                        <p className="text-white basis-6/12 text-lg font-semibold text-justify">
+                <SwiperSlide className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] border-y-8 border-Amber flex items-center justify-center gap-4">
+                    <div className="w-full h-full bg-foret-sm md:bg-foret bg-no-repeat bg-cover">
+                        <div className="h-full w-full bg-gradient-to-b md:bg-gradient-to-r from-black to-transparent md:pl-24 gap-12 flex flex-col justify-center items-center md:items-start">
+                            <h1 className="text-Amber text-xl md:text-3xl font-semibold">
+                            SECTEUR FORESTIER
+                            </h1>
+                            <p className="text-white w-4/6 md:w-3/6  text-lg font-semibold text-justify">
                             Nos puissants équipements permettent
                             d&apos;accélérer le processus d&apos;aménagement
                             forestier en facilitant le défrichement des zones
                             boisées, la création de pistes d&apos;accès et la
                             préparation des terrains pour la plantation.
-                        </p>
-                        <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
+                            </p>
+                        </div>
                     </div>
                 </SwiperSlide>
             </Swiper>
