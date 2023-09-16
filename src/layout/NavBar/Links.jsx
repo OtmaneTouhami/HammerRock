@@ -92,36 +92,36 @@ function Links(props) {
                             Brise Roche
                         </NavLink>
                         <div className="hidden group-hover:flex flex-col mt-3 md:absolute md:mt-0 w-full p-2 bg-Amber text-Black text-center text-sm 2xl:text-xl 2xl:py-2.5 divide-y-2 divide-Black border-t-8 border-t-white">
-                                <NavLink
-                                    to={`/brise_roche/serie_x`}
-                                    className={({ isActive }) =>
-                                        isActive
-                                            ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                            : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
-                                    }
-                                >
-                                    Serie X
-                                </NavLink>
-                                <NavLink
-                                    to={`/brise_roche/serie_y`}
-                                    className={({ isActive }) =>
-                                        isActive
-                                            ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                            : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
-                                    }
-                                >
-                                    Serie Y
-                                </NavLink>
-                                <NavLink
-                                    to={`/brise_roche/serie_z`}
-                                    className={({ isActive }) =>
-                                        isActive
-                                            ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                            : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
-                                    }
-                                >
-                                    Serie Z
-                                </NavLink>
+                            <NavLink
+                                to={`/brise_roche/serie_x`}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                Serie X
+                            </NavLink>
+                            <NavLink
+                                to={`/brise_roche/serie_y`}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                Serie Y
+                            </NavLink>
+                            <NavLink
+                                to={`/brise_roche/serie_z`}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                Serie Z
+                            </NavLink>
                         </div>
                     </div>
                     <div className="group relative md:text-center md:basis-1/3">
@@ -135,35 +135,98 @@ function Links(props) {
                         >
                             Pièces jointes
                         </NavLink>
-                        <ul className="hidden group-hover:flex flex-col divide-y-2 divide-black mt-3 md:absolute md:mt-0 w-full p-2 bg-Amber text-Black text-center text-sm 2xl:text-xl border-t-8 border-t-white">
-                            <li className="py-1.5 hover:bg-black hover:text-Amber">
-                                <Link to={"#"}>Attache rapide</Link>
-                            </li>
-                            <li className="py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber">
-                                <Link to={"#"}>Compacteur</Link>
-                            </li>
-                            <li className="py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber">
-                                <Link to={"#"}>Marteau vibrant</Link>
-                            </li>
-                            <li className="py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber">
-                                <Link to={"#"}>Ripper vibrant</Link>
-                            </li>
-                            <li className="py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber">
-                                <Link to={"#"}>Grappin pour pierre</Link>
-                            </li>
-                            <li className="py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber">
-                                <Link to={"#"}>Grappin pour bois</Link>
-                            </li>
-                            <li className="py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber">
-                                <Link to={"#"}>Grappin de récupération </Link>
-                            </li>
-                            <li className="py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber">
-                                <Link to={"#"}>Broyeuse</Link>
-                            </li>
-                            <li className="py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber">
-                                <Link to={"#"}>Pulvériseur</Link>
-                            </li>
-                        </ul>
+                        <div className="hidden group-hover:flex flex-col mt-3 md:absolute md:mt-0 w-full p-2 bg-Amber text-Black text-center text-sm 2xl:text-xl 2xl:py-2.5 divide-y-2 divide-Black border-t-8 border-t-white">
+                            <NavLink
+                                to={"/pièces_jointes/attache_rapide"}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                Attache rapide
+                            </NavLink>
+                            <NavLink
+                                to={"/pièces_jointes/compacteur"}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                Compacteur
+                            </NavLink>
+                            <NavLink
+                                to={"/pièces_jointes/marteau_vibrant"}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                Marteau vibrant
+                            </NavLink>
+                            <NavLink
+                                to={"/pièces_jointes/ripper_vibrant"}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                Ripper vibrant
+                            </NavLink>
+                            <NavLink
+                                to={"/pièces_jointes/grappin_pour_pierre"}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                Grappin pour pierre
+                            </NavLink>
+                            <NavLink
+                                to={"/pièces_jointes/grappin_pour_bois"}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                Grappin pour bois
+                            </NavLink>
+                            <NavLink
+                                to={"/pièces_jointes/grappin_de_recuperation"}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                Grappin de récupération
+                            </NavLink>
+                            <NavLink
+                                to={"/pièces_jointes/broyeuse"}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                Broyeuse
+                            </NavLink>
+                            <NavLink
+                                to={"/pièces_jointes/pulveriseur"}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                Pulvériseur
+                            </NavLink>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -11,7 +11,7 @@ function Secteurs() {
                 <h1 className="flex items-center  text-4xl md:text-5xl font-extrabold text-Amber tracking-wide">
                     Secteurs
                 </h1>
-                <p className=" flex items-center justify-center text-xl md:text-3xl font-semibold md:w-10/12 text-justify text-Boulder">
+                <p className="flex items-center justify-center text-xl md:text-3xl font-semibold md:w-10/12 text-justify text-Boulder">
                     Explorerons donc les multiples secteurs d&apos;application
                     de nos produits, démontrant ainsi leur polyvalence et leur
                     impact significatif sur des industries variées, et
@@ -49,7 +49,7 @@ function Secteurs() {
                     </h1>
                     <div className="basis-11/12 flex flex-col md:flex-row items-center justify-center gap-12">
                         <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
-                        <p className="text-Boulder basis-6/12 text-lg font-semibold text-justify">
+                        <p className="text-white basis-6/12 text-lg font-semibold text-justify">
                             Que vous soyez engagé dans la démolition de
                             bâtiments existants ou la préparation de fondations
                             solides pour de nouveaux projets, les brise-roches
@@ -66,7 +66,7 @@ function Secteurs() {
                     </h1>
                     <div className="basis-11/12 flex flex-col md:flex-row items-center justify-center gap-12">
                         <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
-                        <p className="text-Boulder basis-6/12 text-lg font-semibold text-justify">
+                        <p className="text-white basis-6/12 text-lg font-semibold text-justify">
                             L&apos;industrie minière exige des outils robustes
                             et fiables pour extraire efficacement les minéraux
                             précieux. Nos brise-roches hydrauliques sont conçus
@@ -82,7 +82,7 @@ function Secteurs() {
                     </h1>
                     <div className="basis-11/12 flex flex-col md:flex-row items-center justify-center gap-12">
                         <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
-                        <p className="text-Boulder basis-6/12 text-lg font-semibold text-justify">
+                        <p className="text-white basis-6/12 text-lg font-semibold text-justify">
                             Les travaux publics englobent un large éventail de
                             projets, tels que la construction de routes, de
                             ponts et d&apos;infrastructures. Nos produits
@@ -99,7 +99,7 @@ function Secteurs() {
                     </h1>
                     <div className="basis-11/12 flex flex-col md:flex-row items-center justify-center gap-12">
                         <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
-                        <p className="text-Boulder basis-6/12 text-lg font-semibold text-justify">
+                        <p className="text-white basis-6/12 text-lg font-semibold text-justify">
                             Les brise-roches de Hammer Rock Korea sont adaptés à
                             la création de voies ferrées, à la démolition de
                             structures ferroviaires désuètes et à la réparation
@@ -114,7 +114,7 @@ function Secteurs() {
                     </h1>
                     <div className="basis-11/12 flex flex-col md:flex-row items-center justify-center gap-12">
                         <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
-                        <p className="text-Boulder basis-6/12 text-lg font-semibold text-justify">
+                        <p className="text-white basis-6/12 text-lg font-semibold text-justify">
                             Nos brise-roches hydrauliques jouent un rôle crucial
                             dans l&apos;industrie ferroviaire en facilitant la
                             construction et l&apos;entretien des voies ferrées.
@@ -131,7 +131,7 @@ function Secteurs() {
                     </h1>
                     <div className="basis-11/12 flex flex-col md:flex-row items-center justify-center gap-12">
                         <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
-                        <p className="text-Boulder basis-6/12 text-lg font-semibold text-justify">
+                        <p className="text-white basis-6/12 text-lg font-semibold text-justify">
                             Nous contribuons à optimiser les conditions
                             agricoles en rendant les terres plus fertiles et en
                             améliorant l&apos;efficacité des systèmes
@@ -146,7 +146,7 @@ function Secteurs() {
                     </h1>
                     <div className="basis-11/12 flex flex-col md:flex-row items-center justify-center gap-12">
                         <div className="w-full h-full bg-Amber basis-3/12 rounded-3xl"></div>
-                        <p className="text-Boulder basis-6/12 text-lg font-semibold text-justify">
+                        <p className="text-white basis-6/12 text-lg font-semibold text-justify">
                             Nos puissants équipements permettent
                             d&apos;accélérer le processus d&apos;aménagement
                             forestier en facilitant le défrichement des zones

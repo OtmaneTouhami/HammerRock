@@ -12,6 +12,7 @@ import { useEffect, useRef, useState } from "react";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import BreakerModels from "../pages/Breaker/BreakerModels";
 import NotFound from "../pages/NotFound";
+import AttachmentModel from "../pages/Attachments/AttachmentModel";
 
 function Routers() {
     const { pathname } = useLocation(),
@@ -56,6 +57,7 @@ function Routers() {
                 <Route path="/brise_roche" element={<Breaker />} />
                 <Route path="/brise_roche/:serie" element={<BreakerModels />} />
                 <Route path="/pièces_jointes" element={<Attachments />} />
+                <Route path="/pièces_jointes/:model" element={<AttachmentModel />} />
                 <Route path="/outils" element={<Tools />} />
                 <Route path="/catalogue" element={<Downloads />} />
                 <Route path="/partenaires" element={<Partners />} />
