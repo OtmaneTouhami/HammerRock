@@ -19,7 +19,7 @@ function Routers() {
         topRef = useRef(),
         [scrollY, setScrollY] = useState(0);
 
-    const backToTop = () => window.scrollTo(0, 0);
+    const backToTop = () => window.scrollTo({top:0,behavior:"smooth"});
 
     useEffect(() => {
         window.addEventListener("scroll", function () {
