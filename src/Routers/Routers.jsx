@@ -3,7 +3,7 @@ import Home from "../pages/Home";
 import About from "../pages/About/About";
 import Breaker from "../pages/Breaker/Breaker";
 import Attachments from "../pages/Attachments/Attachments";
-import Tools from "../pages/Tools";
+import Tools from "../pages/Tool/Tools";
 import Downloads from "../pages/Downloads";
 import NavBar from "../layout/NavBar/NavBar";
 import Footer from "../layout/Footer";
@@ -58,7 +58,7 @@ function Routers() {
                 <Route path="/brise_roche/:serie" element={<BreakerModels />} />
                 <Route path="/pièces_jointes" element={<Attachments />} />
                 <Route path="/pièces_jointes/:model" element={<AttachmentModel />} />
-                <Route path="/outils" element={<Tools />} />
+                <Route path="/outil" element={<Tools />} />
                 <Route path="/catalogue" element={<Downloads />} />
                 <Route path="/partenaires" element={<Partners />} />
                 <Route path="/*" element={<NotFound />} />

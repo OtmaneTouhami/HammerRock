@@ -244,14 +244,14 @@ function Links(props) {
             <div className="md:basis-5/12">
                 <div className="md:w-full md:items-center flex flex-col gap-6 md:flex-row md:justify-evenly">
                     <NavLink
-                        to={"/outils"}
+                        to={"/outil"}
                         className={({ isActive }) =>
                             isActive
                                 ? "border-b-[3px] border-b-DarkBrown text-Amber font-bold w-fit"
                                 : "hover:text-LightBrown w-fit hover:text-[21px] 2xl:hover:text-[26px]  transition-all ease-in duration-75 md:text-center md:basis-1/3"
                         }
                     >
-                        Outils
+                        Outil
                     </NavLink>
                     <NavLink
                         to={"/catalogue"}
