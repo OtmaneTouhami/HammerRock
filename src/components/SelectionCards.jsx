@@ -29,7 +29,7 @@ const Content = [
         title: "Outils",
         text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error iste repellendus nihil ullam tenetur laborum magnam perferendis ab perspiciatis dolore cum dolor similique fugiat natus, est quidem dolorem facere molestiae",
         btnText: "Nos outils",        
-        path: "/outils"
+        path: "/outil"
     },
 ];
 

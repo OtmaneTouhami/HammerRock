@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import img1 from "../assets/images/NotFound.png"
 
 function NotFound() {
     return (
@@ -6,7 +7,7 @@ function NotFound() {
             <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] border-y-8 border-y-Amber flex flex-col md:flex-row items-center justify-center px-6 py-8">
                 <div className="basis-2/6 sm:basis-4/6 w-full flex items-center justify-start">
                     <img
-                        src="/src/assets/images/NotFound.png"
+                        src={img1}
                         alt="Not Found"
                         className="h-full"
                     />
