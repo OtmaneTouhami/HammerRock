@@ -6,34 +6,21 @@ function AttacheRapide() {
                     Attache rapide
                 </h1>
                 <div className="flex items-center justify-center">
-                    <ul className="w-5/6 p-6 space-y-2 bg-Amber/30 rounded-sm pl-10">
+                    <ul className="p-6 space-y-2 bg-Amber/30 rounded-sm pl-10 w-fit">
                         <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
+                        La plus grande durabilité dans la même catégorie.
                         </li>
                         <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
+                        Double dispositif de sécurité.
                         </li>
                         <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
+                        Réduction des heures de travail avec un coupleur amovible rapide.
                         </li>
                         <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
+                        Espace suffisant pour la goupille de sécurité.
+                        </li>
+                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
+                        Accessoire de marteau hydraulique.
                         </li>
                     </ul>
                 </div>

@@ -1,5 +1,5 @@
 import contact from "../../../assets/images/contact.png";
-import { FaLocationDot } from "react-icons/fa6";
+import { MdLocationOn } from "react-icons/md";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
@@ -13,7 +13,7 @@ function Contact() {
             <div className="flex flex-col md:flex-row items-center justify-center basis-5/6">
                 <div className="basis-3/4 md:basis-1/2 h-full flex flex-col justify-center p-6 md:p-12 space-y-6">
                     <div className="flex items-center gap-8 text-lg">
-                        <FaLocationDot className="h-14 w-14 md:h-6 md:w-6 text-LightBrown" />
+                        <MdLocationOn className="h-7 w-7 text-LightBrown" />
                         <span>
                             Maroc
                         </span>
@@ -44,7 +44,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className="order-first md:order-last basis-1/4 md:basis-1/2 flex items-center justify-center h-full">
-                    <img src={contact} alt="" className="" />
+                    <img src={contact} alt="" className="w-3/4 md:w-auto" />
                 </div>
             </div>
         </div>

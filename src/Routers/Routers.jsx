@@ -13,6 +13,7 @@ import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import BreakerModels from "../pages/Breaker/BreakerModels";
 import NotFound from "../pages/NotFound";
 import AttachmentModel from "../pages/Attachments/AttachmentModel";
+import Terms from "../pages/Terms";
 
 function Routers() {
     const { pathname } = useLocation(),
@@ -61,6 +62,7 @@ function Routers() {
                 <Route path="/outil" element={<Tools />} />
                 <Route path="/catalogue" element={<Downloads />} />
                 <Route path="/partenaires" element={<Partners />} />
+                <Route path="/terms" element={<Terms />} />
                 <Route path="/*" element={<NotFound />} />
             </Routes>
             <Footer />

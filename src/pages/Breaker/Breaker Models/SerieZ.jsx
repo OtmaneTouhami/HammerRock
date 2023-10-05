@@ -6,34 +6,39 @@ function SerieZ() {
                     Serie Z
                 </h1>
                 <div className="flex items-center justify-center">
-                <ul className="w-5/6 p-6 space-y-2 bg-Amber/30 rounded-sm pl-10">
+                    <ul className="w-5/6 p-6 space-y-2 bg-Amber/30 rounded-sm pl-10">
                         <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
+                            L&apos;accumulateur monté en haut aide à accepter
+                            une large gamme de débit d&apos;huile et à assister
+                            la course de puissance tout en protégeant contre les
+                            chocs hydrauliques.
                         </li>
                         <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
+                            La technologie avancée de la soupape de contrôle
+                            peut bloquer tout dommage résultant de
+                            l&apos;énergie d&apos;impact élevée sur le porteur.
                         </li>
                         <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
+                            La conception technique optimisée facilite le
+                            fonctionnement et prolonge la durée de vie tout en
+                            réduisant les coûts d&apos;entretien.
                         </li>
                         <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
+                            La conception entièrement bloquée du boîtier
+                            convient à tous types de chantiers, tandis que la
+                            douille inférieure à emmanchement glissant facilite
+                            l&apos;entretien sur site.
+                        </li>
+                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
+                            Le piston et le cylindre sont conçus pour convertir
+                            l&apos;énergie cinétique en énergie de marteau après
+                            avoir frappé l&apos;outil et la transmettre à
+                            l&apos;outil pour une meilleure fragmentation des
+                            roches sur le chantier.
+                        </li>
+                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
+                            Marteau entièrement hydraulique et briseur
+                            entièrement hydraulique.
                         </li>
                     </ul>
                 </div>

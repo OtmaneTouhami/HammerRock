@@ -6,34 +6,18 @@ function RipperVibrant() {
                     Ripper vibrant
                 </h1>
                 <div className="flex items-center justify-center">
-                    <ul className="w-5/6 p-6 space-y-2 bg-Amber/30 rounded-sm pl-10">
+                    <ul className="w-fit p-6 space-y-2 bg-Amber/30 rounded-sm pl-10">
                         <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
+                            Force de creusement puissante grâce à une structure
+                            de liaison spéciale.
                         </li>
                         <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
+                            Excellente puissance de creusement sur les roches
+                            tendres.
                         </li>
                         <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
-                        </li>
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
+                            Produit respectueux de l&apos;environnement (moins
+                            de vibrations et de bruit).
                         </li>
                     </ul>
                 </div>

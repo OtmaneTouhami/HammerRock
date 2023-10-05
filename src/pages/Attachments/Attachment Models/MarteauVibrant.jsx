@@ -6,34 +6,21 @@ function MarteauVibrant() {
                     Marteau vibrant
                 </h1>
                 <div className="flex items-center justify-center">
-                <ul className="w-5/6 p-6 space-y-2 bg-Amber/30 rounded-sm pl-10">
+                <ul className="w-fit p-6 space-y-2 bg-Amber/30 rounded-sm pl-10">
                         <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
+                        Peut être directement connecté à une pelle (pas besoin de grue).
                         </li>
                         <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
+                        Efficacité de travail supérieure et large gamme de travaux.
                         </li>
                         <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
+                        BPM hautement efficace avec faible bruit.
                         </li>
                         <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quisquam veritatis, fuga dicta, quidem veniam
-                            minima quo molestiae, voluptatem deserunt eligendi
-                            eius porro? Quo iusto nesciunt molestias, sunt rem
-                            iure assumenda!
+                        Disponible dans la plomberie de marteau hydraulique.
+                        </li>
+                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
+                        Rotation à 360°.
                         </li>
                     </ul>
                 </div>

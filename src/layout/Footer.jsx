@@ -4,27 +4,25 @@ import logo from "../assets/logos/HRK-HAMMER-ROCK-LOGO.png";
 function Footer() {
     return (
         <div className="py-0 md:py-6 md:px-8">
-            <div className="grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-none md:divide-x divide-LightBrown">
-                <div className="flex items-center justify-center">
+            <div className="grid grid-cols-none gap-6 md:grid-cols-12 md:grid-rows-none md:divide-x divide-LightBrown">
+                <div className="flex items-center justify-center md:col-span-2">
                     <img
                         src={logo}
                         alt="HRK-HAMMER-ROCK-LOGO"
                         className="md:w-44 md:h-44 h-32 w-32"
                     />
                 </div>
-                <div className="flex flex-col gap-4 items-center justify-center">
-                    <div className="flex flex-col gap-1 justify-center text-xs md:text-lg text-Black font-semibold">
-                        <Link to={"#"}>Terms of Use</Link>
-                        <Link to={"#"}>Privacy Policy</Link>
+                <div className="flex flex-col gap-4 items-center justify-center md:col-span-4">
+                    <div className="flex flex-col gap-1 justify-center items-center text-xs md:text-lg text-Black font-semibold">
+                        <Link to={"/terms"}>Conditions d&apos;utilisation</Link>
+                        <Link to={"#"}>Politique de confidentialité</Link>
                     </div>
                 </div>
-                <div className="flex items-center justify-center text-xs md:text-lg text-Black">
-                    <div className="w-5/6 text-center">
-                        Maroc
-                    </div>
+                <div className="flex items-center justify-center text-xs md:text-lg text-Black md:col-span-2">
+                    <div className="w-5/6 text-center">Maroc</div>
                 </div>
-                <div className="flex flex-col  items-center justify-center">
-                    <div className="flex flex-col gap-1 justify-center text-xs md:text-lg text-Black font-semibold">
+                <div className="flex items-center justify-center text-xs md:text-lg md:col-span-4">
+                    <div>
                         <div>
                             Tel:{" "}
                             <a
@@ -34,12 +32,6 @@ function Footer() {
                                 +82-10-9292-2043
                             </a>
                         </div>
-                        {/* <div>
-                            Fax:{" "}
-                            <span className="ml-2 text-DoveGray">
-                                +82 31-988-2208
-                            </span>
-                        </div> */}
                         <div>
                             E-mail:{" "}
                             <a
