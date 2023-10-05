@@ -19,9 +19,8 @@ function Footer() {
                     </div>
                 </div>
                 <div className="flex items-center justify-center text-xs md:text-lg text-Black">
-                    <div className="w-5/6 text-justify md:text-start">
-                        HRK Industries co.,ltd. (Head Office & Factory) 30, MTV
-                        27-ro, Siheung-si, Gyeonggi-do, Korea
+                    <div className="w-5/6 text-center">
+                        Maroc
                     </div>
                 </div>
                 <div className="flex flex-col  items-center justify-center">
@@ -29,25 +28,25 @@ function Footer() {
                         <div>
                             Tel:{" "}
                             <a
-                                href="tel:+82236632833"
+                                href="tel:+821092922043"
                                 className="ml-2 text-DoveGray"
                             >
-                                +82 2-3663-2833
+                                +82-10-9292-2043
                             </a>
                         </div>
-                        <div>
+                        {/* <div>
                             Fax:{" "}
                             <span className="ml-2 text-DoveGray">
                                 +82 31-988-2208
                             </span>
-                        </div>
+                        </div> */}
                         <div>
                             E-mail:{" "}
                             <a
-                                href="mailto:info@gbhammer.com"
+                                href="mailto:Parts.webmaster@gmail.com"
                                 className="ml-2 text-DoveGray"
                             >
-                                info@gbhammer.com
+                                Parts.webmaster@gmail.com
                             </a>
                         </div>
                     </div>
