@@ -14,6 +14,7 @@ import BreakerModels from "../pages/Breaker/BreakerModels";
 import NotFound from "../pages/NotFound";
 import AttachmentModel from "../pages/Attachments/AttachmentModel";
 import Terms from "../pages/Terms";
+import Policy from "../pages/Policy";
 
 function Routers() {
     const { pathname } = useLocation(),
@@ -63,6 +64,7 @@ function Routers() {
                 <Route path="/catalogue" element={<Downloads />} />
                 <Route path="/partenaires" element={<Partners />} />
                 <Route path="/terms" element={<Terms />} />
+                <Route path="/Politique_de_confidentialité" element={<Policy />} />
                 <Route path="/*" element={<NotFound />} />
             </Routes>
             <Footer />
