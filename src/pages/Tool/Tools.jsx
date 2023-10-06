@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation, EffectCards } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import img1 from "../../assets/images/bg_top-hrk-tools.jpg";
+import img1 from "../../assets/images/bg_top-hrk-tools.webp";
 import img2 from "../../assets/images/img_top-hrk-tools.png";
 import img3 from "../../assets/images/img_tool-code-ch_01.png";
 import img4 from "../../assets/images/img_tool-code-ch_02.png";
@@ -30,10 +30,6 @@ import { useState, useEffect } from "react";
 
 function Tools() {
     const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
-    const [activeSlideIndex, setActiveSlideIndex] = useState(0);
-    const handleSlideChange = (swiper) => {
-        setActiveSlideIndex(swiper.activeIndex);
-    };
     const updateViewportWidth = () => {
         setViewportWidth(window.innerWidth);
     };
@@ -62,7 +58,7 @@ function Tools() {
                 <figure className="w-full relative mb-48 md:mb-56">
                     <img
                         src={img1}
-                        className="border-2 border-Amber max-w-full"
+                        className="border-2 border-Amber w-full"
                     />
                     <img src={img2} className="max-w-full absolute top-3/4" />
                 </figure>
@@ -365,7 +361,7 @@ function Tools() {
 
                 <Swiper
                     navigation={viewportWidth > 767 ? true : false}
-                    onSlideChange={handleSlideChange}
+                    autoHeight={true}
                     modules={[Navigation, Pagination, EffectCards]}
                     pagination={{
                         clickable: true,
@@ -439,11 +435,7 @@ function Tools() {
                                     <img src={img20} />
                                 </figure>
                             </div>
-                            <div
-                                className={`md:px-20 space-y-2 ${
-                                    activeSlideIndex !== 0 && "hidden"
-                                }`}
-                            >
+                            <div className="md:px-20 space-y-2">
                                 <p className="text-lg">
                                     <span className="font-bold">B) Froid</span>
                                     <br />
@@ -551,11 +543,7 @@ function Tools() {
                                     <img src={img22} />
                                 </figure>
                             </div>
-                            <div
-                                className={`py-4 space-y-2 border-t-2 border-dashed border-t-Amber  ${
-                                    activeSlideIndex !== 1 && "hidden"
-                                }`}
-                            >
+                            <div className="py-4 space-y-2 border-t-2 border-dashed border-t-Amber">
                                 <p className="text-lg">
                                     The polished semi-circular area in pic4
                                     isthe fatigue area and generally startsfrom

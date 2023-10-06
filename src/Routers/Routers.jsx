@@ -31,7 +31,6 @@ function Routers() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-        //   document.documentElement.clientHeight - 94
     }, [pathname]);
 
     useEffect(() => {

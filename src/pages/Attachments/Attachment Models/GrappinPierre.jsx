@@ -1,3 +1,5 @@
+import img1 from '../../../assets/Attatchments/Stone Grapple.webp';
+
 function GrappinPierre() {
     return (
         <div className="mt-20 md:mt-24">
@@ -25,12 +27,11 @@ function GrappinPierre() {
                     </ul>
                 </div>
             </div>
-            <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex flex-col md:flex-row justify-center">
-                <div className="basis-full md:basis-1/2 px-4 md:p-12 flex justify-center items-center">
-                    <div className="h-5/6 w-full rounded-md bg-Boulder"></div>
-                </div>
-                <div className="basis-full md:basis-1/2 px-4 md:p-12 flex justify-center items-center">
-                    <div className="h-5/6 w-full rounded-md bg-Boulder"></div>
+            <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex flex-wrap flex-row justify-center">
+                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
+                    <div className="basis-full  w-full rounded-lg flex justify-center">
+                        <img src={img1} className="w-3/4 object-cover" />
+                    </div>
                 </div>
             </div>
             <div className="border-y-8 border-y-Amber min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] p-6">

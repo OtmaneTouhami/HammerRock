@@ -18,7 +18,7 @@ function App() {
         if (readyState === "loading") {
             setIsLoading(true);
         } else {
-            setTimeout(() => setIsLoading(false), 2000);
+            setTimeout(() => setIsLoading(false), 3000);
         }
     }, []);
     return (

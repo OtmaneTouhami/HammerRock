@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 import { PiArrowSquareRightBold } from "react-icons/pi";
 import { GrStatusUnknown } from "react-icons/gr";
 import SelectionCards from "../components/SelectionCards";
-import img1 from "../assets/images/img1.jpg";
-import img3 from "../assets/images/img3.jpg";
-import img2 from "../assets/images/img2.jpg";
+import img1 from "../assets/images/img1.webp";
+import img3 from "../assets/hammer photos/Company Profile (Hammer Assemble Line 4).webp";
+import img4 from "../assets/hammer photos/GBN 1000H (for 150tons Excavator) 2.webp";
+import img5 from "../assets/hammer photos/Hyundai with GB Hammers.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation, EffectCards } from "swiper/modules";
 import "swiper/css";
@@ -58,25 +59,31 @@ function Home() {
                             <GrStatusUnknown />
                         </Link>
                     </div>
-                    <div className="flex justify-center h-auto w-auto p-4">
-                        <div className="bg-Boulder w-5/6 rounded-3xl">
+                    {/* <div className="flex justify-center h-auto w-auto p-4"> */}
+                        <div className="flex items-center justify-center">
                             <img
                                 src={img1}
-                                className=" rounded-3xl  h-full  w-full object-cover"
+                                className=" rounded-3xl w-3/6  sm:w-4/6 lg:w-5/6 object-cover"
                             />
                         </div>
-                    </div>
+                    {/* </div> */}
                 </SwiperSlide>
                 <SwiperSlide className="bg-Black grid grid-rows-2 md:grid-cols-2 md:grid-rows-none px-4  items-center border-y-8 border-y-Amber h-[calc(100vh-80px)] static z-0 md:h-[calc(100vh-95px)]">
-                    <div className="order-last md:order-first flex justify-center h-auto w-auto p-4">
+                    {/* <div className="order-last md:order-first flex justify-center h-auto w-auto p-4">
                         <div className="bg-Boulder w-5/6 rounded-3xl">
                             <img
                                 src={img3}
                                 className=" rounded-3xl  h-full  w-full object-cover"
                             />
                         </div>
-                    </div>
-                    <div className="flex flex-col items-start gap-4 px-4 pt-12 md:pl-12 md:px-0 md:pt-0">
+                    </div> */}
+                    <div className="order-last md:order-first flex items-center justify-center">
+                            <img
+                                src={img3}
+                                className=" rounded-3xl w-3/6  sm:w-4/6 lg:w-5/6 object-cover"
+                            />
+                        </div>
+                    <div className="flex flex-col items-start gap-4 px-4 pt-12 md:pl-12 md:px-0 md:pt-0 md:pr-12">
                         <div className="text-Amber text-2xl md:text-4xl font-extrabold ">
                             Notre Engagement : Innovation & Performance
                         </div>
@@ -110,7 +117,7 @@ function Home() {
                 <div className="flex justify-center h-auto w-auto p-4">
                     <div className="bg-Boulder w-4/6 rounded-3xl">
                         <img
-                            src={img2}
+                            src={img4}
                             className=" rounded-3xl  h-full  w-full object-cover"
                         />
                     </div>
@@ -119,7 +126,7 @@ function Home() {
                 <div className="flex order-3 md:order-none justify-center h-auto w-auto p-4">
                     <div className="bg-Boulder w-4/6 rounded-3xl">
                         <img
-                            src={img1}
+                            src={img5}
                             className="rounded-3xl  h-full  w-full object-cover"
                         />
                     </div>

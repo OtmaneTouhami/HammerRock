@@ -1,38 +1,37 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import { PiArrowCircleRightBold } from "react-icons/pi";
-import img1 from "../assets/images/img1.jpg";
-import img2 from "../assets/images/img2.jpg";
-import img3 from "../assets/images/img3.jpg";
-import img4 from "../assets/images/img4.jpg";
+import img1 from "../assets/logos/HRK-HAMMER-ROCK-LOGO.png";
+import img2 from "../assets/images/img2.webp";
+import img3 from "../assets/hammer photos/Company Profile (Hammer Assemble Line 3).webp";
+import img4 from "../assets/hammer photos/Company Profile (Tool Heat Treatment).webp";
 
 const Content = [
     {
         title: "À propos de nous",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error iste repellendus nihil ullam tenetur laborum magnam perferendis ab perspiciatis dolore cum dolor similique fugiat natus, est quidem dolorem facere molestiae",
+        text: "Hammer Rock Korea est une entreprise marocaine spécialisée dans la fabrication de brise-roches hydrauliques. Fondée avec une vision pionnière et une forte détermination, Hammer Rock Korea a développé sa technologie de pointe et à sa capacité à offrir des solutions innovantes pour les industries de la construction, de l'extraction minière et de la démolition.",
         btnText: "Découvrir Notre Identité",
-        path: "/about"
+        path: "/about",
     },
     {
         title: "Brise-roches hydrauliques",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error iste repellendus nihil ullam tenetur laborum magnam perferendis ab perspiciatis dolore cum dolor similique fugiat natus, est quidem dolorem facere molestiae",
+        text: "Notre outil révolutionnaire est conçu pour répondre à tous vos besoins en matière de démolition et d'excavation, quel que soit le type de roche ou de béton. Que vous soyez un entrepreneur de construction, un professionnel de la démolition ou un opérateur de chantier, ",
         btnText: "Voir plus",
-        path: "/brise_roche"
+        path: "/brise_roche",
     },
     {
         title: "Pièces jointes",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error iste repellendus nihil ullam tenetur laborum magnam perferendis ab perspiciatis dolore cum dolor similique fugiat natus, est quidem dolorem facere molestiae",
+        text: "Chez HRK, nous nous engageons à fournir des pièces jointes de la plus haute qualité, fabriquées avec des matériaux durables pour garantir leur longévité.",
         btnText: "Nos pièces jointes",
-        path: "/pièces_jointes"
+        path: "/pièces_jointes",
     },
     {
         title: "Outils",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error iste repellendus nihil ullam tenetur laborum magnam perferendis ab perspiciatis dolore cum dolor similique fugiat natus, est quidem dolorem facere molestiae",
-        btnText: "Nos outils",        
-        path: "/outil"
+        text: "Chez HRK, nous sommes déterminés à vous fournir les meilleurs outils pour répondre à tous vos besoins.",
+        btnText: "Nos outils",
+        path: "/outil",
     },
 ];
-
 
 function SelectionCards({ selected }) {
     // console.log(Content[selected-1]);
@@ -60,7 +59,10 @@ function SelectionCards({ selected }) {
                 <div className="text-justify line-clamp-3 md:line-clamp-2 font-semibold text-lg md:text-xl text-white">
                     {Content[selected - 1].text}
                 </div>
-                <Link to={Content[selected - 1].path} className="flex justify-center items-center gap-2 text-md md:text-xl font-bold bg-Black text-Amber w-4/6 py-2 rounded-lg cursor-pointer self-center mt-2">
+                <Link
+                    to={Content[selected - 1].path}
+                    className="flex justify-center items-center gap-2 text-sm md:text-md font-bold bg-Black text-Amber w-4/6 py-2 rounded-lg cursor-pointer self-center mt-2"
+                >
                     {Content[selected - 1].btnText}
                     <PiArrowCircleRightBold className="h-6 w-6" />
                 </Link>

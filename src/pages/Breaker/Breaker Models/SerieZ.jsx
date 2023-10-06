@@ -1,3 +1,6 @@
+import img1 from "../../../assets/hammer/GBN30TL-L.webp";
+import img2 from "../../../assets/hammer/GBN70TL-L.webp";
+
 function SerieZ() {
     return (
         <div className="mt-20 md:mt-24">
@@ -43,12 +46,26 @@ function SerieZ() {
                     </ul>
                 </div>
             </div>
-            <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex flex-col md:flex-row justify-center">
-                <div className="basis-full md:basis-1/2 px-4 md:p-12  flex justify-center items-center">
-                    <div className="h-5/6 w-full rounded-md bg-Boulder"></div>
+            <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex flex-wrap flex-row justify-center">
+                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
+                    <div className="basis-5/6 md:basis-4/6  w-full rounded-lg flex justify-center">
+                        <img src={img1} className="w-3/4 object-cover" />
+                    </div>
                 </div>
-                <div className="basis-full md:basis-1/2 px-4 md:p-12  flex justify-center items-center">
-                    <div className="h-5/6 w-full rounded-md bg-Boulder"></div>
+                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
+                    <div className="basis-5/6 md:basis-4/6 w-full rounded-lg flex justify-center">
+                        <img src={img2} className="w-3/4 object-cover" />
+                    </div>
+                </div>
+                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
+                    <div className="basis-5/6 md:basis-4/6  w-full rounded-lg flex justify-center">
+                        <img src={img1} className="w-3/4 object-cover" />
+                    </div>
+                </div>
+                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
+                    <div className="basis-5/6 md:basis-4/6  w-full rounded-lg flex justify-center">
+                        <img src={img2} className="w-3/4 object-cover" />
+                    </div>
                 </div>
             </div>
             <div className="border-y-8 border-y-Amber min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] p-6">
