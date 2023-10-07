@@ -3,22 +3,30 @@ import { Autoplay, Pagination, Navigation, EffectCards } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import img1 from "../../../assets/images/services.png";
 
 function Secteurs() {
     return (
         <div>
-            <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-White border-y-8 border-y-Amber p-12 flex flex-col items-center justify-center gap-12">
-                <h1 className="flex items-center  text-4xl md:text-5xl font-extrabold text-Amber tracking-wide">
-                    Secteurs
-                </h1>
-                <p className="flex items-center justify-center text-xl md:text-3xl font-semibold md:w-10/12 text-justify text-Boulder">
-                    Explorerons donc les multiples secteurs d&apos;application
-                    de nos produits, démontrant ainsi leur polyvalence et leur
-                    impact significatif sur des industries variées, et
-                    découvrons comment nos brises-roche contribuent de manière
-                    essentielle à la réussite de diverses entreprises et à la
-                    réalisation de projets ambitieux.
-                </p>
+            <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-White border-y-8 border-y-Amber p-12 flex items-center justify-center flex-wrap md:flex-nowrap">
+            <div>
+                    <img src={img1} />
+                </div>
+                <div className="space-y-3">
+                    <h1 className="text-3xl font-extrabold text-Amber tracking-wide">
+                        Secteurs
+                    </h1>
+                    <p className=" flex items-center justify-center text-xl  font-semibold md:w-10/12 text-justify text-Boulder">
+                        Explorerons donc les multiples secteurs
+                        d&apos;application de nos produits, démontrant ainsi
+                        leur polyvalence et leur impact significatif sur des
+                        industries variées, et découvrons comment nos
+                        brises-roche contribuent de manière essentielle à la
+                        réussite de diverses entreprises et à la réalisation de
+                        projets ambitieux.
+                    </p>
+                </div>
+
             </div>
             <Swiper
                 centeredSlides={true}
@@ -146,14 +154,15 @@ function Secteurs() {
                     <div className="w-full h-full bg-foret-sm md:bg-foret bg-no-repeat bg-cover">
                         <div className="h-full w-full bg-gradient-to-b md:bg-gradient-to-r from-black to-transparent md:pl-24 gap-12 flex flex-col justify-center items-center md:items-start">
                             <h1 className="text-Amber text-xl md:text-3xl font-semibold">
-                            SECTEUR FORESTIER
+                                SECTEUR FORESTIER
                             </h1>
                             <p className="text-white w-4/6 md:w-3/6  text-lg font-semibold text-justify">
-                            Nos puissants équipements permettent
-                            d&apos;accélérer le processus d&apos;aménagement
-                            forestier en facilitant le défrichement des zones
-                            boisées, la création de pistes d&apos;accès et la
-                            préparation des terrains pour la plantation.
+                                Nos puissants équipements permettent
+                                d&apos;accélérer le processus d&apos;aménagement
+                                forestier en facilitant le défrichement des
+                                zones boisées, la création de pistes
+                                d&apos;accès et la préparation des terrains pour
+                                la plantation.
                             </p>
                         </div>
                     </div>

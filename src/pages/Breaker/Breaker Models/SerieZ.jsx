@@ -1,5 +1,5 @@
-import img1 from "../../../assets/hammer/GBN30TL-L.webp";
-import img2 from "../../../assets/hammer/GBN70TL-L.webp";
+import img1 from "../../../assets/hammer/GBN30TL-L.jpg";
+import img2 from "../../../assets/hammer/GBN70TL-L.jpg";
 
 function SerieZ() {
     return (

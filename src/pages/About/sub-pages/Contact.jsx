@@ -10,13 +10,11 @@ function Contact() {
             <h1 className="text-4xl font-extrabold racking-wide basis-1/6 flex justify-center items-center">
                 Contacter nous
             </h1>
-            <div className="flex flex-col md:flex-row items-center justify-center basis-5/6">
-                <div className="basis-3/4 md:basis-1/2 h-full flex flex-col justify-center p-6 md:p-12 space-y-6">
+            <div className="flex items-center justify-center flex-wrap md:flex-nowrap basis-5/6">
+                <div className="flex flex-col justify-center p-6 md:p-12 space-y-6">
                     <div className="flex items-center gap-8 text-lg">
                         <MdLocationOn className="h-7 w-7 text-LightBrown" />
-                        <span>
-                            Maroc
-                        </span>
+                        <span>Maroc</span>
                     </div>
                     <div className="flex items-center gap-8 text-lg">
                         <BsTelephoneFill className="h-6 w-6 text-LightBrown" />
@@ -43,8 +41,8 @@ function Contact() {
                         </a>
                     </div>
                 </div>
-                <div className="order-first md:order-last basis-1/4 md:basis-1/2 flex items-center justify-center h-full">
-                    <img src={contact} alt="" className="w-3/4 md:w-auto" />
+                <div>
+                    <img src={contact} />
                 </div>
             </div>
         </div>

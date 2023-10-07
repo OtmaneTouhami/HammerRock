@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import img1 from "../assets/hammer/GBN30TL-L.webp";
-import img2 from "../assets/hammer/GBN220E-L.webp";
-import img3 from "../assets/hammer/GBN400TL-L.webp";
+import img1 from "../assets/hammer/GBN30TL-L.jpg";
+import img2 from "../assets/hammer/GBN220E-L.jpg";
+import img3 from "../assets/hammer/GBN400TL-L.jpg";
 
 /* eslint-disable react/prop-types */
 function BreakersCards() {

@@ -1,14 +1,6 @@
 import { useEffect, useState } from "react";
 import Routers from "./Routers/Routers";
-import ReactLoading from "react-loading";
-
-const loadingPage = () => {
-    return (
-        <div className="h-screen w-screen flex justify-center items-center">
-            <ReactLoading type="spin" color="#FAC204" height={100} width={50} />
-        </div>
-    );
-};
+import LoadingPage from "./components/LoadingPage";
 
 function App() {
     const [isLoading, setIsLoading] = useState(true);
@@ -23,7 +15,7 @@ function App() {
     }, []);
     return (
         <div className="font-Cairo">
-            {isLoading ? loadingPage() : <Routers />}
+            {isLoading ? <LoadingPage /> : <Routers />}
         </div>
     );
 }

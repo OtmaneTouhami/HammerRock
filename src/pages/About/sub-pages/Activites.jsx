@@ -1,18 +1,25 @@
+import img1 from "../../../assets/images/services.png";
+
 function Activites() {
     return (
         <div>
-            <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-White border-y-8 border-y-Amber p-12 flex flex-col items-center justify-center gap-12">
-                <h1 className="flex items-center text-4xl md:text-5xl font-extrabold text-Amber tracking-wide">
-                    Activités
-                </h1>
-                <p className=" flex items-center justify-center text-xl md:text-3xl font-semibold md:w-10/12 text-justify text-Boulder">
-                    Depuis notre création, notre objectif a toujours été de
-                    proposer une offre complète qui répond aux besoins de nos
-                    clients dans le domaine de la démolition. C&apos;est
-                    pourquoi nous mettons à votre disposition une gamme complète
-                    de services et de produits pour couvrir l&apos;ensemble de
-                    vos besoins dans ce secteur.
-                </p>
+            <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-White border-y-8 border-y-Amber p-12 flex items-center justify-center flex-wrap md:flex-nowrap">
+                <div className="space-y-3">
+                    <h1 className="text-3xl font-extrabold text-Amber tracking-wide">
+                        Activités
+                    </h1>
+                    <p className=" flex items-center justify-center text-xl  font-semibold md:w-10/12 text-justify text-Boulder">
+                        Depuis notre création, notre objectif a toujours été de
+                        proposer une offre complète qui répond aux besoins de
+                        nos clients dans le domaine de la démolition. C&apos;est
+                        pourquoi nous mettons à votre disposition une gamme
+                        complète de services et de produits pour couvrir
+                        l&apos;ensemble de vos besoins dans ce secteur.
+                    </p>
+                </div>
+                <div>
+                    <img src={img1} />
+                </div>
             </div>
             <div className="bg-White border-y-8 border-y-Black mt-px px-12 py-24 flex flex-wrap items-center justify-center w-full gap-8">
                 <div className="md:basis-1/4 shadow-md shadow-Amber hover:shadow-lg  hover:shadow-Amber  space-y-2 text-center p-2 rounded-lg md:h-56 py-4 relative">

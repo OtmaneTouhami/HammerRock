@@ -40,7 +40,7 @@ function Home() {
                     "--swiper-pagination-bullet-horizontal-gap": "12px",
                 }}
             >
-                <SwiperSlide className="bg-Black grid grid-rows-2 md:grid-cols-2 md:grid-rows-none px-4  items-center border-y-8 border-y-Amber h-[calc(100vh-80px)] static z-0 md:h-[calc(100vh-95px)]">
+                <SwiperSlide className="bg-Black flex items-center justify-center gap-4 flex-wrap md:flex-nowrap  px-4 border-y-8 border-y-Amber h-[calc(100vh-80px)] static z-0 md:h-[calc(100vh-95px)]">
                     <div className="flex flex-col items-start gap-4 px-4 pt-12 md:pl-12 md:px-0 md:pt-0">
                         <div className="text-Amber text-2xl md:text-4xl font-extrabold ">
                             Notre Engagement : Innovation & Performance
@@ -60,15 +60,15 @@ function Home() {
                         </Link>
                     </div>
                     {/* <div className="flex justify-center h-auto w-auto p-4"> */}
-                        <div className="flex items-center justify-center">
-                            <img
-                                src={img1}
-                                className=" rounded-3xl w-3/6  sm:w-4/6 lg:w-5/6 object-cover"
-                            />
-                        </div>
+                    <div>
+                        <img
+                            src={img1}
+                            className=" rounded-3xl w-5/6 sm:w-4/6 lg:w-5/6 mx-auto object-cover"
+                        />
+                    </div>
                     {/* </div> */}
                 </SwiperSlide>
-                <SwiperSlide className="bg-Black grid grid-rows-2 md:grid-cols-2 md:grid-rows-none px-4  items-center border-y-8 border-y-Amber h-[calc(100vh-80px)] static z-0 md:h-[calc(100vh-95px)]">
+                <SwiperSlide className="bg-Black flex items-center justify-center gap-4 flex-wrap md:flex-nowrap  px-4 border-y-8 border-y-Amber h-[calc(100vh-80px)] static z-0 md:h-[calc(100vh-95px)]">
                     {/* <div className="order-last md:order-first flex justify-center h-auto w-auto p-4">
                         <div className="bg-Boulder w-5/6 rounded-3xl">
                             <img
@@ -77,21 +77,25 @@ function Home() {
                             />
                         </div>
                     </div> */}
-                    <div className="order-last md:order-first flex items-center justify-center">
-                            <img
-                                src={img3}
-                                className=" rounded-3xl w-3/6  sm:w-4/6 lg:w-5/6 object-cover"
-                            />
-                        </div>
-                    <div className="flex flex-col items-start gap-4 px-4 pt-12 md:pl-12 md:px-0 md:pt-0 md:pr-12">
+                    <div className="order-last md:order-first">
+                        <img
+                            src={img3}
+                            className=" rounded-3xl w-5/6 sm:w-4/6 lg:w-5/6 mx-auto object-cover"
+                        />
+                    </div>
+                    <div className="flex flex-col items-start gap-4 px-4 pt-12 md:pl-12 md:px-0 md:pt-0 md:pr-12 md:w-5/6 order-first md:order-last">
                         <div className="text-Amber text-2xl md:text-4xl font-extrabold ">
-                            Notre Engagement : Innovation & Performance
+                            Une Expertise Mondiale
                         </div>
                         <div className="text-base md:text-xl text-white">
-                            Explorez notre gamme de brise-roches hydrauliques de
-                            pointe pour une démolition efficace et précise, avec
-                            un engagement vers l&apos;innovation, la
-                            performance, et la fiabilité.
+                            Nous sommes fiers de notre présence mondiale et de
+                            notre expérience internationale dans
+                            l&apos;industrie des brise-roches hydrauliques. Nos
+                            solutions ont été utilisées avec succès sur des
+                            chantiers de grande envergure à travers le monde,
+                            témoignant de notre engagement envers
+                            l&apos;excellence dans chaque projet. Découvrez
+                            comment notre expertise peut répondre à vos besoins.
                         </div>
                         <Link
                             to={"/about"}
