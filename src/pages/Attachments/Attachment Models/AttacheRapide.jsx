@@ -1,36 +1,41 @@
-import img1 from '../../../assets/Attatchments/Quick coupler.webp';
-import img2 from '../../../assets/Attatchments/Quick coupler2.webp';
-import img3 from '../../../assets/Attatchments/Quick coupler3.webp';
-
 function AttacheRapide() {
     return (
         <div className="mt-20 md:mt-24">
-            <div className="border-y-8 border-y-Amber min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] p-4 flex flex-col justify-center gap-6">
-                <h1 className="text-Amber text-center text-3xl font-bold py-4">
-                    Attache rapide
-                </h1>
-                <div className="flex items-center justify-center">
-                    <ul className="p-6 space-y-2 bg-Amber/30 rounded-sm pl-10 w-fit">
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                        La plus grande durabilité dans la même catégorie.
+            <div className="border-y-8 border-y-Amber bg-gradient-to-b md:bg-gradient-to-r from-Amber to-Black min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] flex flex-wrap md:flex-nowrap justify-center overflow-hidden">
+                <div className="md:basis-1/2"></div>
+                {/* <div className="flex justify-center items-center md:block md:basis-1/2 md:relative">
+                    <img
+                        src={img1}
+                        className="hidden absolute inset-y-24 w-3/6 rotate-45 md:block"
+                    />
+                    <img src={img2} className="p-4 w-3/6 md:hidden" />
+                </div> */}
+                <div className="md:basis-1/2 pl-8 -mt-5 md:pt-16 md:pl-12 md:pr-4 md:mt-0 text-white flex flex-col justify-center">
+                    <h1 className="text-3xl font-bold">Attache rapide</h1>
+                    <ul className="p-6 space-y-2 pl-1 list-disc">
+                        <li className="list-inside relative  text-lg">
+                            La plus grande durabilité dans la même catégorie.
                         </li>
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                        Double dispositif de sécurité.
+                        <li className="list-inside relative  text-lg text-justify">
+                            Double dispositif de sécurité.
                         </li>
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                        Réduction des heures de travail avec un coupleur amovible rapide.
+                        <li className="list-inside relative  text-lg text-justify">
+                            Réduction des heures de travail avec un coupleur
+                            amovible rapide.
                         </li>
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                        Espace suffisant pour la goupille de sécurité.
+                        <li className="list-inside relative  text-lg text-justify">
+                            Espace suffisant pour la goupille de sécurité.
                         </li>
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                        Accessoire de marteau hydraulique.
+                        <li className="list-inside relative  text-lg text-justify">
+                            Accessoire de marteau hydraulique.
                         </li>
                     </ul>
                 </div>
             </div>
-            <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex flex-wrap flex-row justify-center">
-                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
+            <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex flex-wrap flex-row justify-center      items-center gap-12">
+                <div className="bg-Boulder h-60 w-60 rounded-md"></div>
+                <div className="bg-Boulder h-60 w-60 rounded-md"></div>
+                {/* <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
                     <div className="basis-full  w-full rounded-lg flex justify-center">
                         <img src={img1} className="w-3/4 object-cover" />
                     </div>
@@ -44,7 +49,7 @@ function AttacheRapide() {
                     <div className="basis-full  w-full rounded-lg flex justify-center">
                         <img src={img3} className="w-3/4 object-cover" />
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className="border-y-8 border-y-Amber min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] p-6">
                 <h2 className="text-2xl text-Amber font-semibold tracking-wide">

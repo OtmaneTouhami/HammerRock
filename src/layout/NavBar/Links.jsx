@@ -93,34 +93,54 @@ function Links(props) {
                         </NavLink>
                         <div className="hidden group-hover:flex flex-col mt-3 md:absolute md:mt-0 w-full p-2 bg-Amber text-Black text-center text-sm 2xl:text-xl 2xl:py-2.5 divide-y-2 divide-Black border-t-8 border-t-white">
                             <NavLink
-                                to={`/brise_roche/serie_x`}
+                                to={`/brise_roche/GBN30TL`}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
                                         : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
                                 }
                             >
-                                Serie X
+                                GBN30TL
                             </NavLink>
                             <NavLink
-                                to={`/brise_roche/serie_y`}
+                                to={`/brise_roche/GBN70TL`}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
                                         : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
                                 }
                             >
-                                Serie Y
+                                GBN70TL
                             </NavLink>
                             <NavLink
-                                to={`/brise_roche/serie_z`}
+                                to={`/brise_roche/GBN220TL`}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
                                         : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
                                 }
                             >
-                                Serie Z
+                                GBN220TL
+                            </NavLink>
+                            <NavLink
+                                to={`/brise_roche/GBN220E`}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                GBN220E
+                            </NavLink>
+                            <NavLink
+                                to={`/brise_roche/GBN1000TL`}
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
+                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                }
+                            >
+                                GBN1000TL
                             </NavLink>
                         </div>
                     </div>

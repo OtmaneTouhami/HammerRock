@@ -14,7 +14,7 @@ function Contact() {
                 <div className="flex flex-col justify-center p-6 md:p-12 space-y-6">
                     <div className="flex items-center gap-8 text-lg">
                         <MdLocationOn className="h-7 w-7 text-LightBrown" />
-                        <span>Maroc</span>
+                        <span>Casablanca, Maroc</span>
                     </div>
                     <div className="flex items-center gap-8 text-lg">
                         <BsTelephoneFill className="h-6 w-6 text-LightBrown" />

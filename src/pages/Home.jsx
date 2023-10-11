@@ -41,11 +41,11 @@ function Home() {
                 }}
             >
                 <SwiperSlide className="bg-Black flex items-center justify-center gap-4 flex-wrap md:flex-nowrap  px-4 border-y-8 border-y-Amber h-[calc(100vh-80px)] static z-0 md:h-[calc(100vh-95px)]">
-                    <div className="flex flex-col items-start gap-4 px-4 pt-12 md:pl-12 md:px-0 md:pt-0">
-                        <div className="text-Amber text-2xl md:text-4xl font-extrabold ">
+                    <div className="flex flex-col items-start gap-4 px-4 pt-12 md:pl-12 md:pr-0 md:pt-0">
+                        <div className="text-Amber text-2xl md:text-3xl font-extrabold ">
                             Notre Engagement : Innovation & Performance
                         </div>
-                        <div className="text-base md:text-xl text-white">
+                        <div className="text-base md:text-lg text-white">
                             Explorez notre gamme de brise-roches hydrauliques de
                             pointe pour une démolition efficace et précise, avec
                             un engagement vers l&apos;innovation, la
@@ -53,7 +53,7 @@ function Home() {
                         </div>
                         <Link
                             to={"/about"}
-                            className="bg-Amber self-center md:self-auto rounded-md md:rounded-lg py-1.5 md:py-2 px-6 md:px-10 mt-4 md:mt-8 text-2xl font-bold flex gap-4  justify-around items-center"
+                            className="bg-Amber self-center md:self-auto rounded-md md:rounded-lg py-1.5 md:py-2 px-6 md:px-10 mt-4 md:mt-8 text-xl font-bold flex gap-4  justify-around items-center"
                         >
                             Savoir plus
                             <GrStatusUnknown />
@@ -83,11 +83,11 @@ function Home() {
                             className=" rounded-3xl w-5/6 sm:w-4/6 lg:w-5/6 mx-auto object-cover"
                         />
                     </div>
-                    <div className="flex flex-col items-start gap-4 px-4 pt-12 md:pl-12 md:px-0 md:pt-0 md:pr-12 md:w-5/6 order-first md:order-last">
-                        <div className="text-Amber text-2xl md:text-4xl font-extrabold ">
+                    <div className="flex flex-col items-start gap-4 px-4 pt-12 md:pl-12 md:px-0 md:pt-0 md:pr-12 md:w-5/6 xl:w-5/6 order-first md:order-last">
+                        <div className="text-Amber text-2xl md:text-3xl font-extrabold ">
                             Une Expertise Mondiale
                         </div>
-                        <div className="text-base md:text-xl text-white">
+                        <div className="text-base md:text-lg text-white">
                             Nous sommes fiers de notre présence mondiale et de
                             notre expérience internationale dans
                             l&apos;industrie des brise-roches hydrauliques. Nos
@@ -99,7 +99,7 @@ function Home() {
                         </div>
                         <Link
                             to={"/about"}
-                            className="bg-Amber self-center md:self-auto rounded-md md:rounded-lg py-1.5 md:py-2 px-6 md:px-10 mt-4 md:mt-8 text-2xl font-bold flex gap-4  justify-around items-center"
+                            className="bg-Amber self-center md:self-auto rounded-md md:rounded-lg py-1.5 md:py-2 px-6 md:px-10 mt-4 md:mt-8 text-xl font-bold flex gap-4  justify-around items-center"
                         >
                             Savoir plus
                             <GrStatusUnknown />
@@ -110,10 +110,10 @@ function Home() {
             {/* First section */}
             <div className="h-[calc(100vh-80px)] grid grid-rows-4 md:grid-cols-2 md:grid-rows-2 px-4 py-8 md:h-[calc(100vh-96px)]">
                 <div className="flex flex-col justify-center items-center gap-6 font-extrabold">
-                    <div className="text-3xl sm:text-4xl lg:text-5xl text-Amber">
+                    <div className="text-3xl sm:text-4xl lg:text-4xl text-Amber">
                         Créer la Qualité,
                     </div>
-                    <div className="text-4xl sm:text-5xl lg:text-6xl text-Black">
+                    <div className="text-4xl sm:text-5xl lg:text-5xl text-Black">
                         Forger le Succès
                     </div>
                 </div>
@@ -136,10 +136,10 @@ function Home() {
                     </div>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-5 font-extrabold">
-                    <div className="text-3xl sm:text-4xl lg:text-5xl text-Amber">
+                    <div className="text-3xl sm:text-4xl lg:text-4xl text-Amber">
                         Les Outils de Demain,
                     </div>
-                    <div className="text-4xl sm:text-5xl 2xl:text-6xl text-Black">
+                    <div className="text-4xl sm:text-5xl 2xl:text-5xl text-Black">
                         Construits Aujourd&apos;hui
                     </div>
                 </div>

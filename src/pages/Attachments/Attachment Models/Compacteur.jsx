@@ -1,31 +1,37 @@
-import img1 from '../../../assets/Attatchments/Compactor1.webp';
-import img2 from '../../../assets/Attatchments/Compactor2.webp';
-
 function Compacteur() {
     return (
         <div className="mt-20 md:mt-24">
-            <div className="border-y-8 border-y-Amber min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] p-4 flex flex-col justify-center gap-6">
-                <h1 className="text-Amber text-center text-3xl font-bold py-4">
-                    Compacteur
-                </h1>
-                <div className="flex items-center justify-center">
-                    <ul className="w-fit p-6 space-y-2 bg-Amber/30 rounded-sm pl-10">
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
+            <div className="border-y-8 border-y-Amber bg-gradient-to-b md:bg-gradient-to-r from-Amber to-Black min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] flex flex-wrap md:flex-nowrap justify-center overflow-hidden">
+                <div className="md:basis-1/2"></div>
+                {/* <div className="flex justify-center items-center md:block md:basis-1/2 md:relative">
+                    <img
+                        src={img1}
+                        className="hidden absolute inset-y-24 w-3/6 rotate-45 md:block"
+                    />
+                    <img src={img2} className="p-4 w-3/6 md:hidden" />
+                </div> */}
+                <div className="md:basis-1/2 pl-8 -mt-5 md:pt-16 md:pl-12 md:pr-4 md:mt-0 text-white flex flex-col justify-center">
+                    <h1 className="text-3xl font-bold">Compacteur</h1>
+                    <ul className="p-6 space-y-2 pl-1 list-disc">
+                        <li className="list-inside relative  text-lg">
                             Pression d&apos;huile de haute qualité pour tous les
                             types de modèles.
                         </li>
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
+                        <li className="list-inside relative  text-lg text-justify">
                             Soupape de commande tout-en-un bloquant le flux
                             d&apos;huile.
                         </li>
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                        Haute efficacité dans la compaction des travaux de tranchée étroite.
+                        <li className="list-inside relative  text-lg text-justify">
+                            Haute efficacité dans la compaction des travaux de
+                            tranchée étroite.
                         </li>
                     </ul>
                 </div>
             </div>
-            <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex flex-wrap flex-row justify-center">
-                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
+            <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex flex-wrap flex-row justify-center      items-center gap-12">
+                <div className="bg-Boulder h-60 w-60 rounded-md"></div>
+                <div className="bg-Boulder h-60 w-60 rounded-md"></div>
+                {/* <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
                     <div className="basis-full  w-full rounded-lg flex justify-center">
                         <img src={img1} className="w-3/4 object-cover" />
                     </div>
@@ -35,6 +41,11 @@ function Compacteur() {
                         <img src={img2} className="w-3/4 object-cover" />
                     </div>
                 </div>
+                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
+                    <div className="basis-full  w-full rounded-lg flex justify-center">
+                        <img src={img3} className="w-3/4 object-cover" />
+                    </div>
+                </div> */}
             </div>
             <div className="border-y-8 border-y-Amber min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] p-6">
                 <h2 className="text-2xl text-Amber font-semibold tracking-wide">

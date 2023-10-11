@@ -1,26 +1,46 @@
-import img1 from "../../../assets/hammer/GBN30TL-L.jpg";
-import img2 from "../../../assets/hammer/GBN70TL-L.jpg";
+import img1 from "../../../assets/hammer/GBN220E-L-C.png";
+import img2 from "../../../assets/hammer/GBN220E-L.png";
 
-function SerieX() {
+export default function GBN220E() {
     return (
         <div className="mt-20 md:mt-24">
-            <div className="border-y-8 border-y-Amber min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] p-4 flex flex-col justify-center gap-6">
-                <h1 className="text-Amber text-center text-3xl font-bold py-4">
-                    Serie X
-                </h1>
-                <div className="flex items-center justify-center">
-                    <ul className="w-fit p-6 space-y-2 bg-Amber/30 rounded-sm pl-10">
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Une puissance et une productivité exceptionnelles.
+            <div className="border-y-8 border-y-Amber bg-gradient-to-b md:bg-gradient-to-r  from-Amber to-Black min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] flex flex-wrap md:flex-nowrap justify-center overflow-hidden">
+                <div className="flex justify-center items-center md:block md:basis-1/2 md:relative">
+                    <img
+                        src={img1}
+                        className="hidden absolute inset-y-16 w-3/6 rotate-45 md:block"
+                    />
+                    <img src={img2} className="p-4 w-3/6 md:hidden" />
+                </div>
+                <div className="md:basis-1/2 pl-8 -mt-5 md:pt-16  md:mt-0 text-white flex flex-col justify-center">
+                    <h1 className="text-3xl font-bold">GBN220E</h1>
+                    <ul className="p-6 space-y-2 pl-1 list-disc">
+                        <li className="list-inside relative  text-lg">
+                            L&apos;accumulateur monté en haut aide à accepter
+                            une large gamme de débit d&apos;huile et à assister
+                            la course de puissance tout en protégeant contre les
+                            chocs hydrauliques.
                         </li>
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Un retour sur investissement élevé.
+                        <li className="list-inside relative  text-lg text-justify">
+                            La technologie avancée de la soupape de contrôle
+                            peut bloquer tout dommage résultant de
+                            l&apos;énergie d&apos;impact élevée sur le porteur.
                         </li>
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Un service et une maintenance faciles.
+                        <li className="list-inside relative  text-lg text-justify">
+                            La conception technique optimisée facilite le
+                            fonctionnement et prolonge la durée de vie tout en
+                            réduisant les coûts d&apos;entretien.
                         </li>
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                            Un marteau hydraulique pour chargeuse compacte.
+                        <li className="list-inside relative  text-lg text-justify">
+                            Le piston et le cylindre sont conçus pour convertir
+                            l&apos;énergie cinétique en énergie de marteau après
+                            avoir frappé l&apos;outil et la transmettre à
+                            l&apos;outil pour une meilleure fragmentation des
+                            roches sur le chantier.
+                        </li>
+                        <li className="list-inside relative  text-lg text-justify">
+                            Marteau entièrement hydraulique et briseur
+                            entièrement hydraulique.
                         </li>
                     </ul>
                 </div>
@@ -28,7 +48,7 @@ function SerieX() {
             <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex flex-wrap flex-row justify-center">
                 <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
                     <div className="basis-5/6 md:basis-4/6  w-full rounded-lg flex justify-center">
-                        <img src={img1} className="w-3/4 object-cover" />
+                        <img src={img2} className="w-3/4 object-cover" />
                     </div>
                 </div>
                 <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
@@ -38,7 +58,7 @@ function SerieX() {
                 </div>
                 <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
                     <div className="basis-5/6 md:basis-4/6  w-full rounded-lg flex justify-center">
-                        <img src={img1} className="w-3/4 object-cover" />
+                        <img src={img2} className="w-3/4 object-cover" />
                     </div>
                 </div>
                 <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
@@ -431,5 +451,3 @@ function SerieX() {
         </div>
     );
 }
-
-export default SerieX;

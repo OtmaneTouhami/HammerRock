@@ -50,13 +50,15 @@ function SelectionCards({ selected }) {
                                 : img4
                         }
                         alt={Content[selected - 1].title}
-                        className="rounded-lg w-full h-60 md:h-72 object-cover"
+                        className={`rounded-lg w-full h-60 md:h-72 ${
+                            selected === 1 ? "object-contain" : "object-cover"
+                        }`}
                     />
                 </div>
                 <div className="self-center text-lg md:text-xl text-Black font-bold">
                     {Content[selected - 1].title}
                 </div>
-                <div className="text-justify line-clamp-3 md:line-clamp-2 font-semibold text-lg md:text-xl text-white">
+                <div className="text-justify line-clamp-3 md:line-clamp-2 font-semibold  md:text-lg text-white px-2.5">
                     {Content[selected - 1].text}
                 </div>
                 <Link

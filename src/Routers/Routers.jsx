@@ -3,7 +3,7 @@ import Home from "../pages/Home";
 import About from "../pages/About/About";
 import Breaker from "../pages/Breaker/Breaker";
 import Attachments from "../pages/Attachments/Attachments";
-import Tools from "../pages/Tool/Tools";
+import Tools from "../pages/Tools";
 import Downloads from "../pages/Downloads";
 import NavBar from "../layout/NavBar/NavBar";
 import Footer from "../layout/Footer";

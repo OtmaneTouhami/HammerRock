@@ -1,35 +1,42 @@
-import img1 from '../../../assets/Attatchments/Vibro Hammer1.webp';
-import img2 from '../../../assets/Attatchments/Vibro Hammer2.webp';
-
 function MarteauVibrant() {
     return (
         <div className="mt-20 md:mt-24">
-            <div className="border-y-8 border-y-Amber min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] p-4 flex flex-col justify-center gap-6">
-                <h1 className="text-Amber text-center text-3xl font-bold py-4">
-                    Marteau vibrant
-                </h1>
-                <div className="flex items-center justify-center">
-                <ul className="w-fit p-6 space-y-2 bg-Amber/30 rounded-sm pl-10">
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                        Peut être directement connecté à une pelle (pas besoin de grue).
+            <div className="border-y-8 border-y-Amber bg-gradient-to-b md:bg-gradient-to-r from-Amber to-Black min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] flex flex-wrap md:flex-nowrap justify-center overflow-hidden">
+                <div className="md:basis-1/2"></div>
+                {/* <div className="flex justify-center items-center md:block md:basis-1/2 md:relative">
+                    <img
+                        src={img1}
+                        className="hidden absolute inset-y-24 w-3/6 rotate-45 md:block"
+                    />
+                    <img src={img2} className="p-4 w-3/6 md:hidden" />
+                </div> */}
+                <div className="md:basis-1/2 pl-8 -mt-5 md:pt-16 md:pl-12 md:pr-4 md:mt-0 text-white flex flex-col justify-center">
+                    <h1 className="text-3xl font-bold">Marteau vibrant</h1>
+                    <ul className="p-6 space-y-2 pl-1 list-disc">
+                        <li className="list-inside relative  text-lg">
+                            Peut être directement connecté à une pelle (pas
+                            besoin de grue).
                         </li>
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                        Efficacité de travail supérieure et large gamme de travaux.
+                        <li className="list-inside relative  text-lg text-justify">
+                            Efficacité de travail supérieure et large gamme de
+                            travaux.
                         </li>
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                        BPM hautement efficace avec faible bruit.
+                        <li className="list-inside relative  text-lg text-justify">
+                            BPM hautement efficace avec faible bruit.
                         </li>
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                        Disponible dans la plomberie de marteau hydraulique.
+                        <li className="list-inside relative  text-lg text-justify">
+                            Disponible dans la plomberie de marteau hydraulique.
                         </li>
-                        <li className="list-inside relative  text-lg text-justify before:h-2.5 before:w-2.5 before:rounded-full before:bg-Amber before:absolute before:-left-5 before:top-2.5">
-                        Rotation à 360°.
+                        <li className="list-inside relative  text-lg text-justify">
+                            Rotation à 360°.
                         </li>
                     </ul>
                 </div>
             </div>
-            <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex flex-wrap flex-row justify-center">
-                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
+            <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex flex-wrap flex-row justify-center      items-center gap-12">
+                <div className="bg-Boulder h-60 w-60 rounded-md"></div>
+                <div className="bg-Boulder h-60 w-60 rounded-md"></div>
+                {/* <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
                     <div className="basis-full  w-full rounded-lg flex justify-center">
                         <img src={img1} className="w-3/4 object-cover" />
                     </div>
@@ -39,13 +46,18 @@ function MarteauVibrant() {
                         <img src={img2} className="w-3/4 object-cover" />
                     </div>
                 </div>
+                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
+                    <div className="basis-full  w-full rounded-lg flex justify-center">
+                        <img src={img3} className="w-3/4 object-cover" />
+                    </div>
+                </div> */}
             </div>
             <div className="border-y-8 border-y-Amber min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] p-6">
                 <h2 className="text-2xl text-Amber font-semibold tracking-wide">
                     Models
                 </h2>
                 <div className="overflow-hidden overflow-x-auto mt-6 2xl:flex items-center justify-center">
-                <table className="border-t-4 border-t-Amber mx-auto">
+                    <table className="border-t-4 border-t-Amber mx-auto">
                         <thead>
                             <tr>
                                 <th rowSpan="2" scope="col" width="20%">

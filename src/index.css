@@ -36,3 +36,7 @@ th {
     padding: 12px 10px;
     font-size: small;
 }
+
+.about::-webkit-scrollbar {
+    display: none;
+}

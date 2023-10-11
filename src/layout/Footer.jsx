@@ -28,7 +28,7 @@ function Footer() {
                 <div className="flex items-center justify-center text-xs md:text-lg text-Black md:col-span-2">
                     <div className="flex justify-center gap-2">
                         <MdLocationOn className="md:h-6 md:w-6 text-LightBrown" />
-                        Maroc
+                        Casablanca, Maroc
                     </div>
                 </div>
                 <div className="flex items-center justify-center text-xs md:text-lg md:col-span-4">

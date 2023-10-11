@@ -1,7 +1,9 @@
 import { useParams } from "react-router-dom";
-import SerieX from "./Breaker Models/SerieX";
-import SerieY from "./Breaker Models/SerieY";
-import SerieZ from "./Breaker Models/SerieZ";
+import GBN30TL from "./Breaker Models/GBN30TL";
+import GBN70TL from "./Breaker Models/GBN70TL";
+import GBN220TL from "./Breaker Models/GBN220TL";
+import GBN220E from "./Breaker Models/GBN220E";
+import GBN1000TL from "./Breaker Models/GBN1000TL";
 import NotFound from "../NotFound";
 
 export default function BreakerModels() {
@@ -9,12 +11,16 @@ export default function BreakerModels() {
 
     return (
         <>
-            {serie === "serie_x" ? (
-                <SerieX />
-            ) : serie === "serie_y" ? (
-                <SerieY />
-            ) : serie === "serie_z" ? (
-                <SerieZ />
+            {serie === "GBN30TL" ? (
+                <GBN30TL />
+            ) : serie === "GBN70TL" ? (
+                <GBN70TL />
+            ) : serie === "GBN220TL" ? (
+                <GBN220TL />
+            ) : serie === "GBN220E" ? (
+                <GBN220E />
+            ) : serie === "GBN1000TL" ? (
+                <GBN1000TL />
             ) : (
                 <NotFound />
             )}

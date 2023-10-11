@@ -21,6 +21,7 @@ export default {
                 DarkBrown: "#402A01",
             },
             backgroundImage: {
+                bg: "url('/src/assets/images/bg.png')",
                 slash: "url('/src/assets/slash.png')",
                 trains: "url('/src/assets/images/trains.webp')",
                 construction: "url('/src/assets/images/CONSTRUCTION.webp')",

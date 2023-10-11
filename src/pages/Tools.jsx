@@ -2,30 +2,30 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation, EffectCards } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import img1 from "../../assets/images/bg_top-hrk-tools.webp";
-import img2 from "../../assets/images/img_top-hrk-tools.png";
-import img3 from "../../assets/images/img_tool-code-ch_01.png";
-import img4 from "../../assets/images/img_tool-code-ch_02.png";
-import img5 from "../../assets/images/img_tool-code-mo_01.png";
-import img6 from "../../assets/images/img_tool-code-mo_02.png";
-import img7 from "../../assets/images/img_tool-code-co_01.png";
-import img8 from "../../assets/images/img_tool-code-co_02.png";
-import img9 from "../../assets/images/img_tool-code-bl_01.png";
-import img10 from "../../assets/images/img_tool-code-bl_02.png";
-import img11 from "../../assets/images/img_tool-manufacturing_tab1_1.jpg";
-import img12 from "../../assets/images/img_tool-manufacturing_tab1_2.jpg";
-import img13 from "../../assets/images/img_tool-manufacturing_tab2_1.jpg";
-import img14 from "../../assets/images/img_tool-manufacturing_tab2_2.jpg";
-import img15 from "../../assets/images/img_tool-manufacturing_tab3_1.jpg";
-import img16 from "../../assets/images/img_tool-manufacturing_tab3_2.jpg";
-import img17 from "../../assets/images/img_tool-manufacturing_tab4_1.jpg";
-import img18 from "../../assets/images/img_tool-manufacturing_tab4_2.jpg";
-import img19 from "../../assets/images/img_tool-pic_1.jpg";
-import img20 from "../../assets/images/img_tool-pic_2.jpg";
-import img21 from "../../assets/images/img_tool-pic_3.jpg";
-import img22 from "../../assets/images/img_tool-pic_4.jpg";
-import img23 from "../../assets/images/img_tool-pic_5.jpg";
-import img24 from "../../assets/images/img_tool-pic_6.jpg";
+import img1 from "../assets/images/bg_top-hrk-tools.webp";
+import img2 from "../assets/images/img_top-hrk-tools.png";
+import img3 from "../assets/images/img_tool-code-ch_01.png";
+import img4 from "../assets/images/img_tool-code-ch_02.png";
+import img5 from "../assets/images/img_tool-code-mo_01.png";
+import img6 from "../assets/images/img_tool-code-mo_02.png";
+import img7 from "../assets/images/img_tool-code-co_01.png";
+import img8 from "../assets/images/img_tool-code-co_02.png";
+import img9 from "../assets/images/img_tool-code-bl_01.png";
+import img10 from "../assets/images/img_tool-code-bl_02.png";
+import img11 from "../assets/images/img_tool-manufacturing_tab1_1.jpg";
+import img12 from "../assets/images/img_tool-manufacturing_tab1_2.jpg";
+import img13 from "../assets/images/img_tool-manufacturing_tab2_1.jpg";
+import img14 from "../assets/images/img_tool-manufacturing_tab2_2.jpg";
+import img15 from "../assets/images/img_tool-manufacturing_tab3_1.jpg";
+import img16 from "../assets/images/img_tool-manufacturing_tab3_2.jpg";
+import img17 from "../assets/images/img_tool-manufacturing_tab4_1.jpg";
+import img18 from "../assets/images/img_tool-manufacturing_tab4_2.jpg";
+import img19 from "../assets/images/img_tool-pic_1.jpg";
+import img20 from "../assets/images/img_tool-pic_2.jpg";
+import img21 from "../assets/images/img_tool-pic_3.jpg";
+import img22 from "../assets/images/img_tool-pic_4.jpg";
+import img23 from "../assets/images/img_tool-pic_5.jpg";
+import img24 from "../assets/images/img_tool-pic_6.jpg";
 import { useState, useEffect } from "react";
 
 function Tools() {
@@ -56,10 +56,7 @@ function Tools() {
                     au monde.
                 </p>
                 <figure className="w-full relative mb-48 md:mb-56">
-                    <img
-                        src={img1}
-                        className="border-2 border-Amber w-full"
-                    />
+                    <img src={img1} className="border-2 border-Amber w-full" />
                     <img src={img2} className="max-w-full absolute top-3/4" />
                 </figure>
                 <h2 className="text-2xl md:text-3xl text-Amber font-bold mb-2 relative before:h-2.5 before:w-2.5 md:before:h-3.5 md:before:w-3.5 before:bg-Black before:absolute before:-left-0 before:top-3 pl-6">
