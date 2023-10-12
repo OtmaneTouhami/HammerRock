@@ -21,7 +21,7 @@ function Routers() {
         topRef = useRef(),
         [scrollY, setScrollY] = useState(0);
 
-    const backToTop = () => window.scrollTo({top:0,behavior:"smooth"});
+    const backToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
     useEffect(() => {
         window.addEventListener("scroll", function () {
@@ -58,12 +58,18 @@ function Routers() {
                 <Route path="/brise_roche" element={<Breaker />} />
                 <Route path="/brise_roche/:serie" element={<BreakerModels />} />
                 <Route path="/pièces_jointes" element={<Attachments />} />
-                <Route path="/pièces_jointes/:model" element={<AttachmentModel />} />
+                <Route
+                    path="/pièces_jointes/:model"
+                    element={<AttachmentModel />}
+                />
                 <Route path="/outil" element={<Tools />} />
                 <Route path="/catalogue" element={<Downloads />} />
                 <Route path="/partenaires" element={<Partners />} />
                 <Route path="/terms" element={<Terms />} />
-                <Route path="/Politique_de_confidentialité" element={<Policy />} />
+                <Route
+                    path="/Politique_de_confidentialité"
+                    element={<Policy />}
+                />
                 <Route path="/*" element={<NotFound />} />
             </Routes>
             <Footer />
