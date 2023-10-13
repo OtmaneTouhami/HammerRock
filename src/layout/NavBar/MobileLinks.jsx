@@ -1,15 +1,13 @@
 /* eslint-disable react/prop-types */
-import { useState, useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import autoAnimate from "@formkit/auto-animate";
 import { RiArrowDropDownLine } from "react-icons/ri";
+import { useContext } from "react";
+import { NavBarContext } from "../../Context/NavBarContext";
 
 function MobileLinks() {
-    const [open, setOpen] = useState({
-            about: false,
-            brise: false,
-            attatchments: false,
-        }),
+    const {open, setOpen} = useContext(NavBarContext),
         aboutRef = useRef(),
         briseRef = useRef(),
         attatchmentRef = useRef();

@@ -5,6 +5,7 @@ import img1 from "../assets/logos/HRK-HAMMER-ROCK-LOGO.png";
 import img2 from "../assets/images/img2.webp";
 import img3 from "../assets/hammer photos/Company Profile (Hammer Assemble Line 3).webp";
 import img4 from "../assets/hammer photos/Company Profile (Tool Heat Treatment).webp";
+import { Zoom } from "react-awesome-reveal";
 
 const Content = [
     {
@@ -34,10 +35,10 @@ const Content = [
 ];
 
 function SelectionCards({ selected }) {
-    // console.log(Content[selected-1]);
     return (
         <div className="md:row-span-5 md:col-span-7 p-4 flex items-center justify-center">
             <div className="md:w-4/6 px-2 py-3 md:px-4  md:py-5 rounded-xl bg-Amber shadow-lg border-4 border-Black flex flex-col gap-2">
+                <Zoom >
                 <div>
                     <img
                         src={
@@ -55,6 +56,7 @@ function SelectionCards({ selected }) {
                         }`}
                     />
                 </div>
+                </Zoom>
                 <div className="self-center text-lg md:text-xl text-Black font-bold">
                     {Content[selected - 1].title}
                 </div>
