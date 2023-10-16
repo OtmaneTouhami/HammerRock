@@ -22,7 +22,9 @@ function Footer() {
                 <div className="flex flex-col gap-4 items-center justify-center md:col-span-4">
                     <div className="flex flex-col gap-1 justify-center items-center text-xs md:text-lg text-Black font-semibold">
                         <Link to={"/terms"}>Conditions d&apos;utilisation</Link>
-                        <Link to={"/Politique_de_confidentialité"}>Politique de confidentialité</Link>
+                        <Link to={"/Politique_de_confidentialité"}>
+                            Politique de confidentialité
+                        </Link>
                     </div>
                 </div>
                 <div className="flex items-center justify-center text-xs md:text-lg text-Black md:col-span-2">
@@ -91,6 +93,16 @@ function Footer() {
                 <div className="text-sm text-center w-3/4 pb-4 md:pb-0 md:w-auto md:text-lg text-Black mt-2 md:mt-4">
                     Droits d&apos;auteur &copy; 2023 HRK Industries Co., Ltd.
                     Tous droits réservés.
+                    <br />
+                    Créer par{" "}
+                    <a
+                        href="https://startjobs.ma/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="font-semibold text-md md:text-xl hover:text-Amber"
+                    >
+                        StartJobs
+                    </a>
                 </div>
             </div>
         </div>

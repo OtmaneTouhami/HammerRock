@@ -37,39 +37,43 @@ const Content = [
 function SelectionCards({ selected }) {
     return (
         <div className="md:row-span-5 md:col-span-7 p-4 flex items-center justify-center">
-            <div className="md:w-4/6 px-2 py-3 md:px-4  md:py-5 rounded-xl bg-Amber shadow-lg border-4 border-Black flex flex-col gap-2">
-                <Zoom >
+            <div className="md:w-4/6 2xl:w-3/6 px-2 py-3 md:px-4  md:py-5 rounded-xl bg-white shadow-xl hover:shadow-2xl border-Black flex flex-col gap-2">
                 <div>
-                    <img
-                        src={
-                            selected === 1
-                                ? img1
-                                : selected === 2
-                                ? img2
-                                : selected === 3
-                                ? img3
-                                : img4
-                        }
-                        alt={Content[selected - 1].title}
-                        className={`rounded-lg w-full h-60 md:h-72 ${
-                            selected === 1 ? "object-contain" : "object-cover"
-                        }`}
-                    />
+                    <Zoom>
+                        <img
+                            src={
+                                selected === 1
+                                    ? img1
+                                    : selected === 2
+                                    ? img2
+                                    : selected === 3
+                                    ? img3
+                                    : img4
+                            }
+                            alt={Content[selected - 1].title}
+                            className={`rounded-lg w-full h-60 md:h-72 ${
+                                selected === 1
+                                    ? "object-contain"
+                                    : "object-cover"
+                            }`}
+                        />
+                    </Zoom>
                 </div>
-                </Zoom>
-                <div className="self-center text-lg md:text-xl text-Black font-bold">
-                    {Content[selected - 1].title}
+                <div className="flex flex-col gap-4">
+                    <div className="self-center text-lg md:text-xl text-Black font-bold">
+                        {Content[selected - 1].title}
+                    </div>
+                    <div className="text-justify line-clamp-3 md:line-clamp-2 font-semibold  md:text-lg text-Boulder px-2.5">
+                        {Content[selected - 1].text}
+                    </div>
+                    <Link
+                        to={Content[selected - 1].path}
+                        className="flex justify-center items-center gap-2 text-sm md:text-md font-bold bg-Black text-Amber w-4/6 py-2 rounded-lg cursor-pointer self-center mt-2"
+                    >
+                        {Content[selected - 1].btnText}
+                        <PiArrowCircleRightBold className="h-6 w-6" />
+                    </Link>
                 </div>
-                <div className="text-justify line-clamp-3 md:line-clamp-2 font-semibold  md:text-lg text-white px-2.5">
-                    {Content[selected - 1].text}
-                </div>
-                <Link
-                    to={Content[selected - 1].path}
-                    className="flex justify-center items-center gap-2 text-sm md:text-md font-bold bg-Black text-Amber w-4/6 py-2 rounded-lg cursor-pointer self-center mt-2"
-                >
-                    {Content[selected - 1].btnText}
-                    <PiArrowCircleRightBold className="h-6 w-6" />
-                </Link>
             </div>
         </div>
     );

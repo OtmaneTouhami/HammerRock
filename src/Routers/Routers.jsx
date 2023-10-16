@@ -45,7 +45,7 @@ function Routers() {
         <AppProvider>
             <div className="relative">
                 <button
-                    className="fixed z-50 bottom-8 right-6 text-Black border border-Black bg-Amber rounded-full h-12 w-12 flex items-center justify-center"
+                    className="animate-bounce fixed z-50 bottom-8 right-6 text-Black border border-Black bg-Amber rounded-full h-12 w-12 flex items-center justify-center"
                     onClick={backToTop}
                     ref={topRef}
                 >

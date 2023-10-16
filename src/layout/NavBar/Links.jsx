@@ -17,13 +17,13 @@ function Links(props) {
                         >
                             À propos
                         </NavLink>
-                        <div className="hidden group-hover:flex flex-col mt-3 md:absolute md:mt-0 w-full p-2 bg-Amber text-Black text-center text-sm 2xl:text-xl 2xl:py-2.5 divide-y-2 divide-Black border-t-8 border-t-white">
+                        <div className="hidden group-hover:flex flex-col md:absolute md:mt-0 w-full p-2.5 bg-Amber text-Black text-center text-sm 2xl:text-xl  border-t-8 border-t-white rounded-lg gap-1">
                             <NavLink
                                 to={"/about/profile"}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 Profile
@@ -32,8 +32,8 @@ function Links(props) {
                                 to={"/about/histoire"}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 Histoire
@@ -42,8 +42,8 @@ function Links(props) {
                                 to={"/about/activités"}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 Activités
@@ -52,8 +52,8 @@ function Links(props) {
                                 to={"/about/secteurs"}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 Secteurs
@@ -62,8 +62,8 @@ function Links(props) {
                                 to={"/about/contact"}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 Contact
@@ -81,13 +81,13 @@ function Links(props) {
                         >
                             Brise Roche
                         </NavLink>
-                        <div className="hidden group-hover:flex flex-col mt-3 md:absolute md:mt-0 w-full p-2 bg-Amber text-Black text-center text-sm 2xl:text-xl 2xl:py-2.5 divide-y-2 divide-Black border-t-8 border-t-white">
+                        <div className="hidden group-hover:flex flex-col md:absolute md:mt-0 w-full p-2.5 bg-Amber text-Black text-center text-sm 2xl:text-xl  border-t-8 border-t-white rounded-lg gap-1">
                             <NavLink
                                 to={`/brise_roche/GBN30TL`}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 GBN30TL
@@ -95,10 +95,10 @@ function Links(props) {
                             <NavLink
                                 to={`/brise_roche/GBN70TL`}
                                 className={({ isActive }) =>
-                                    isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
-                                }
+                                isActive
+                                    ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                    : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
+                            }
                             >
                                 GBN70TL
                             </NavLink>
@@ -106,8 +106,8 @@ function Links(props) {
                                 to={`/brise_roche/GBN220TL`}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 GBN220TL
@@ -116,8 +116,8 @@ function Links(props) {
                                 to={`/brise_roche/GBN220E`}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 GBN220E
@@ -126,8 +126,8 @@ function Links(props) {
                                 to={`/brise_roche/GBN1000TL`}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 GBN1000TL
@@ -145,13 +145,13 @@ function Links(props) {
                         >
                             Pièces jointes
                         </NavLink>
-                        <div className="hidden group-hover:flex flex-col mt-3 md:absolute md:mt-0 w-full p-2 bg-Amber text-Black text-center text-sm 2xl:text-xl 2xl:py-2.5 divide-y-2 divide-Black border-t-8 border-t-white">
+                        <div className="hidden group-hover:flex flex-col md:absolute md:mt-0 w-fit py-2.5 px-4 bg-Amber text-Black text-center text-sm 2xl:text-xl  border-t-8 border-t-white rounded-lg gap-1">
                             <NavLink
                                 to={"/pièces_jointes/attache_rapide"}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 Attache rapide
@@ -160,8 +160,8 @@ function Links(props) {
                                 to={"/pièces_jointes/compacteur"}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 Compacteur
@@ -170,8 +170,8 @@ function Links(props) {
                                 to={"/pièces_jointes/marteau_vibrant"}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 Marteau vibrant
@@ -180,8 +180,8 @@ function Links(props) {
                                 to={"/pièces_jointes/ripper_vibrant"}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 Ripper vibrant
@@ -190,8 +190,8 @@ function Links(props) {
                                 to={"/pièces_jointes/grappin_pour_pierre"}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 Grappin pour pierre
@@ -200,8 +200,8 @@ function Links(props) {
                                 to={"/pièces_jointes/grappin_pour_bois"}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 Grappin pour bois
@@ -210,8 +210,8 @@ function Links(props) {
                                 to={"/pièces_jointes/grappin_de_recuperation"}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 Grappin de récupération
@@ -220,8 +220,8 @@ function Links(props) {
                                 to={"/pièces_jointes/broyeuse"}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 Broyeuse
@@ -230,8 +230,8 @@ function Links(props) {
                                 to={"/pièces_jointes/pulveriseur"}
                                 className={({ isActive }) =>
                                     isActive
-                                        ? "py-1.5 2xl:py-2.5 bg-black text-Amber"
-                                        : "py-1.5 2xl:py-2.5 hover:bg-black hover:text-Amber"
+                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
+                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
                                 Pulvériseur

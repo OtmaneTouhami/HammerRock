@@ -18,7 +18,7 @@ function BreakersCards() {
                     to={`/brise_roche/GBN30TL`}
                     className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
                 >
-                    Voir
+                    Fiche technique
                 </Link>
             </div>
             <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
@@ -30,7 +30,7 @@ function BreakersCards() {
                     to={`/brise_roche/GBN70TL`}
                     className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
                 >
-                    Voir
+                    Fiche technique
                 </Link>
             </div>
             <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
@@ -42,7 +42,7 @@ function BreakersCards() {
                     to={`/brise_roche/GBN220TL`}
                     className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
                 >
-                    Voir
+                    Fiche technique
                 </Link>
             </div>
             <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
@@ -54,7 +54,7 @@ function BreakersCards() {
                     to={`/brise_roche/GBN220E`}
                     className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
                 >
-                    Voir
+                    Fiche technique
                 </Link>
             </div>
             <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
@@ -66,7 +66,7 @@ function BreakersCards() {
                     to={`/brise_roche/GBN1000TL`}
                     className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
                 >
-                    Voir
+                    Fiche technique
                 </Link>
             </div>
         </div>

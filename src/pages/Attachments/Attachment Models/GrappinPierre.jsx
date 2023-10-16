@@ -1,3 +1,5 @@
+import { Fade } from "react-awesome-reveal";
+
 function GrappinPierre() {
     return (
         <div className="mt-20 md:mt-24">
@@ -10,25 +12,29 @@ function GrappinPierre() {
                     />
                     <img src={img2} className="p-4 w-3/6 md:hidden" />
                 </div> */}
-                <div className="md:basis-1/2 pl-8 -mt-5 md:pt-16 md:pl-12 md:pr-4 md:mt-0 text-white flex flex-col justify-center">
-                    <h1 className="text-3xl font-bold">Grappin pour pierre</h1>
-                    <ul className="p-6 space-y-2 pl-1 list-disc">
-                        <li className="list-inside relative  text-lg">
-                            La soupape de sécurité dans le cylindre empêche que
-                            le matériau saisi ne tombe.
-                        </li>
-                        <li className="list-inside relative  text-lg text-justify">
-                            Résistance à l&apos;abrasion excellente et cadre
-                            optimal des mâchoires.
-                        </li>
-                        <li className="list-inside relative  text-lg text-justify">
-                            Durabilité de longue durée.
-                        </li>
-                        <li className="list-inside relative  text-lg text-justify">
-                            Excellentes performances dans le transport de
-                            roches.
-                        </li>
-                    </ul>
+                <div className="md:basis-1/2 pl-8 -mt-5 md:pt-16 md:pl-12 md:pr-4 md:mt-0 text-white flex flex-col justify-center 2xl:gap-6">
+                    <Fade cascade damping={0.5} direction="down">
+                        <h1 className="text-Amber text-3xl md:text-4xl 2xl:text-5xl font-bold">
+                            Grappin pour pierre
+                        </h1>
+                        <ul className="p-6 space-y-2 pl-1 list-disc">
+                            <li className="list-inside relative md:text-xl 2xl:text-2xl text-lg">
+                                La soupape de sécurité dans le cylindre empêche
+                                que le matériau saisi ne tombe.
+                            </li>
+                            <li className="list-inside relative md:text-xl 2xl:text-2xl text-lg text-justify">
+                                Résistance à l&apos;abrasion excellente et cadre
+                                optimal des mâchoires.
+                            </li>
+                            <li className="list-inside relative md:text-xl 2xl:text-2xl text-lg text-justify">
+                                Durabilité de longue durée.
+                            </li>
+                            <li className="list-inside relative md:text-xl 2xl:text-2xl text-lg text-justify">
+                                Excellentes performances dans le transport de
+                                roches.
+                            </li>
+                        </ul>
+                    </Fade>
                 </div>
             </div>
             <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex flex-wrap flex-row justify-center      items-center gap-12">

@@ -10,7 +10,7 @@ function AttachmentsCards() {
                     to={`/pièces_jointes/attache_rapide`}
                     className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
                 >
-                    Voir
+                    Fiche technique
                 </Link>
             </div>
             <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
@@ -20,7 +20,7 @@ function AttachmentsCards() {
                     to={"/pièces_jointes/compacteur"}
                     className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
                 >
-                    Voir
+                    Fiche technique
                 </Link>
             </div>
             <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
@@ -31,7 +31,7 @@ function AttachmentsCards() {
                     to={"/pièces_jointes/marteau_vibrant"}
                     className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
                 >
-                    Voir
+                    Fiche technique
                 </Link>
             </div>
             <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
@@ -42,7 +42,7 @@ function AttachmentsCards() {
                     to={"/pièces_jointes/ripper_vibrant"}
                     className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
                 >
-                    Voir
+                    Fiche technique
                 </Link>
             </div>
             <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
@@ -53,7 +53,7 @@ function AttachmentsCards() {
                     to={"/pièces_jointes/grappin_pour_pierre"}
                     className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
                 >
-                    Voir
+                    Fiche technique
                 </Link>
             </div>
             <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
@@ -64,7 +64,7 @@ function AttachmentsCards() {
                     to={"/pièces_jointes/grappin_pour_bois"}
                     className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
                 >
-                    Voir
+                    Fiche technique
                 </Link>
             </div>
             <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
@@ -75,7 +75,7 @@ function AttachmentsCards() {
                     to={"/pièces_jointes/grappin_de_recuperation"}
                     className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
                 >
-                    Voir
+                    Fiche technique
                 </Link>
             </div>
             <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
@@ -86,7 +86,7 @@ function AttachmentsCards() {
                     to={"/pièces_jointes/broyeuse"}
                     className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
                 >
-                    Voir
+                    Fiche technique
                 </Link>
             </div>
             <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
@@ -97,7 +97,7 @@ function AttachmentsCards() {
                     to={"/pièces_jointes/pulveriseur"}
                     className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
                 >
-                    Voir
+                    Fiche technique
                 </Link>
             </div>
         </div>
