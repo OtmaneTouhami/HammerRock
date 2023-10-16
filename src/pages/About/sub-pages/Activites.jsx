@@ -5,11 +5,12 @@ import img1 from "../../../assets/images/services.png";
 function Activites({ height }) {
     useEffect(() => {
         if (window.innerWidth > 767) {
-            window.scroll(0, window.innerHeight - 96);
+            window.scrollTo(0, window.innerHeight - 96);
         } else {
-            window.scroll(0, height);
+            window.scrollTo(0, height);
         }
     }, [height]);
+
     return (
         <div>
             <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-White border-y-8 border-y-Amber p-12 flex items-center justify-center flex-wrap md:flex-nowrap">

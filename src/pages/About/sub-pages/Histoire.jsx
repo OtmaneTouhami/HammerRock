@@ -3,12 +3,14 @@ import { useEffect } from "react";
 
 function Histoire({ height }) {
     useEffect(() => {
+
         if (window.innerWidth > 767) {
-            window.scroll(0, window.innerHeight - 96);
+            window.scrollTo(0, window.innerHeight - 96);
         } else {
-            window.scroll(0, height);
+            window.scrollTo(0, height);
         }
     }, [height]);
+
     return (
         <div className="px-4 py-2 md:px-6 md:py-4 mt-2 border-b-8 border-b-Amber">
             <section className="bg-Black text-gray-100 border-8 border-Amber rounded-md">

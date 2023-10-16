@@ -7,13 +7,15 @@ import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 import { useEffect } from "react";
 
 function Contact({ height }) {
+
     useEffect(() => {
         if (window.innerWidth > 767) {
-            window.scroll(0, window.innerHeight - 96);
+            window.scrollTo(0, window.innerHeight - 96);
         } else {
-            window.scroll(0, height);
+            window.scrollTo(0, height);
         }
     }, [height]);
+
     return (
         <div className="px-6 py-4 h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] border-y-8 border-Amber flex flex-col">
             <h1 className="text-4xl font-extrabold racking-wide basis-1/6 flex justify-center items-center">
