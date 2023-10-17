@@ -1,15 +1,22 @@
 /* eslint-disable react/prop-types */
 import { useEffect } from "react";
+import { useScrollTo } from "react-use-window-scroll";
 
 function Histoire({ height }) {
-    useEffect(() => {
+    const scrollTo = useScrollTo();
 
+    useEffect(() => {
         if (window.innerWidth > 767) {
-            window.scrollTo(0, window.innerHeight - 96);
+            scrollTo({
+                left: 0,
+                top: window.innerHeight - 96,
+                behavior: "smooth",
+            });
         } else {
-            window.scrollTo(0, height);
+            scrollTo({ left: 0, top: height, behavior: "smooth" });
+            // window.scrollTo(0, height);
         }
-    }, [height]);
+    }, [height, scrollTo]);
 
     return (
         <div className="px-4 py-2 md:px-6 md:py-4 mt-2 border-b-8 border-b-Amber">

@@ -6,17 +6,24 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import img1 from "../../../assets/images/services.png";
 import { useEffect } from "react";
+import { useScrollTo } from "react-use-window-scroll";
 
 function Secteurs({ height }) {
+    const scrollTo = useScrollTo();
 
     useEffect(() => {
         if (window.innerWidth > 767) {
-            window.scrollTo(0, window.innerHeight - 96);
+            scrollTo({
+                left: 0,
+                top: window.innerHeight - 96,
+                behavior: "smooth",
+            });
         } else {
-            window.scrollTo(0, height);
+            scrollTo({ left: 0, top: height, behavior: "smooth" });
+            // window.scrollTo(0, height);
         }
-    }, [height]);
-    
+    }, [height, scrollTo]);
+
     return (
         <div>
             <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-White border-y-8 border-y-Amber p-12 flex items-center justify-center flex-wrap md:flex-nowrap">

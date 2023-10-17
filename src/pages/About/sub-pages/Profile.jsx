@@ -7,16 +7,23 @@ import img3 from "../../../assets/hammer photos/Company Profile (Quality Control
 import img4 from "../../../assets/hammer photos/Company Profile (Hammer Assemble Line 2).webp";
 import img5 from "../../../assets/hammer photos/GBN 1000H (for 150tons Excavator).webp";
 import { useEffect } from "react";
+import { useScrollTo } from "react-use-window-scroll";
 
 function Profile({ height }) {
+    const scrollTo = useScrollTo();
 
     useEffect(() => {
         if (window.innerWidth > 767) {
-            window.scrollTo(0, window.innerHeight - 96);
+            scrollTo({
+                left: 0,
+                top: window.innerHeight - 96,
+                behavior: "smooth",
+            });
         } else {
-            window.scrollTo(0, height);
+            scrollTo({ left: 0, top: height, behavior: "smooth" });
+            // window.scrollTo(0, height);
         }
-    }, [height]);
+    }, [height, scrollTo]);
 
     return (
         <div>

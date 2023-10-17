@@ -5,16 +5,23 @@ import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 import { useEffect } from "react";
+import { useScrollTo } from "react-use-window-scroll";
 
 function Contact({ height }) {
+    const scrollTo = useScrollTo();
 
     useEffect(() => {
         if (window.innerWidth > 767) {
-            window.scrollTo(0, window.innerHeight - 96);
+            scrollTo({
+                left: 0,
+                top: window.innerHeight - 96,
+                behavior: "smooth",
+            });
         } else {
-            window.scrollTo(0, height);
+            scrollTo({ left: 0, top: height, behavior: "smooth" });
+            // window.scrollTo(0, height);
         }
-    }, [height]);
+    }, [height, scrollTo]);
 
     return (
         <div className="px-6 py-4 h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] border-y-8 border-Amber flex flex-col">

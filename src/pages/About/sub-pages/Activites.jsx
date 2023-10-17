@@ -1,15 +1,23 @@
 /* eslint-disable react/prop-types */
 import { useEffect } from "react";
 import img1 from "../../../assets/images/services.png";
+import { useScrollTo } from "react-use-window-scroll";
 
 function Activites({ height }) {
+    const scrollTo = useScrollTo();
+
     useEffect(() => {
         if (window.innerWidth > 767) {
-            window.scrollTo(0, window.innerHeight - 96);
+            scrollTo({
+                left: 0,
+                top: window.innerHeight - 96,
+                behavior: "smooth",
+            });
         } else {
-            window.scrollTo(0, height);
+            scrollTo({ left: 0, top: height, behavior: "smooth" });
+            // window.scrollTo(0, height);
         }
-    }, [height]);
+    }, [height, scrollTo]);
 
     return (
         <div>
