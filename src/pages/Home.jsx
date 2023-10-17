@@ -23,7 +23,7 @@ function Home() {
                 centeredSlides={true}
                 autoplay={{
                     delay: 6000,
-                    disableOnInteraction: false,
+                    disableOnInteraction: true,
                 }}
                 pagination={{
                     clickable: true,
