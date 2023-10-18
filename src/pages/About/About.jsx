@@ -13,7 +13,6 @@ import { Fade } from "react-awesome-reveal";
 
 function About() {
     const { section } = useParams(),
-        // navigate = useNavigate(),
         aboutNavRef = useRef(null),
         [height, setHeight] = useState(0);
 
@@ -37,12 +36,6 @@ function About() {
                 return null;
         }
     };
-
-    // useEffect(() => {
-    //     if (section === undefined) {
-    //         navigate("/about/profile");
-    //     }
-    // }, [section, navigate]);
 
     return (
         <div className="mt-20 md:mt-24">

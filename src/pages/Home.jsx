@@ -92,13 +92,6 @@ function Home() {
                                     Explorez notre expertise de près
                                 </span>
                             </Link>
-                            {/* <Link
-                                to={"/about"}
-                                className="bg-Amber rounded-md md:rounded-lg py-1.5 md:py-2 px-6 md:px-10 mt-4 md:mt-8 text-xl font-bold flex gap-4  justify-around items-center"
-                            >
-                                Savoir plus
-                                <GrStatusUnknown />
-                            </Link> */}
                         </Fade>
                     </div>
                     <Zoom duration={1000}>
@@ -153,20 +146,13 @@ function Home() {
                         >
                             <Link
                                 to={"/about"}
-                                className="relative z-0 before:absolute before:w-8 md:before:w-10 2xl:before:w-12 before:h-full before:rounded-2xl before:inset-0 before:-z-30 before:bg-Amber flex justify-between items-center py-1 md:py-1 2xl:py-2 px-6 md:px-10 mt-4 md:mt-8 text-lg md:text-xl 2xl:text-2xl font-bold gap-4 text-Amber hover:text-Black hover:before:w-full before:transition-all hover:before:duration-700 before:ease-in-out"
+                                className="relative z-0 before:absolute before:w-8 md:before:w-10 2xl:before:w-12 before:h-full before:rounded-2xl before:inset-0 before:-z-30 before:bg-Amber flex justify-between items-center py-1 md:py-1 2xl:py-2 px-6 md:px-10 mt-4 md:mt-8 text-lg md:text-xl 2xl:text-2xl font-bold gap-4 text-Amber hover:text-Black hover:before:w-full before:transition-all hover:before:duration-700 before:ease-in-out "
                             >
                                 <MdDoubleArrow className="absolute z-0 left-1.5 md:left-2.5 2xl:left-[12px] text-Black" />
                                 <span className="ml-4 2xl:ml-8">
                                     Explorez notre expertise de près
                                 </span>
                             </Link>
-                            {/* <Link
-                                to={"/about"}
-                                className="bg-Amber rounded-md md:rounded-lg py-1.5 md:py-2 px-6 md:px-10 mt-4 md:mt-8 text-xl font-bold flex gap-4  justify-around items-center"
-                            >
-                                Savoir plus
-                                <GrStatusUnknown />
-                            </Link> */}
                         </Fade>
                     </div>
                 </SwiperSlide>
@@ -174,7 +160,7 @@ function Home() {
             {/* First section */}
             <div className="h-fit grid grid-rows-4 md:grid-cols-2 md:grid-rows-2 px-4 py-8 md:h-[calc(100vh-96px)]">
                 <div className="flex flex-col justify-center items-center gap-6 font-extrabold">
-                    <Slide direction="left">
+                    <Slide direction="left" triggerOnce>
                         <h2 className="text-3xl sm:text-4xl lg:text-4xl 2xl:text-5xl text-Amber">
                             Bâtir la Qualité,
                         </h2>
@@ -191,7 +177,7 @@ function Home() {
                 </div>
 
                 {/* image placeholder */}
-                <Slide direction="right">
+                <Slide direction="right" triggerOnce>
                     <div className="flex justify-center h-auto w-auto p-4">
                         <div className="md:w-4/6 rounded-3xl">
                             <img
@@ -202,7 +188,7 @@ function Home() {
                     </div>
                 </Slide>
                 {/* image placeholder */}
-                <Slide direction="left">
+                <Slide direction="left" triggerOnce>
                     <div className="flex order-3 md:order-none justify-center h-auto w-auto p-4">
                         <div className="bg-Boulder md:w-4/6 rounded-3xl">
                             <img
@@ -213,7 +199,7 @@ function Home() {
                     </div>
                 </Slide>
                 <div className="flex flex-col justify-center items-center gap-5 font-extrabold">
-                    <Slide direction="right">
+                    <Slide direction="right" triggerOnce>
                         <div className="text-3xl sm:text-4xl lg:text-4xl md:mt-12 2xl:mt-0 2xl:text-5xl text-Amber">
                             Pièce par Pièce,
                         </div>
@@ -234,7 +220,7 @@ function Home() {
             <div className="space-y-6 md:space-y-0 md:grid grid-rows-6 grid-cols-12 p-2 py-6 md:p-4 md:py-12 bg-Amber  border-y-8 border-y-Black">
                 {/* Introduction */}
                 <div className="row-span-1 col-span-12 px-4 md:px-12 flex flex-col justify-center md:items-center gap-2">
-                    <Slide direction="up">
+                    <Slide direction="up" triggerOnce>
                         <div className="text-xl md:text-2xl text-LightBrown font-bold uppercase">
                             business
                         </div>
@@ -250,7 +236,7 @@ function Home() {
                 </div>
                 {/* Selection */}
                 <div className="row-span-5 col-span-5 flex justify-center items-center">
-                    <Fade cascade damping={0.1}>
+                    <Fade cascade damping={0.1} triggerOnce>
                         <ul className="flex flex-col  gap-5 w-3/4">
                             <li
                                 className={`${

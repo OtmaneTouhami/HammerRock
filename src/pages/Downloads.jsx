@@ -1,5 +1,5 @@
 import { BiSolidDownload } from "react-icons/bi";
-import catalogue from "../assets/Files/HAMMER ROCK BROCHURE ALPHA.pdf";
+import catalogue from "../assets/Files/HAMMER ROCK BROCHURE.pdf";
 import logo from "../assets/logos/HRK-HAMMER-ROCK-LOGO.png";
 import { Fade, Zoom } from "react-awesome-reveal";
 
@@ -28,7 +28,7 @@ function Downloads() {
                         </div>
                         <a
                             href={catalogue}
-                            download={"HAMMER ROCK BROCHURE ALPHA.pdf"}
+                            download={"HAMMER ROCK BROCHURE.pdf"}
                             className="w-full h-1/6 rounded-md flex items-center justify-center gap-4 bg-Black text-md font-semibold text-Amber"
                         >
                             <span>Télecharger</span>

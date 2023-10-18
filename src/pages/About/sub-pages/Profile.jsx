@@ -16,6 +16,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { useEffect } from "react";
 import { useScrollTo } from "react-use-window-scroll";
+import { Slide, Zoom } from "react-awesome-reveal";
 
 function Profile({ height }) {
     const scrollTo = useScrollTo();
@@ -29,7 +30,6 @@ function Profile({ height }) {
             });
         } else {
             scrollTo({ left: 0, top: height, behavior: "smooth" });
-            // window.scrollTo(0, height);
         }
     }, [height, scrollTo]);
 
@@ -37,48 +37,57 @@ function Profile({ height }) {
         <div>
             <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-White border-y-8 border-y-Amber p-8 md:p-12 flex flex-col items-center gap-4">
                 <div className="basis-1/2 flex flex-col items-center p-4 justify-center gap-y-4 xl:gap-y-12">
-                    <h1 className="text-3xl text-center md:text-4xl 2xl:text-5xl font-extrabold tracking-wide">
-                        HRK :{" "}
-                        <span className="text-Amber">Hammer Rock Korea</span>
-                    </h1>
-                    <p className="tracking-wider text-justify xl:text-center md:text-lg 2xl:text-2xl">
-                        Hammer Rock Korea est une entreprise marocaine
-                        spécialisée dans la fabrication de brise-roches
-                        hydrauliques. Fondée avec une vision pionnière et une
-                        forte détermination, Hammer Rock Korea a développé sa
-                        technologie de pointe et à sa capacité à offrir des
-                        solutions innovantes pour les industries de la
-                        construction, de l&apos;extraction minière et de la
-                        démolition.
-                    </p>
+                    <Slide duration={700} cascade damping={0.1} triggerOnce>
+                        <h1 className="text-3xl text-center md:text-4xl 2xl:text-5xl font-extrabold tracking-wide">
+                            HRK :{" "}
+                            <span className="text-Amber">
+                                Hammer Rock Korea
+                            </span>
+                        </h1>
+
+                        <p className="tracking-wider text-justify xl:text-center md:text-lg 2xl:text-2xl">
+                            Hammer Rock Korea est une entreprise marocaine
+                            spécialisée dans la fabrication de brise-roches
+                            hydrauliques. Fondée avec une vision pionnière et
+                            une forte détermination, Hammer Rock Korea a
+                            développé sa technologie de pointe et à sa capacité
+                            à offrir des solutions innovantes pour les
+                            industries de la construction, de l&apos;extraction
+                            minière et de la démolition.
+                        </p>
+                    </Slide>
                 </div>
-                <div className="flex flex-wrap justify-around items-center basis-6/12 h-full w-full">
-                    <img
-                        src={logo}
-                        className="basis-1/2 w-3/6 md:basis-auto md:w-1/6 rounded-2xl drop-shadow-xl hover:scale-105"
-                    />
-                    <img
-                        src={track}
-                        className=" order-first w-1/6  basis-3/6 md:basis-auto md:order-none md:w-1/6 rounded-2xl drop-shadow-xl hover:scale-105"
-                    />
-                    <img
-                        src={morocco}
-                        className="basis-1/2 w-3/6 md:basis-auto md:w-1/6 rounded-2xl drop-shadow-xl hover:scale-105"
-                    />
-                </div>
+                <Zoom cascade damping={0.1} triggerOnce>
+                    <div className="flex flex-wrap justify-around items-center basis-6/12 h-full w-full">
+                        <img
+                            src={logo}
+                            className="basis-1/2 w-3/6 md:basis-auto md:w-1/6 rounded-2xl drop-shadow-xl hover:scale-105"
+                        />
+                        <img
+                            src={track}
+                            className=" order-first w-1/6  basis-3/6 md:basis-auto md:order-none md:w-1/6 rounded-2xl drop-shadow-xl hover:scale-105"
+                        />
+                        <img
+                            src={morocco}
+                            className="basis-1/2 w-3/6 md:basis-auto md:w-1/6 rounded-2xl drop-shadow-xl hover:scale-105"
+                        />
+                    </div>
+                </Zoom>
             </div>
             <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-white border-y-8 border-Amber p-12 flex flex-col items-center gap-12">
                 <div className="basis-1/4 flex flex-col items-center p-4 justify-center gap-y-12">
-                    <h1 className="text-3xl text-center md:text-4xl 2xl:text-5xl font-extrabold tracking-wide">
-                        Équipe <span className="text-Amber">HRK</span>
-                    </h1>
-                    <p className="tracking-wider text-center md:text-lg 2xl:text-2xl">
-                        Dotée d&apos;une équipe de professionnels hautement
-                        qualifiés et passionnés, l&apos;entreprise s&apos;est
-                        engagée à fournir des équipements d&apos;une qualité
-                        exceptionnelle, alliant puissance, efficacité et
-                        durabilité.
-                    </p>
+                    <Slide duration={700} cascade damping={0.1} triggerOnce>
+                        <h1 className="text-3xl text-center md:text-4xl 2xl:text-5xl font-extrabold tracking-wide">
+                            Équipe <span className="text-Amber">HRK</span>
+                        </h1>
+                        <p className="tracking-wider text-center md:text-lg 2xl:text-2xl">
+                            Dotée d&apos;une équipe de professionnels hautement
+                            qualifiés et passionnés, l&apos;entreprise
+                            s&apos;est engagée à fournir des équipements
+                            d&apos;une qualité exceptionnelle, alliant
+                            puissance, efficacité et durabilité.
+                        </p>
+                    </Slide>
                 </div>
                 <Swiper
                     autoplay={{
@@ -105,18 +114,20 @@ function Profile({ height }) {
             </div>
             <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-white border-y-8 border-Amber p-12 flex flex-col items-center gap-12">
                 <div className="basis-1/4 flex flex-col items-center p-4 justify-center gap-y-12">
-                    <h1 className="text-3xl text-center md:text-4xl 2xl:text-5xl font-extrabold tracking-wide">
-                        Engagement
-                    </h1>
-                    <p className="tracking-wider text-center md:text-lg 2xl:text-2xl">
-                        L&apos;engagement de Hammer Rock Korea envers la
-                        recherche et le développement se reflète dans ses
-                        brise-roches hydrauliques de dernière génération. En
-                        mettant l&apos;accent sur l&apos;innovation,
-                        l&apos;entreprise s&apos;efforce continuellement
-                        d&apos;améliorer ses produits pour répondre aux besoins
-                        toujours changeants de l&apos;industrie.
-                    </p>
+                    <Slide duration={700} cascade damping={0.1} triggerOnce>
+                        <h1 className="text-3xl text-center md:text-4xl 2xl:text-5xl font-extrabold tracking-wide">
+                            Engagement
+                        </h1>
+                        <p className="tracking-wider text-center md:text-lg 2xl:text-2xl">
+                            L&apos;engagement de Hammer Rock Korea envers la
+                            recherche et le développement se reflète dans ses
+                            brise-roches hydrauliques de dernière génération. En
+                            mettant l&apos;accent sur l&apos;innovation,
+                            l&apos;entreprise s&apos;efforce continuellement
+                            d&apos;améliorer ses produits pour répondre aux
+                            besoins toujours changeants de l&apos;industrie.
+                        </p>
+                    </Slide>
                 </div>
                 <Swiper
                     autoplay={{
@@ -143,16 +154,18 @@ function Profile({ height }) {
             </div>
             <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-white border-y-8 border-Amber p-12 flex flex-col items-center gap-12">
                 <div className="basis-1/4 flex flex-col items-center p-4 justify-center gap-y-12">
-                    <h1 className="text-3xl text-center md:text-4xl 2xl:text-5xl font-extrabold tracking-wide">
-                        Brise-roches hydrauliques
-                    </h1>
-                    <p className="tracking-wider text-center md:text-lg 2xl:text-2xl">
-                        Les brise-roches hydrauliques de Hammer Rock Korea sont
-                        conçus pour offrir des performances optimales même dans
-                        les conditions les plus exigeantes, garantissant ainsi
-                        une productivité accrue sur les chantiers les plus
-                        complexes.
-                    </p>
+                    <Slide duration={700} cascade damping={0.1} triggerOnce>
+                        <h1 className="text-3xl text-center md:text-4xl 2xl:text-5xl font-extrabold tracking-wide">
+                            Brise-roches hydrauliques
+                        </h1>
+                        <p className="tracking-wider text-center md:text-lg 2xl:text-2xl">
+                            Les brise-roches hydrauliques de Hammer Rock Korea
+                            sont conçus pour offrir des performances optimales
+                            même dans les conditions les plus exigeantes,
+                            garantissant ainsi une productivité accrue sur les
+                            chantiers les plus complexes.
+                        </p>
+                    </Slide>
                 </div>
                 <Swiper
                     autoplay={{
@@ -182,31 +195,35 @@ function Profile({ height }) {
             </div>
             <div className="h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] bg-white border-y-8 border-Amber p-12 flex flex-col items-center gap-4">
                 <div className="basis-1/2 flex flex-col items-center p-4 justify-center gap-y-12">
-                    <h1 className="text-3xl md:text-4xl 2xl:text-5xl font-extrabold tracking-wide">
-                        HRK
-                    </h1>
-                    <p className="tracking-wider text-center md:text-lg 2xl:text-2xl">
-                        Hammer Rock Korea incarne la réussite d&apos;une
-                        entreprise marocaine qui a su conjuguer savoir-faire
-                        technique et innovation. Son histoire illustre
-                        parfaitement la capacité du Maroc à abriter des
-                        entreprises de calibre international.
-                    </p>
+                    <Slide duration={700} cascade damping={0.1} triggerOnce>
+                        <h1 className="text-3xl md:text-4xl 2xl:text-5xl font-extrabold tracking-wide">
+                            HRK
+                        </h1>
+                        <p className="tracking-wider text-center md:text-lg 2xl:text-2xl">
+                            Hammer Rock Korea incarne la réussite d&apos;une
+                            entreprise marocaine qui a su conjuguer savoir-faire
+                            technique et innovation. Son histoire illustre
+                            parfaitement la capacité du Maroc à abriter des
+                            entreprises de calibre international.
+                        </p>
+                    </Slide>
                 </div>
-                <div className="flex flex-wrap justify-around items-center  basis-6/12 h-full w-full">
-                    <img
-                        src={korea}
-                        className="basis-1/2 w-3/6 md:basis-auto md:w-1/6 rounded-2xl drop-shadow-xl hover:scale-105"
-                    />
-                    <img
-                        src={logo}
-                        className=" order-first w-3/6  basis-4/6 md:basis-auto md:order-none md:w-1/6 rounded-2xl drop-shadow-xl hover:scale-105"
-                    />
-                    <img
-                        src={morocco}
-                        className="basis-1/2 w-3/6 md:basis-auto md:w-1/6 rounded-2xl drop-shadow-xl hover:scale-105"
-                    />
-                </div>
+                <Zoom cascade damping={0.1} triggerOnce>
+                    <div className="flex flex-wrap justify-around items-center  basis-6/12 h-full w-full">
+                        <img
+                            src={korea}
+                            className="basis-1/2 w-3/6 md:basis-auto md:w-1/6 rounded-2xl drop-shadow-xl hover:scale-105"
+                        />
+                        <img
+                            src={logo}
+                            className=" order-first w-3/6  basis-4/6 md:basis-auto md:order-none md:w-1/6 rounded-2xl drop-shadow-xl hover:scale-105"
+                        />
+                        <img
+                            src={morocco}
+                            className="basis-1/2 w-3/6 md:basis-auto md:w-1/6 rounded-2xl drop-shadow-xl hover:scale-105"
+                        />
+                    </div>
+                </Zoom>
             </div>
         </div>
     );

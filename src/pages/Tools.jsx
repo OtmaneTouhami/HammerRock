@@ -41,7 +41,7 @@ function Tools() {
     return (
         <div className="mt-20 md:mt-24">
             <div className="px-6 md:px-8 pt-12 pb-4 border-y-8 border-y-Amber">
-                <Fade direction="left" cascade damping={0.1}>
+                <Fade direction="left" cascade damping={0.1} duration={500} triggerOnce>
                     <h1 className="text-3xl md:text-4xl font-bold mb-6">
                         Outil
                     </h1>
