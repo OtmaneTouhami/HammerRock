@@ -7,7 +7,7 @@ import { useContext } from "react";
 import { NavBarContext } from "../../Context/NavBarContext";
 
 function MobileLinks() {
-    const {open, setOpen} = useContext(NavBarContext),
+    const { open, setOpen } = useContext(NavBarContext),
         aboutRef = useRef(),
         briseRef = useRef(),
         attatchmentRef = useRef();
@@ -182,54 +182,34 @@ function MobileLinks() {
                         {open.brise && (
                             <div className="mt-2 w-full py-2.5 px-4 bg-Amber text-Black text-center text-sm  flex flex-col gap-1 rounded-lg">
                                 <NavLink
-                                    to={`/brise_roche/GBN30TL`}
+                                    to={`/brise_roche/Internal_valve_type`}
                                     className={({ isActive }) =>
                                         isActive
                                             ? "py-1.5 bg-black text-Amber rounded-md font-bold"
                                             : "py-1.5"
                                     }
                                 >
-                                    GBN30TL
+                                    Internal Valve type Breaker
                                 </NavLink>
                                 <NavLink
-                                    to={`/brise_roche/GBN70TL`}
+                                    to={`/brise_roche/External_valve_type`}
                                     className={({ isActive }) =>
                                         isActive
                                             ? "py-1.5 bg-black text-Amber rounded-md font-bold"
                                             : "py-1.5"
                                     }
                                 >
-                                    GBN70TL
+                                    External valve type breaker
                                 </NavLink>
                                 <NavLink
-                                    to={`/brise_roche/GBN220TL`}
+                                    to={`/brise_roche/Fully_hydraulic_type`}
                                     className={({ isActive }) =>
                                         isActive
                                             ? "py-1.5 bg-black text-Amber rounded-md font-bold"
                                             : "py-1.5"
                                     }
                                 >
-                                    GBN220TL
-                                </NavLink>
-                                <NavLink
-                                    to={`/brise_roche/GBN220E`}
-                                    className={({ isActive }) =>
-                                        isActive
-                                            ? "py-1.5 bg-black text-Amber rounded-md font-bold"
-                                            : "py-1.5"
-                                    }
-                                >
-                                    GBN220E
-                                </NavLink>
-                                <NavLink
-                                    to={`/brise_roche/GBN1000TL`}
-                                    className={({ isActive }) =>
-                                        isActive
-                                            ? "py-1.5 bg-black text-Amber rounded-md font-bold"
-                                            : "py-1.5"
-                                    }
-                                >
-                                    GBN1000TL
+                                    Fully Hydraulic type Breaker
                                 </NavLink>
                             </div>
                         )}
@@ -280,7 +260,7 @@ function MobileLinks() {
                                             : "py-1.5"
                                     }
                                 >
-                                    Attache rapide
+                                    HRQC Series
                                 </NavLink>
                                 <NavLink
                                     to={"/pièces_jointes/compacteur"}
@@ -290,7 +270,7 @@ function MobileLinks() {
                                             : "py-1.5"
                                     }
                                 >
-                                    Compacteur
+                                    HRCP series
                                 </NavLink>
                                 <NavLink
                                     to={"/pièces_jointes/marteau_vibrant"}
@@ -300,7 +280,7 @@ function MobileLinks() {
                                             : "py-1.5"
                                     }
                                 >
-                                    Marteau vibrant
+                                    HRVH
                                 </NavLink>
                                 <NavLink
                                     to={"/pièces_jointes/ripper_vibrant"}
@@ -310,7 +290,7 @@ function MobileLinks() {
                                             : "py-1.5"
                                     }
                                 >
-                                    Ripper vibrant
+                                    HRVR
                                 </NavLink>
                                 <NavLink
                                     to={"/pièces_jointes/grappin_pour_pierre"}
@@ -320,7 +300,7 @@ function MobileLinks() {
                                             : "py-1.5"
                                     }
                                 >
-                                    Grappin pour pierre
+                                    HRDG
                                 </NavLink>
                                 <NavLink
                                     to={"/pièces_jointes/grappin_pour_bois"}
@@ -330,7 +310,7 @@ function MobileLinks() {
                                             : "py-1.5"
                                     }
                                 >
-                                    Grappin pour bois
+                                    HRWG
                                 </NavLink>
                                 <NavLink
                                     to={
@@ -342,7 +322,7 @@ function MobileLinks() {
                                             : "py-1.5"
                                     }
                                 >
-                                    Grappin de récupération
+                                    HRSG
                                 </NavLink>
                                 <NavLink
                                     to={"/pièces_jointes/broyeuse"}
@@ -352,7 +332,7 @@ function MobileLinks() {
                                             : "py-1.5"
                                     }
                                 >
-                                    Broyeuse
+                                    HRCS
                                 </NavLink>
                                 <NavLink
                                     to={"/pièces_jointes/pulveriseur"}
@@ -362,7 +342,7 @@ function MobileLinks() {
                                             : "py-1.5"
                                     }
                                 >
-                                    Pulvériseur
+                                    HRPV
                                 </NavLink>
                             </div>
                         )}

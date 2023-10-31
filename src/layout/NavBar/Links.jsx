@@ -81,56 +81,36 @@ function Links(props) {
                         >
                             Brise Roche
                         </NavLink>
-                        <div className="hidden group-hover:flex flex-col md:absolute md:mt-0 w-full p-2.5 bg-Amber text-Black text-center text-sm 2xl:text-xl  border-t-8 border-t-white rounded-lg gap-1">
+                        <div className="hidden group-hover:flex flex-col md:absolute md:mt-0 w-[130%] 2xl:w-[140%] p-2.5 bg-Amber text-Black text-center text-sm 2xl:text-xl -left-7 2xl:-left-10  border-t-8 border-t-white rounded-lg gap-1">
                             <NavLink
-                                to={`/brise_roche/GBN30TL`}
+                                to={`/brise_roche/Internal_valve_type`}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "py-1.5 bg-black text-Amber rounded-md font-bold"
                                         : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
-                                GBN30TL
+                                Internal Valve type Breaker
                             </NavLink>
                             <NavLink
-                                to={`/brise_roche/GBN70TL`}
-                                className={({ isActive }) =>
-                                isActive
-                                    ? "py-1.5 bg-black text-Amber rounded-md font-bold"
-                                    : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
-                            }
-                            >
-                                GBN70TL
-                            </NavLink>
-                            <NavLink
-                                to={`/brise_roche/GBN220TL`}
+                                to={`/brise_roche/External_valve_type`}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "py-1.5 bg-black text-Amber rounded-md font-bold"
                                         : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
-                                GBN220TL
+                                External valve type breaker
                             </NavLink>
                             <NavLink
-                                to={`/brise_roche/GBN220E`}
+                                to={`/brise_roche/Fully_hydraulic_type`}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "py-1.5 bg-black text-Amber rounded-md font-bold"
                                         : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
-                                GBN220E
-                            </NavLink>
-                            <NavLink
-                                to={`/brise_roche/GBN1000TL`}
-                                className={({ isActive }) =>
-                                    isActive
-                                        ? "py-1.5 bg-black text-Amber rounded-md font-bold"
-                                        : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
-                                }
-                            >
-                                GBN1000TL
+                                Fully Hydraulic type Breaker
                             </NavLink>
                         </div>
                     </div>
@@ -145,7 +125,7 @@ function Links(props) {
                         >
                             Pièces jointes
                         </NavLink>
-                        <div className="hidden group-hover:flex flex-col md:absolute md:mt-0 w-fit py-2.5 px-4 bg-Amber text-Black text-center text-sm 2xl:text-xl  border-t-8 border-t-white rounded-lg gap-1">
+                        <div className="hidden group-hover:flex flex-col md:absolute md:mt-0 w-full py-2.5 px-4 bg-Amber text-Black text-center text-sm 2xl:text-xl  border-t-8 border-t-white rounded-lg gap-1">
                             <NavLink
                                 to={"/pièces_jointes/attache_rapide"}
                                 className={({ isActive }) =>
@@ -154,7 +134,7 @@ function Links(props) {
                                         : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
-                                Attache rapide
+                                HRQC Series
                             </NavLink>
                             <NavLink
                                 to={"/pièces_jointes/compacteur"}
@@ -164,7 +144,7 @@ function Links(props) {
                                         : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
-                                Compacteur
+                                HRCP series
                             </NavLink>
                             <NavLink
                                 to={"/pièces_jointes/marteau_vibrant"}
@@ -174,7 +154,7 @@ function Links(props) {
                                         : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
-                                Marteau vibrant
+                                HRVH
                             </NavLink>
                             <NavLink
                                 to={"/pièces_jointes/ripper_vibrant"}
@@ -184,7 +164,7 @@ function Links(props) {
                                         : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
-                                Ripper vibrant
+                                HRVR
                             </NavLink>
                             <NavLink
                                 to={"/pièces_jointes/grappin_pour_pierre"}
@@ -194,7 +174,7 @@ function Links(props) {
                                         : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
-                                Grappin pour pierre
+                                HRDG
                             </NavLink>
                             <NavLink
                                 to={"/pièces_jointes/grappin_pour_bois"}
@@ -204,7 +184,7 @@ function Links(props) {
                                         : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
-                                Grappin pour bois
+                                HRWG
                             </NavLink>
                             <NavLink
                                 to={"/pièces_jointes/grappin_de_recuperation"}
@@ -214,7 +194,7 @@ function Links(props) {
                                         : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
-                                Grappin de récupération
+                                HRSG
                             </NavLink>
                             <NavLink
                                 to={"/pièces_jointes/broyeuse"}
@@ -224,7 +204,7 @@ function Links(props) {
                                         : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
-                                Broyeuse
+                                HRCS
                             </NavLink>
                             <NavLink
                                 to={"/pièces_jointes/pulveriseur"}
@@ -234,7 +214,7 @@ function Links(props) {
                                         : "py-1.5 hover:bg-black hover:text-Amber rounded-md"
                                 }
                             >
-                                Pulvériseur
+                                HRPV
                             </NavLink>
                         </div>
                     </div>

@@ -34,7 +34,7 @@ th {
     border: 2px solid #e5e7e9;
     text-align: center;
     padding: 12px 10px;
-    font-size: small;
+    font-size: medium;
 }
 
 .about::-webkit-scrollbar {

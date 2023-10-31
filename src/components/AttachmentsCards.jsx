@@ -3,102 +3,162 @@ import { Link } from "react-router-dom";
 function AttachmentsCards() {
     return (
         <div className="w-full flex flex-wrap justify-center items-center gap-x-12 gap-y-6 p-12">
-            <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
-                <div className="basis-4/6 w-full rounded-lg bg-Boulder"></div>
-                <h2 className="text-xl font-semibold">Attache rapide</h2>
-                <Link
-                    to={`/pièces_jointes/attache_rapide`}
-                    className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
-                >
-                    Fiche technique
-                </Link>
+            <div className="h-72 flex flex-col items-center justify-between rounded-xl bg-Black w-64 p-4  shadow-md hover:scale-105 hover:shadow-lg">
+                <div className="rounded-lg flex justify-center items-center">
+                    <img
+                        src="/src/assets/HRK images sm/Quick_Coupler.png"
+                        className="w-4/6"
+                    />
+                </div>
+                <div className="flex flex-col w-full items-center gap-2">
+                    <h2 className="text-xl font-semibold text-Amber">
+                        HRQC Series
+                    </h2>
+                    <Link
+                        to={`/pièces_jointes/attache_rapide`}
+                        className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
+                    >
+                        Fiche technique
+                    </Link>
+                </div>
             </div>
-            <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
-                <div className="basis-4/6 w-full rounded-lg bg-Boulder"></div>
-                <h2 className="text-xl font-semibold">Compacteur</h2>
-                <Link
-                    to={"/pièces_jointes/compacteur"}
-                    className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
-                >
-                    Fiche technique
-                </Link>
+            <div className="h-72 flex flex-col items-center justify-between rounded-xl bg-Black w-64 p-4  shadow-md hover:scale-105 hover:shadow-lg">
+                <div className="rounded-lg flex justify-center items-center bg-white/30">
+                    <img
+                        src="/src/assets/HRK images sm/compactor.png"
+                        className="w-4/6"
+                    />
+                </div>
+                <div className="flex flex-col w-full items-center gap-2">
+                    <h2 className="text-xl font-semibold text-Amber">
+                        HRCP series
+                    </h2>
+                    <Link
+                        to={"/pièces_jointes/compacteur"}
+                        className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
+                    >
+                        Fiche technique
+                    </Link>
+                </div>
             </div>
-            <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
-                <div className="basis-4/6 w-full rounded-lg bg-Boulder"></div>
-
-                <h2 className="text-xl font-semibold">Marteau vibrant</h2>
-                <Link
-                    to={"/pièces_jointes/marteau_vibrant"}
-                    className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
-                >
-                    Fiche technique
-                </Link>
+            <div className="h-72 flex flex-col items-center justify-between rounded-xl bg-Black w-64 p-4  shadow-md hover:scale-105 hover:shadow-lg">
+                <div className="rounded-lg flex justify-center items-center">
+                    <img
+                        src="/src/assets/HRK images sm/vibro-hammer.png"
+                        className="w-4/6"
+                    />
+                </div>
+                <div className="flex flex-col w-full items-center gap-2">
+                    <h2 className="text-xl font-semibold text-Amber">HRVH</h2>
+                    <Link
+                        to={"/pièces_jointes/marteau_vibrant"}
+                        className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
+                    >
+                        Fiche technique
+                    </Link>
+                </div>
             </div>
-            <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
-                <div className="basis-4/6 w-full rounded-lg bg-Boulder"></div>
-
-                <h2 className="text-xl font-semibold">Ripper vibrant</h2>
-                <Link
-                    to={"/pièces_jointes/ripper_vibrant"}
-                    className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
-                >
-                    Fiche technique
-                </Link>
+            <div className="h-72 flex flex-col items-center justify-between rounded-xl bg-Black w-64 p-4  shadow-md hover:scale-105 hover:shadow-lg">
+                <div className="rounded-lg flex justify-center items-center">
+                    <img
+                        src="/src/assets/HRK images sm/Vibro-Ripper.png"
+                        className="w-4/6"
+                    />
+                </div>
+                <div className="flex flex-col w-full items-center gap-2">
+                    <h2 className="text-xl font-semibold text-Amber">HRVR</h2>
+                    <Link
+                        to={"/pièces_jointes/ripper_vibrant"}
+                        className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
+                    >
+                        Fiche technique
+                    </Link>
+                </div>
             </div>
-            <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
-                <div className="basis-4/6 w-full rounded-lg bg-Boulder"></div>
-
-                <h2 className="text-xl font-semibold">Grappin pour pierre</h2>
-                <Link
-                    to={"/pièces_jointes/grappin_pour_pierre"}
-                    className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
-                >
-                    Fiche technique
-                </Link>
+            <div className="h-72 flex flex-col items-center justify-between rounded-xl bg-Black w-64 p-4  shadow-md hover:scale-105 hover:shadow-lg">
+                <div className="rounded-lg flex justify-center items-center">
+                    <img
+                        src="/src/assets/HRK images sm/Stone_Grab_2.png"
+                        className="w-4/6"
+                    />
+                </div>
+                <div className="flex flex-col w-full items-center gap-2">
+                    <h2 className="text-xl font-semibold text-Amber">HRDG</h2>
+                    <Link
+                        to={"/pièces_jointes/grappin_pour_pierre"}
+                        className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
+                    >
+                        Fiche technique
+                    </Link>
+                </div>
             </div>
-            <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
-                <div className="basis-4/6 w-full rounded-lg bg-Boulder"></div>
-
-                <h2 className="text-xl font-semibold">Grappin pour bois</h2>
-                <Link
-                    to={"/pièces_jointes/grappin_pour_bois"}
-                    className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
-                >
-                    Fiche technique
-                </Link>
+            <div className="h-72 flex flex-col items-center justify-between rounded-xl bg-Black w-64 p-4  shadow-md hover:scale-105 hover:shadow-lg">
+                <div className="rounded-lg flex justify-center items-center">
+                    <img
+                        src="/src/assets/HRK images sm/wood grapple.png"
+                        className=""
+                    />
+                </div>
+                <div className="flex flex-col w-full items-center gap-2">
+                    <h2 className="text-xl font-semibold text-Amber">HRWG</h2>
+                    <Link
+                        to={"/pièces_jointes/grappin_pour_bois"}
+                        className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
+                    >
+                        Fiche technique
+                    </Link>
+                </div>
             </div>
-            <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
-                <div className="basis-4/6 w-full rounded-lg bg-Boulder"></div>
-
-                <h2 className="text-xl font-semibold ">Gr de récupération</h2>
-                <Link
-                    to={"/pièces_jointes/grappin_de_recuperation"}
-                    className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
-                >
-                    Fiche technique
-                </Link>
+            <div className="h-72 flex flex-col items-center justify-between rounded-xl bg-Black w-64 p-4  shadow-md hover:scale-105 hover:shadow-lg">
+                <div className="rounded-lg flex justify-center items-center">
+                    <img
+                        src="/src/assets/HRK images sm/Scrap_grapple.png"
+                        className="w-4/6"
+                    />
+                </div>
+                <div className="flex flex-col w-full items-center gap-2">
+                    <h2 className="text-xl font-semibold text-Amber">HRSG</h2>
+                    <Link
+                        to={"/pièces_jointes/grappin_de_recuperation"}
+                        className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
+                    >
+                        Fiche technique
+                    </Link>
+                </div>
             </div>
-            <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
-                <div className="basis-4/6 w-full rounded-lg bg-Boulder"></div>
-
-                <h2 className="text-xl font-semibold">Broyeuse</h2>
-                <Link
-                    to={"/pièces_jointes/broyeuse"}
-                    className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
-                >
-                    Fiche technique
-                </Link>
+            <div className="h-72 flex flex-col items-center justify-between rounded-xl bg-Black w-64 p-4  shadow-md hover:scale-105 hover:shadow-lg">
+                <div className="rounded-lg flex justify-center items-center">
+                    <img
+                        src="/src/assets/HRK images sm/Crushers.png"
+                        className="w-4/6"
+                    />
+                </div>
+                <div className="flex flex-col w-full items-center gap-2">
+                    <h2 className="text-xl font-semibold text-Amber">HRCS</h2>
+                    <Link
+                        to={"/pièces_jointes/broyeuse"}
+                        className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
+                    >
+                        Fiche technique
+                    </Link>
+                </div>
             </div>
-            <div className="h-64 flex flex-col items-center gap-2 rounded-xl bg-Amber basis-5/6 sm:basis-2/6  md:basis-3/12 lg:basis-1/6 p-4  shadow-md hover:scale-105 hover:shadow-lg">
-                <div className="basis-4/6 w-full rounded-lg bg-Boulder"></div>
-
-                <h2 className="text-xl font-semibold">Pulvériseur</h2>
-                <Link
-                    to={"/pièces_jointes/pulveriseur"}
-                    className="w-full text-center bg-Black text-Amber py-1.5 font-semibold rounded-lg"
-                >
-                    Fiche technique
-                </Link>
+            <div className="h-72 flex flex-col items-center justify-between rounded-xl bg-Black w-64 p-4  shadow-md hover:scale-105 hover:shadow-lg">
+                <div className="rounded-lg flex justify-center items-center">
+                    <img
+                        src="/src/assets/HRK images sm/Pulverizer.png"
+                        className="w-4/6"
+                    />
+                </div>
+                <div className="flex flex-col w-full items-center gap-2">
+                    <h2 className="text-xl font-semibold text-Amber">HRPV</h2>
+                    <Link
+                        to={"/pièces_jointes/pulveriseur"}
+                        className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
+                    >
+                        Fiche technique
+                    </Link>
+                </div>
             </div>
         </div>
     );

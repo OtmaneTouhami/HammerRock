@@ -1,7 +1,6 @@
 import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/About/About";
-import Breaker from "../pages/Breaker/Breaker";
 import Attachments from "../pages/Attachments/Attachments";
 import Tools from "../pages/Tools";
 import Downloads from "../pages/Downloads";
@@ -10,12 +9,14 @@ import Footer from "../layout/Footer";
 import Partners from "../pages/Partners";
 import { useEffect, useRef, useState } from "react";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
-import BreakerModels from "../pages/Breaker/BreakerModels";
 import NotFound from "../pages/NotFound";
 import AttachmentModel from "../pages/Attachments/AttachmentModel";
 import Terms from "../pages/Terms";
 import Policy from "../pages/Policy";
 import AppProvider from "../Context/NavBarContext";
+import InternalValveType from "../pages/Breaker/Breaker Models/InternalValveType";
+import ExternalValveType from "../pages/Breaker/Breaker Models/ExternalValveType";
+import FullyHydraulicType from "../pages/Breaker/Breaker Models/FullyHydraulicType";
 
 function Routers() {
     const { pathname } = useLocation(),
@@ -57,10 +58,23 @@ function Routers() {
                     <Route path="/acceuil" element={<Home />} />
                     <Route path="/about/" element={<About />} />
                     <Route path="/about/:section" element={<About />} />
-                    <Route path="/brise_roche" element={<Breaker />} />
                     <Route
-                        path="/brise_roche/:serie"
-                        element={<BreakerModels />}
+                        path="/brise_roche"
+                        element={
+                            <Navigate to="/brise_roche/Internal_valve_type" />
+                        }
+                    />
+                    <Route
+                        path="/brise_roche/Internal_valve_type"
+                        element={<InternalValveType />}
+                    />
+                    <Route
+                        path="/brise_roche/External_valve_type"
+                        element={<ExternalValveType />}
+                    />
+                    <Route
+                        path="/brise_roche/Fully_hydraulic_type"
+                        element={<FullyHydraulicType />}
                     />
                     <Route path="/pièces_jointes" element={<Attachments />} />
                     <Route
