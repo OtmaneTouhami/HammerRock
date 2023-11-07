@@ -1,6 +1,7 @@
 import { Fade } from "react-awesome-reveal";
 import img1 from "../../../assets/hammer/GBN30TL-L-C.png";
 import img2 from "../../../assets/hammer/GBN30TL-L.png";
+import img3 from "../../../assets/images/img_internal-valve-structure.png";
 import { Disclosure } from "@headlessui/react";
 import { FiChevronUp } from "react-icons/fi";
 
@@ -43,36 +44,6 @@ export default function InternalValveType() {
                     </Fade>
                 </div>
             </div>
-            {/* <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex flex-wrap flex-row justify-center">
-                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
-                    <div className="basis-5/6 md:basis-4/6  w-full rounded-lg flex justify-center">
-                        <Fade direction="left">
-                            <img src={img2} className="w-3/4 object-cover" />
-                        </Fade>
-                    </div>
-                </div>
-                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
-                    <div className="basis-5/6 md:basis-4/6 w-full rounded-lg flex justify-center">
-                        <Fade direction="left" delay={500}>
-                            <img src={img2} className="w-3/4 object-cover" />
-                        </Fade>
-                    </div>
-                </div>
-                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
-                    <div className="basis-5/6 md:basis-4/6  w-full rounded-lg flex justify-center">
-                        <Fade direction="left" delay={1000}>
-                            <img src={img2} className="w-3/4 object-cover" />
-                        </Fade>
-                    </div>
-                </div>
-                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
-                    <div className="basis-5/6 md:basis-4/6  w-full rounded-lg flex justify-center">
-                        <Fade direction="left" delay={1500}>
-                            <img src={img2} className="w-3/4 object-cover" />
-                        </Fade>
-                    </div>
-                </div>
-            </div> */}
             <div className="min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] p-6 mb-12">
                 <h2 className="text-2xl 2xl:text-4xl my-12 text-Amber font-semibold tracking-wide">
                     Option
@@ -408,7 +379,7 @@ export default function InternalValveType() {
                 </h2>
                 <div className="px-8 md:px-0 flex justify-center my-12">
                     <img
-                        src="/src/assets/images/img_internal-valve-structure.png"
+                        src={img3}
                         alt="Structure"
                     />
                 </div>

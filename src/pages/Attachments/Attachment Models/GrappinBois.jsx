@@ -1,4 +1,5 @@
 import { Fade, Slide } from "react-awesome-reveal";
+import img1 from "../../../assets/HRK Pictures/wood grapple.png"
 
 function GrappinBois() {
     return (
@@ -6,7 +7,7 @@ function GrappinBois() {
             <div className="border-y-8 border-y-Amber bg-gradient-to-b md:bg-gradient-to-r from-Amber to-Black min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] flex flex-wrap md:flex-nowrap justify-center overflow-hidden">
                 <Slide className="md:basis-1/2 flex justify-center items-center">
                     <img
-                        src="/src/assets/HRK Pictures/wood grapple.png"
+                        src={img1}
                         className="w-4/6"
                     />
                 </Slide>

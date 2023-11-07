@@ -1,14 +1,12 @@
 import { Fade, Slide } from "react-awesome-reveal";
+import img1 from "../../../assets/HRK Pictures/vibro-hammer.png";
 
 function MarteauVibrant() {
     return (
         <div className="mt-20 md:mt-24">
             <div className="border-y-8 border-y-Amber bg-gradient-to-b md:bg-gradient-to-r from-Amber to-Black min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] flex flex-wrap md:flex-nowrap justify-center overflow-hidden">
                 <Slide className="md:basis-1/2 flex justify-center items-center">
-                    <img
-                        src="/src/assets/HRK Pictures/vibro-hammer.png"
-                        className="w-4/6"
-                    />
+                    <img src={img1} className="w-4/6" />
                 </Slide>
                 <div className="md:basis-1/2 pl-8 -mt-5 md:pt-16 md:pl-12 md:pr-4 md:mt-0 text-white flex flex-col justify-center 2xl:gap-6">
                     <Fade cascade damping={0.5} direction="down">
@@ -43,7 +41,10 @@ function MarteauVibrant() {
                     Models
                 </h2>
                 <div className="overflow-hidden overflow-x-auto mt-6 2xl:flex items-center justify-center">
-                    <table className="border-t-4 border-t-Amber mx-auto" width={"900px"}>
+                    <table
+                        className="border-t-4 border-t-Amber mx-auto"
+                        width={"900px"}
+                    >
                         <thead>
                             <tr>
                                 <th scope="col" width="20%">

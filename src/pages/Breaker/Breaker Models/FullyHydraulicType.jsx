@@ -1,6 +1,7 @@
 import { Fade } from "react-awesome-reveal";
 import img1 from "../../../assets/hammer/GBN220E-L-C.png";
 import img2 from "../../../assets/hammer/GBN220E-L.png";
+import img3 from "../../../assets/images/gbh.jpg";
 
 export default function FullyHydraulicType() {
     return (
@@ -56,7 +57,7 @@ export default function FullyHydraulicType() {
             <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex items-center justify-center">
                     <Fade direction="left">
                         <img
-                            src="/src/assets/images/gbh.jpg"
+                            src={img3}
                             className=" rounded-md"
                         />
                     </Fade>
