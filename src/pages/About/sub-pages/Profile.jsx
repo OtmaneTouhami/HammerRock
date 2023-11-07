@@ -5,7 +5,6 @@ import korea from "../../../assets/logos/south_korea.png";
 import img1 from "../../../assets/hammer photos/Company Profile (Quality Control 2).webp";
 import img2 from "../../../assets/hammer photos/Company Profile (Hammer Assemble Line 3).webp";
 import img3 from "../../../assets/hammer photos/Company Profile (Quality Control 3).webp";
-import img4 from "../../../assets/hammer photos/Company Profile (Hammer Assemble Line 2).webp";
 import img5 from "../../../assets/hammer photos/GBN 1000H (for 150tons Excavator).webp";
 import img6 from "../../../assets/hammer photos/Company Profile (Packing for Delivery).webp";
 import img7 from "../../../assets/hammer photos/Company Profile (Tool Heat Treatment 2).webp";
@@ -183,7 +182,7 @@ function Profile({ height }) {
                     className="basis-3/4 w-full"
                 >
                     <SwiperSlide className="flex justify-center">
-                        <img src={img4} className=" rounded-2xl" />
+                        <img src="/src/assets/images/img1 (1).webp" className=" rounded-2xl" />
                     </SwiperSlide>
                     <SwiperSlide className="flex justify-center">
                         <img src={img5} className=" rounded-2xl" />

@@ -127,7 +127,7 @@ function Links(props) {
                         </NavLink>
                         <div className="hidden group-hover:flex flex-col md:absolute md:mt-0 w-full py-2.5 px-4 bg-Amber text-Black text-center text-sm 2xl:text-xl  border-t-8 border-t-white rounded-lg gap-1">
                             <NavLink
-                                to={"/pièces_jointes/attache_rapide"}
+                                to={"/pièces_jointes/HRQC_Series"}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "py-1.5 bg-black text-Amber rounded-md font-bold"
@@ -137,7 +137,7 @@ function Links(props) {
                                 HRQC Series
                             </NavLink>
                             <NavLink
-                                to={"/pièces_jointes/compacteur"}
+                                to={"/pièces_jointes/HRCP_series"}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "py-1.5 bg-black text-Amber rounded-md font-bold"
@@ -147,7 +147,7 @@ function Links(props) {
                                 HRCP series
                             </NavLink>
                             <NavLink
-                                to={"/pièces_jointes/marteau_vibrant"}
+                                to={"/pièces_jointes/HRVH"}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "py-1.5 bg-black text-Amber rounded-md font-bold"
@@ -157,7 +157,7 @@ function Links(props) {
                                 HRVH
                             </NavLink>
                             <NavLink
-                                to={"/pièces_jointes/ripper_vibrant"}
+                                to={"/pièces_jointes/HRVR"}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "py-1.5 bg-black text-Amber rounded-md font-bold"
@@ -167,7 +167,7 @@ function Links(props) {
                                 HRVR
                             </NavLink>
                             <NavLink
-                                to={"/pièces_jointes/grappin_pour_pierre"}
+                                to={"/pièces_jointes/HRDG"}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "py-1.5 bg-black text-Amber rounded-md font-bold"
@@ -177,7 +177,7 @@ function Links(props) {
                                 HRDG
                             </NavLink>
                             <NavLink
-                                to={"/pièces_jointes/grappin_pour_bois"}
+                                to={"/pièces_jointes/HRWG"}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "py-1.5 bg-black text-Amber rounded-md font-bold"
@@ -187,7 +187,7 @@ function Links(props) {
                                 HRWG
                             </NavLink>
                             <NavLink
-                                to={"/pièces_jointes/grappin_de_recuperation"}
+                                to={"/pièces_jointes/HRSG"}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "py-1.5 bg-black text-Amber rounded-md font-bold"
@@ -197,7 +197,7 @@ function Links(props) {
                                 HRSG
                             </NavLink>
                             <NavLink
-                                to={"/pièces_jointes/broyeuse"}
+                                to={"/pièces_jointes/HRCS"}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "py-1.5 bg-black text-Amber rounded-md font-bold"
@@ -207,7 +207,7 @@ function Links(props) {
                                 HRCS
                             </NavLink>
                             <NavLink
-                                to={"/pièces_jointes/pulveriseur"}
+                                to={"/pièces_jointes/HRPV"}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "py-1.5 bg-black text-Amber rounded-md font-bold"

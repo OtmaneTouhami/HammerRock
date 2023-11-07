@@ -1,21 +1,19 @@
-import { Fade } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 
 function AttacheRapide() {
     return (
         <div className="mt-20 md:mt-24">
             <div className="border-y-8 border-y-Amber bg-gradient-to-b md:bg-gradient-to-r from-Amber to-Black min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] flex flex-wrap md:flex-nowrap justify-center overflow-hidden">
-                <div className="md:basis-1/2"></div>
-                {/* <div className="flex justify-center items-center md:block md:basis-1/2 md:relative">
+                <Slide className="md:basis-1/2 flex justify-center items-center">
                     <img
-                        src={img1}
-                        className="hidden absolute inset-y-24 w-3/6 rotate-45 md:block"
+                        src="/src/assets/HRK Pictures/Quick_Coupler.png"
+                        className="w-4/6"
                     />
-                    <img src={img2} className="p-4 w-3/6 md:hidden" />
-                </div> */}
+                </Slide>
                 <div className="md:basis-1/2 pl-8 -mt-5 md:pt-16 md:pl-12 md:pr-4 md:mt-0 text-white flex flex-col justify-center 2xl:gap-6">
                     <Fade cascade damping={0.5} direction="down">
                         <h1 className="text-Amber text-3xl md:text-4xl 2xl:text-5xl font-bold">
-                            Attache rapide
+                            HRQC Series
                         </h1>
                         <ul className="p-6 space-y-2 pl-1 list-disc">
                             <li className="list-inside relative md:text-xl 2xl:text-2xl text-lg">
@@ -39,25 +37,7 @@ function AttacheRapide() {
                     </Fade>
                 </div>
             </div>
-            <div className="border-y-8 bg-Black border-y-Amber h-[calc(100vh-80px)] md:h-[calc(100vh-95px)] p-4 flex flex-wrap flex-row justify-center      items-center gap-12">
-                <div className="bg-Boulder h-60 w-60 rounded-md"></div>
-                <div className="bg-Boulder h-60 w-60 rounded-md"></div>
-                {/* <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
-                    <div className="basis-full  w-full rounded-lg flex justify-center">
-                        <img src={img1} className="w-3/4 object-cover" />
-                    </div>
-                </div>
-                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
-                    <div className="basis-full w-full rounded-lg flex justify-center">
-                        <img src={img2} className="w-3/4 object-cover" />
-                    </div>
-                </div>
-                <div className="basis-2/4 md:basis-1/4 px-4 md:p-12 flex justify-center items-center">
-                    <div className="basis-full  w-full rounded-lg flex justify-center">
-                        <img src={img3} className="w-3/4 object-cover" />
-                    </div>
-                </div> */}
-            </div>
+
             <div className="border-y-8 border-y-Amber min-h-[calc(100vh-80px)] md:min-h-[calc(100vh-95px)] p-6">
                 <h2 className="text-2xl text-Amber font-semibold tracking-wide">
                     Models

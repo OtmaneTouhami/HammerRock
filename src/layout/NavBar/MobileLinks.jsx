@@ -253,7 +253,7 @@ function MobileLinks() {
                         {open.attatchments && (
                             <div className="mt-2 w-full py-2.5 px-4 bg-Amber text-Black text-center text-sm  flex flex-col gap-1 rounded-lg">
                                 <NavLink
-                                    to={"/pièces_jointes/attache_rapide"}
+                                    to={"/pièces_jointes/HRQC_Series"}
                                     className={({ isActive }) =>
                                         isActive
                                             ? "py-1.5 bg-black text-Amber rounded-md font-bold"
@@ -263,7 +263,7 @@ function MobileLinks() {
                                     HRQC Series
                                 </NavLink>
                                 <NavLink
-                                    to={"/pièces_jointes/compacteur"}
+                                    to={"/pièces_jointes/HRCP_series"}
                                     className={({ isActive }) =>
                                         isActive
                                             ? "py-1.5 bg-black text-Amber rounded-md font-bold"
@@ -273,7 +273,7 @@ function MobileLinks() {
                                     HRCP series
                                 </NavLink>
                                 <NavLink
-                                    to={"/pièces_jointes/marteau_vibrant"}
+                                    to={"/pièces_jointes/HRVH"}
                                     className={({ isActive }) =>
                                         isActive
                                             ? "py-1.5 bg-black text-Amber rounded-md font-bold"
@@ -283,7 +283,7 @@ function MobileLinks() {
                                     HRVH
                                 </NavLink>
                                 <NavLink
-                                    to={"/pièces_jointes/ripper_vibrant"}
+                                    to={"/pièces_jointes/HRVR"}
                                     className={({ isActive }) =>
                                         isActive
                                             ? "py-1.5 bg-black text-Amber rounded-md font-bold"
@@ -293,7 +293,7 @@ function MobileLinks() {
                                     HRVR
                                 </NavLink>
                                 <NavLink
-                                    to={"/pièces_jointes/grappin_pour_pierre"}
+                                    to={"/pièces_jointes/HRDG"}
                                     className={({ isActive }) =>
                                         isActive
                                             ? "py-1.5 bg-black text-Amber rounded-md font-bold"
@@ -303,7 +303,7 @@ function MobileLinks() {
                                     HRDG
                                 </NavLink>
                                 <NavLink
-                                    to={"/pièces_jointes/grappin_pour_bois"}
+                                    to={"/pièces_jointes/HRWG"}
                                     className={({ isActive }) =>
                                         isActive
                                             ? "py-1.5 bg-black text-Amber rounded-md font-bold"
@@ -314,7 +314,7 @@ function MobileLinks() {
                                 </NavLink>
                                 <NavLink
                                     to={
-                                        "/pièces_jointes/grappin_de_recuperation"
+                                        "/pièces_jointes/HRSG"
                                     }
                                     className={({ isActive }) =>
                                         isActive
@@ -325,7 +325,7 @@ function MobileLinks() {
                                     HRSG
                                 </NavLink>
                                 <NavLink
-                                    to={"/pièces_jointes/broyeuse"}
+                                    to={"/pièces_jointes/HRCS"}
                                     className={({ isActive }) =>
                                         isActive
                                             ? "py-1.5 bg-black text-Amber rounded-md font-bold"
@@ -335,7 +335,7 @@ function MobileLinks() {
                                     HRCS
                                 </NavLink>
                                 <NavLink
-                                    to={"/pièces_jointes/pulveriseur"}
+                                    to={"/pièces_jointes/HRPV"}
                                     className={({ isActive }) =>
                                         isActive
                                             ? "py-1.5 bg-black text-Amber rounded-md font-bold"

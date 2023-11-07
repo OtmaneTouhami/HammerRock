@@ -15,7 +15,7 @@ function AttachmentsCards() {
                         HRQC Series
                     </h2>
                     <Link
-                        to={`/pièces_jointes/attache_rapide`}
+                        to={`/pièces_jointes/HRQC_Series`}
                         className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
                     >
                         Fiche technique
@@ -34,7 +34,7 @@ function AttachmentsCards() {
                         HRCP series
                     </h2>
                     <Link
-                        to={"/pièces_jointes/compacteur"}
+                        to={"/pièces_jointes/HRCP_series"}
                         className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
                     >
                         Fiche technique
@@ -51,7 +51,7 @@ function AttachmentsCards() {
                 <div className="flex flex-col w-full items-center gap-2">
                     <h2 className="text-xl font-semibold text-Amber">HRVH</h2>
                     <Link
-                        to={"/pièces_jointes/marteau_vibrant"}
+                        to={"/pièces_jointes/HRVH"}
                         className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
                     >
                         Fiche technique
@@ -68,7 +68,7 @@ function AttachmentsCards() {
                 <div className="flex flex-col w-full items-center gap-2">
                     <h2 className="text-xl font-semibold text-Amber">HRVR</h2>
                     <Link
-                        to={"/pièces_jointes/ripper_vibrant"}
+                        to={"/pièces_jointes/HRVR"}
                         className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
                     >
                         Fiche technique
@@ -85,7 +85,7 @@ function AttachmentsCards() {
                 <div className="flex flex-col w-full items-center gap-2">
                     <h2 className="text-xl font-semibold text-Amber">HRDG</h2>
                     <Link
-                        to={"/pièces_jointes/grappin_pour_pierre"}
+                        to={"/pièces_jointes/HRDG"}
                         className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
                     >
                         Fiche technique
@@ -102,7 +102,7 @@ function AttachmentsCards() {
                 <div className="flex flex-col w-full items-center gap-2">
                     <h2 className="text-xl font-semibold text-Amber">HRWG</h2>
                     <Link
-                        to={"/pièces_jointes/grappin_pour_bois"}
+                        to={"/pièces_jointes/HRWG"}
                         className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
                     >
                         Fiche technique
@@ -119,7 +119,7 @@ function AttachmentsCards() {
                 <div className="flex flex-col w-full items-center gap-2">
                     <h2 className="text-xl font-semibold text-Amber">HRSG</h2>
                     <Link
-                        to={"/pièces_jointes/grappin_de_recuperation"}
+                        to={"/pièces_jointes/HRSG"}
                         className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
                     >
                         Fiche technique
@@ -136,7 +136,7 @@ function AttachmentsCards() {
                 <div className="flex flex-col w-full items-center gap-2">
                     <h2 className="text-xl font-semibold text-Amber">HRCS</h2>
                     <Link
-                        to={"/pièces_jointes/broyeuse"}
+                        to={"/pièces_jointes/HRCS"}
                         className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
                     >
                         Fiche technique
@@ -153,7 +153,7 @@ function AttachmentsCards() {
                 <div className="flex flex-col w-full items-center gap-2">
                     <h2 className="text-xl font-semibold text-Amber">HRPV</h2>
                     <Link
-                        to={"/pièces_jointes/pulveriseur"}
+                        to={"/pièces_jointes/HRPV"}
                         className="w-full text-center bg-Amber text-Black py-1.5 font-semibold rounded-lg"
                     >
                         Fiche technique

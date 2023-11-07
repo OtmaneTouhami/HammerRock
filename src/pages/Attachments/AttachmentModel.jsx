@@ -16,23 +16,23 @@ export default function AttachmentModel() {
 
     return (
         <>
-            {model === "attache_rapide" ? (
+            {model === "HRQC_Series" ? (
                 <AttacheRapide />
-            ) : model === "compacteur" ? (
+            ) : model === "HRCP_series" ? (
                 <Compacteur />
-            ) : model === "marteau_vibrant" ? (
+            ) : model === "HRVH" ? (
                 <MarteauVibrant />
-            ) : model === "ripper_vibrant" ? (
+            ) : model === "HRVR" ? (
                 <RipperVibrant />
-            ) : model === "grappin_pour_pierre" ? (
+            ) : model === "HRDG" ? (
                 <GrappinPierre />
-            ) : model === "grappin_pour_bois" ? (
+            ) : model === "HRWG" ? (
                 <GrappinBois />
-            ) : model === "grappin_de_recuperation" ? (
+            ) : model === "HRSG" ? (
                 <GrappinRecuperation />
-            ) : model === "broyeuse" ? (
+            ) : model === "HRCS" ? (
                 <Broyeuse />
-            ) : model === "pulveriseur" ? (
+            ) : model === "HRPV" ? (
                 <Pulveriseur />
             ) : (
                 <NotFound />
